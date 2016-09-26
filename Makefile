@@ -1,32 +1,24 @@
-all: html pdf docx rtf
+source=cv-sv.md cv-academic-sv.md
+html=$(patsubst %.md, %.html, $(source))
+pdf=$(patsubst %.md, %.pdf, $(source))
+css=templates/style.css
+context_style=templates/context.tex
 
-pdf: resume.pdf
-resume.pdf: resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
+all: $(html) $(pdf)
+
+%.pdf: %.md $(context_style)
+	pandoc --standalone --template $(context_style) \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+	-o $*.tex $<; \
+	context --nonstopmode $*.tex
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
+%.html: %.md $(css)
+	pandoc --standalone --self-contained --smart --css=$(css) \
         --from markdown --to html \
-        -o resume.html resume.md
-
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
-
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+        -o $@ $<
 
 clean:
-	rm resume.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
-	rm resume.pdf
-	rm resume.docx
-	rm resume.rtf
+	rm -f $(pdf) $(html) $(docx) $(rtf)
+	rm -f $(patsubst %.pdf, %.log, $(pdf))
+	rm -f $(patsubst %.pdf, %.tuc, $(pdf))

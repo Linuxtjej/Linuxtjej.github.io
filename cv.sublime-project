@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+   "build_systems": [
+        {
+            "name": "Make all CV:s",
+            "shell_cmd": "make -j"
+        },
+        {
+            "name": "Build all CV:s",
+            "shell_cmd": "make -j -B"
+        },
+        {
+            "name": "Markdown to PDF (pandoc)",
+            "cmd": [
+                "pandoc",
+                "-f", "markdown",
+                "-o", "$file_base_name.pdf",
+                "-H", "header.tex",
+                "--latex-engine=xelatex",
+                "$file"
+            ]
+        },
+        {
+            "name": "Markdown to HTML (pandoc)",
+            "shell_cmd": "pandoc --from=markdown --to=html --output=$file_base_name.html --standalone --smart $file"
+        }
+    ]
+}

@@ -15,9 +15,9 @@ $if(mainlang)$
 $endif$
 
 \setupcolor[hex]
-\definecolor[titlegrey][h=757575]
-\definecolor[sectioncolor][h=397249]
-\definecolor[rulecolor][h=9cb770]
+\definecolor[titlecolor][h=003d99]
+\definecolor[sectioncolor][h=003d99]
+\definecolor[rulecolor][h=0066ff]
 
 % Enable hyperlinks
 \setupinteraction[state=start, color=sectioncolor]
@@ -30,16 +30,42 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[11pt, helvetica]
+% use microtypography
+\definefontfeature[default][default][script=latn, protrusion=quality, expansion=quality, itlc=yes, textitalics=yes, onum=yes, pnum=yes]
+\definefontfeature[smallcaps][script=latn, protrusion=quality, expansion=quality, smcp=yes, onum=yes, pnum=yes]
+\setupalign[hz,hanging]
+\setupitaliccorrection[global, always]
+\setupbodyfontenvironment[default][em=italic] % use italic as em, not slanted
+\usemodule[simplefonts$if(fontsize)$,$fontsize$$endif$]
+\setmainfontfallback[DejaVu Serif][range={greekandcoptic, greekextended}, force=yes, rscale=auto]
+$if(mainfont)$
+\setmainfont[$mainfont$]
+$endif$
+$if(sansfont)$
+\setsansfont[$sansfont$][rscale=auto]
+$endif$
+$if(monofont)$
+\setmonofont[$monofont$][features=none, rscale=auto]
+$endif$
+$if(mathfont)$
+\setmathfont[$mathfont$][rscale=auto]
+$endif$
+\setupwhitespace[$if(whitespace)$$whitespace$$else$medium$endif$]
+$if(indenting)$
+\setupindenting[$for(indenting)$$indenting$$sep$,$endfor$]
+$endif$
+$if(interlinespace)$
+\setupinterlinespace[$for(interlinespace)$$interlinespace$$sep$,$endfor$]
+$endif$
 
 \setupwhitespace[medium]
 
 \setupblackrules[width=31mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[section]      [style=\tfd\bf, color=titlecolor, align=middle]
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
-                          before={\leavevmode\blackrule\hspace}]
+                          before={\blank[2*big]\leavevmode\blackrule\hspace}]
 \setuphead[subsubsection][style=\bf]
 
 $if(number-sections)$
@@ -68,6 +94,9 @@ $endif$
   [blockquote]
   [before={\setupalign[middle]},
    indentnext=no,
+   style=\italic,
+   spacebefore=1cm,
+   spaceafter=1cm
   ]
 
 $if(toc)$

@@ -1,0 +1,13 @@
+% modify description lists
+\usepackage{enumitem}
+\setlist[description]{font=\normalfont, leftmargin=5em, style=nextline}
+
+% use subtitle
+\providecommand{\subtitle}[1]{%
+  \usepackage{titling}
+  \posttitle{%
+    \par\large#1\end{center}}
+}
+
+% change URL font
+\def\UrlFont{\scshape}
