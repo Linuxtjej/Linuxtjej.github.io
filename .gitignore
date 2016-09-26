@@ -2,8 +2,7 @@
 *.log
 *.pdf
 *.html
-resume.tex
 *.swo
 *.swp
-*.docx
-*.rtf
+*.tex
+*.sublime-workspace
