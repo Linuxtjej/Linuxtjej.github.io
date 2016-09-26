@@ -15,7 +15,7 @@ date: 2016-09-26
 # Anställningar inom akademin
 
 2011--2016
-:   **Doktorand**, Umeå universitet.
+:   **Doktorand**, Umeå universitet, Institutionen för psykologi.
 
     Doktorandtjänsten samfinansierades av Institutionen för psykologi och Umeå centrum för genusstudier (UCGS).
 
