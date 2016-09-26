@@ -1,88 +1,95 @@
 ---
 title: Curriculum Vitæ
-subtitle: Stefan Björk
-date: 2016-09-16
-lang: sv-SE
-mainfont: Minion Pro
-mainfontoptions: Numbers=OldStyle
-css: cv.css
+author: Stefan Björk
+date: 2016-09-26
 ...
 
-Personlig information
-=====================
-
-*Det här kanske skall vara någon annanstans.*
-
-Namn
-: Stefan Björk
-
-Ålder
-: 43
-
-Adress
-: Rödmyrvägen 3B
-: 904 40 Röbäck
-
-Telefon
-: 0706-222437
-
-Epost
-: [stefan.bjork@gmail.com](mailto:stefan.bjork@gmail.com)
-
-Familj
-: Gift med Jenny. Pappa till William, född 2005, och Oskar, född 2008.
-
-Körkort
-: B
-
-Utbildning
-==========
+# Utbildning
 
 2016
-:   **Fil. dr. i psykologi**, *Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)*.
+:   **Fil. dr. i psykologi**, Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS).
 
 2009
-:   **Psykologexamen**, *Umeå universitet, Institutionen för psykologi*.
+:   **Psykologexamen**, Umeå universitet, Institutionen för psykologi.
 
-2003
-:   **Musiklinjen**, *Folkuniversitetet*, Umeå.
+# Anställningar inom akademin
 
-1991
-:   **Naturvetenskaplig linje**, *Katedralskolan*, Skara.
+2011--2016
+:   **Doktorand**, Umeå universitet.
 
-Publikationer och presentationer
-================================
-
-Doktorsavhandling
------------------
-
-Björk, S. (2016). *Män möter mödravård: om betydelsen av ”vi” i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS).
-
-
-Presentationer på vetenskapliga konferenser
--------------------------------------------
-
-Björk, S. (2013). *[Living the "New Father": Men's Parenting and Masculinities in the Nordic Countries](https://www.academia.edu/2938364/Living_the_New_Father_Men_s_Parenting_and_Masculinities_in_the_Nordic_Countries)*. Paper presented at the 3rd Global Conference on Femininities and Masculinities, May 14--21, 2013, Prague, Czech Republic.
-
-Yrkeserfarenhet
-===============
+    Doktorandtjänsten samfinansierades av Institutionen för psykologi och Umeå centrum för genusstudier (UCGS).
 
 2009--2010
 :   **Universitetsadjunkt**, Umeå universitet, Institutionen för psykologi.
 
-    * Undervisning huvudsakligen i vetenskapsteori, forskningsmetodik och statistik.
-    * Kursansvar för psykologprogrammets metodkurs på termin 1.
-
 2008
 :   **Forskningsamanuens**, Umeå universitet, Institutionen för psykologi.
+
+
+
+# Publikationer och presentationer
+
+## Doktorsavhandling
+
+Björk, S. (2016). *[Män möter mödravård: om betydelsen av ”vi” i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS).
+
+
+## Presentationer på vetenskapliga konferenser
+
+Björk, S. (2013). *[Theories of Depression: Explanations of Justifications?](https://www.academia.edu/3635342/Theories_of_Depression_Explanations_or_Justifications)* Paper presented at Thinking Critically about Psychology: Power, Gender and Psychological Practice, May 31, Umeå, Sweden.
+
+Björk, S. (2013). *[Living the "New Father": Men's Parenting and Masculinities in the Nordic Countries](https://www.academia.edu/2938364/Living_the_New_Father_Men_s_Parenting_and_Masculinities_in_the_Nordic_Countries)*. Paper presented at the 3rd Global Conference on Femininities and Masculinities, May 14--21, Prague, Czech Republic.
+
+# Pedagogisk kompetens
+
+## Undervisning
+
+2009--2011
+:   Undervisning som universitetsadjunkt vid Umeå universitet, Institutionen för psykologi.
+
+    * Kursansvar för psykologprogrammets metod- och statistikkurs på termin 1 (ht 2009 till och med ht 2010).
+    * Undervisning huvudsakligen inom forskningsmetod, statistik, vetenskapsteori, psykologins historia, personlighetspsykologi och socialpsykologi.
+    * Totalt 1827 undervisningstimmar.
+
+## Handledning
+
+2014
+:   Handledning av examensuppsats på psykologprogrammet.
+
+# Teknisk kompetens
+
+* Multivariat analys, SEM och programmering i statistikprogrammet R.
+* SPSS syntax.
+* Programmering, framför allt i Perl, men också Python, Java och C.
+* Databasadministration och SQL.
+
+# Språkkunskaper
+
+Svenska
+:   Modersmål.
+
+Engelska
+:   Mycket goda.
+
+Tyska
+:   Grundläggande.
+
+# Yrkeserfarenhet
+
+2008
+:   **Behandlingsassistent missbruksvård**, Umeå kommun.
+
+    Sommarvikariat under psykologutbildningen.
 
 2004, 2005
 :   **Vårdbiträde**, Psykiatriska kliniken vid Norrlands universitetssjukhus, Umeå.
 
     Sommarvikariat under psykologutbildningen.
 
-2002
+2002, 2003
 :   **Unix-tekniker**, CSC Sverige AB, Stockholm.
+
+    Sommarjobb.
 
 2001--2002
 :   **Security Engineer**, Itegra Secureguard AB, Umeå/Stockholm.
@@ -104,3 +111,9 @@ Yrkeserfarenhet
 
 1992--1994
 :   **Programmerare och systemtekniker**, JAK Medlemsbank, Skövde.
+
+# Övrig utbildning
+
+2003
+:   **Musiklinjen**, *Folkuniversitetet*, Umeå.
+
