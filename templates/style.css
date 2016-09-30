@@ -9,47 +9,55 @@
 
 /* Whole document */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    font-family: serif;
+    width: 60em;
     margin: auto;
     background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+    padding: 1em 1em 1em 1em;
+}
+
+/* All headings as sans-serif font */
+h1, h2, h3 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #397249;
+    font-family: sans-serif;
 }
 
 /* Title of the resume */
-h1 {
-    font-size: 55px;
+h1.title, h2.author, h3.date {
     color: #757575;
     text-align:center;
-    margin-bottom:15px;
 }
-h1:hover {
-    background-color: #757575;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+
+h1.title {
+    font-size: 300%;
+    margin-bottom: 0em;
+}
+
+h2.author h3.date {
+    font-size: 200%;
 }
 
 /* Titles of categories */
-h2 {
-    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-    color: #397249;
+h1:not([class]), h2:not([class]) {
+}
+h1:not([class]) {
+    font-size: 150%;
+}
+h2:not([class]) {
+    font-size: 110%;
 }
 /* There is a bar just before each category */
-h2:before {
+/*h1:not([class]):before {
     content: "";
     display: inline-block;
     margin-right:1%;
     width: 16%;
-    height: 10px;
-    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    height: .3em;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. 
     background-color: #9CB770;
 }
-h2:hover {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
-}
-
+*/
 /* Definitions */
 dt {
     float: left;
@@ -62,7 +70,7 @@ dd {
 }
 p {
     margin-top:0;
-    margin-bottom:7px;
+    margin-bottom:.2em;
 }
 
 /* Blockquotes */
