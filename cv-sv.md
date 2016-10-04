@@ -5,8 +5,6 @@ author: Stefan Björk
 
 ![](images/photo.jpg){ width=25% }
 
-> Efter närmare 13 år i den akademiska världen som student, lärare och forskarstuderande vill jag nu pröva mina vingar som klinisk psykolog.
-
 # Profil
 
 * **Verbal**: god förmåga att i tal och framför allt skrift förmedla komplexa tankegångar på ett klart och gripbart sätt.
