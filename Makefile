@@ -30,6 +30,7 @@ all: $(html)
 %.html: %.md $(css)
 	pandoc --standalone --smart --css=$(css) \
         --from markdown --to html \
+        --include-in-header=templates/header.html \
         -o $@ $<
 
 clean:

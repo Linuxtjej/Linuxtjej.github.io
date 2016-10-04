@@ -9,8 +9,7 @@ one from scratch using ideas from other styles.
 
 body {
     font-family: "Gentium Book Basic", serif;
-    font-size: 20px;
-    width: 50em;
+    max-width: 50em;
     margin: auto;
     counter-reset: section;
 }
@@ -21,13 +20,13 @@ a {
     text-decoration: none;
     color: #da1705;
 }
+
 a:hover, a:active {
     background-color: #da1705;
     color: #FFFFFF;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
 }
-
 
 /* Body titles */
 
@@ -84,10 +83,9 @@ blockquote {
 
 dt {
     float: left;
-    clear: left;
     width: 6em;
 }
-    
+
 dd {
     margin-left: 6em;
 }

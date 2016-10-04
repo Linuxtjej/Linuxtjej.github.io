@@ -35,6 +35,7 @@
                 "--standalone",
                 "--smart",
                 "--css=templates/pandoc-cv.css",
+                "--include-in-header=templates/header.html",
                 "$file"
             ]
         }
