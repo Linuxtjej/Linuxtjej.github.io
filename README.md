@@ -1,14 +1,4 @@
-The Markdown Resume
-===================
+My Github Pages
+===============
 
-Instructions:
-
-    git clone https://github.com/mszep/pandoc_resume
-    cd pandoc_resume
-    vim resume.md   #insert your own resume info
-    make
-
-Requirements:
-
- * ConTeXt
- * pandoc
+This is the source of my GitHub pages, see <https://bluebirch.github.io>.
