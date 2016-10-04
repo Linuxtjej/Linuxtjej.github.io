@@ -1,7 +1,7 @@
 *.tuc
 *.log
 *.pdf
-*.html
 *.swo
 *.swp
 *.sublime-workspace
+README.html

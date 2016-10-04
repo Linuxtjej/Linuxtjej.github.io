@@ -1,8 +1,9 @@
 ---
 title: Curriculum Vitæ
 author: Stefan Björk
-date: 2016-09-26
 ...
+
+![](images/photo.jpg){ .center width=25% }
 
 # Utbildning
 

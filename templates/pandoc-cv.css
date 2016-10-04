@@ -1,0 +1,124 @@
+/*
+After trying to find a suitable CSS for a CV using pandoc, reverted to making
+one from scratch using ideas from other styles.
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700|Oswald:300';
+
+/* Basics for entire document */
+
+body {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 20px;
+    width: 50em;
+    margin: auto;
+    counter-reset: section;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: #da1705;
+}
+a:hover, a:active {
+    background-color: #da1705;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+
+/* Body titles */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    color: #da1705;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+/* Section numbering */
+
+h1:not([class]):before {
+    counter-increment: section;
+    counter-reset: subsection;
+    content: counter(section) ". ";
+}
+
+h2:not([class]):before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) ". ";
+}
+
+/* Main titles */
+
+h1.title, h2.author, h3.date {
+    text-align: center;
+}
+
+h1.title {
+    font-size: 250%;
+    margin-bottom: 0em;
+}
+
+h2.author, h3.date {
+    margin-top: 0em;
+    font-size: 150%;
+}
+
+/* Block quotes */
+
+blockquote {
+    font-style: italic;
+}
+
+/* Definition lists */
+
+dt {
+    float: left;
+    clear: left;
+    width: 6em;
+}
+    
+dd {
+    margin-left: 6em;
+}
+
+dd p {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+dd p+p, dd ul {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    font-size: 80%;
+    font-style: italic;
+}
+
+/* Lists */
+
+ul, ol {
+    padding-left: 1.5em;
+    overflow: hidden;
+}
+
+/* Images */
+
+.floatleft {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.figure {
+    text-align: center;
+}

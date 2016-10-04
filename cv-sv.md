@@ -1,18 +1,13 @@
 ---
-mainfont: Minion Pro
-mainfontoptions: Numbers=OldStyle
+title: Curriculum Vitæ
+author: Stefan Björk
 ...
 
-# Curriculum Vitæ -- Stefan Björk
-
-------------------------------- -------------------------------
-Rödmyrvägen 3B                           stefan.bjork@gmail.com
-904 40 Röbäck                                     0706-22 24 37
-------------------------------- -------------------------------
+![](images/photo.jpg){ width=25% }
 
 > Efter närmare 13 år i den akademiska världen som student, lärare och forskarstuderande vill jag nu pröva mina vingar som klinisk psykolog.
 
-## Profil
+# Profil
 
 * **Verbal**: god förmåga att i tal och framför allt skrift förmedla komplexa tankegångar på ett klart och gripbart sätt.
 * **Empatisk**: har lätt att leva mig in i andra människors livssituation och se tillvaron ur deras perspektiv.
@@ -20,7 +15,7 @@ Rödmyrvägen 3B                           stefan.bjork@gmail.com
 * **"Perspektivisk"**: kan betrakta företeelser ur flera perspektiv samtidigt, både när det gäller människor i deras livssammanhang (individuellt, relationellt, samhälleligt, etc) och när det gäller teorier och teoretiska ramverk (interpersonellt, psykodynamiskt, kognitivt, existentiellt, etc).
 * **Engagerad**: brinner för en humanvetenskapligt förankrad klinisk psykologi som finner sin utgångspunkt i människors vardagsliv.
 
-## Utbildning
+# Utbildning
 
 2016
 
@@ -36,7 +31,7 @@ Rödmyrvägen 3B                           stefan.bjork@gmail.com
 1991
 :   **Naturvetenskaplig linje**, *Katedralskolan*, Skara.
 
-## Yrkeserfarenhet
+# Yrkeserfarenhet
 
 2009--2010
 
@@ -80,12 +75,12 @@ Rödmyrvägen 3B                           stefan.bjork@gmail.com
 1992--1994
 :   **Programmerare och systemtekniker**, *JAK Medlemsbank*, Skövde.
 
-## Övrig utbildning
+# Övrig utbildning
 
 2003
 :   **Musiklinjen**, *Folkuniversitetet*, Umeå.
 
-## Språkkunskaper
+# Språkkunskaper
 
 Svenska
 :   Modersmål.
@@ -96,13 +91,13 @@ Engelska
 Tyska
 :   Grundläggande.
 
-## Övrigt
+# Övrigt
 
 * Gift med Jenny. Pappa till William (11) och Oskar (8).
 * Pianist med förkärlek för jazz.
 * Bågskytt, tränar med Umeå bågskytteklubb sedan 2015.
 * Gillar foto, programmering och friluftsliv.
 
-## Referenser
+# Referenser
 
 Referenser lämnas på begäran.

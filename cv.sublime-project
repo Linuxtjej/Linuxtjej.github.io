@@ -15,7 +15,7 @@
             "shell_cmd": "make -j -B"
         },
         {
-            "name": "Markdown to PDF (pandoc)",
+            "name": "CV to PDF (pandoc)",
             "cmd": [
                 "pandoc",
                 "-f", "markdown",
@@ -26,8 +26,17 @@
             ]
         },
         {
-            "name": "Markdown to HTML (pandoc)",
-            "shell_cmd": "pandoc --from=markdown --to=html --output=$file_base_name.html --standalone --smart $file"
+            "name": "CV to HTML (pandoc)",
+            "cmd": [
+                "pandoc",
+                "--from=markdown",
+                "--to=html",
+                "--output=$file_base_name.html",
+                "--standalone",
+                "--smart",
+                "--css=templates/pandoc-cv.css",
+                "$file"
+            ]
         }
     ]
 }

@@ -1,7 +1,7 @@
-source=cv-sv.md cv-academic-sv.md
+source=$(wildcard *.md)
 html=$(patsubst %.md, %.html, $(source))
 pdf=$(patsubst %.md, %.pdf, $(source)) $(patsubst %.md, %-pandoc.pdf, $(source))
-css=templates/style.css
+css=templates/pandoc-cv.css
 context_style=templates/context.tex
 pandoc_opts=-V papersize=A4 \
 	        -V geometry=hmargin=25mm -V geometry=top=25mm \
@@ -9,7 +9,7 @@ pandoc_opts=-V papersize=A4 \
             -V mainfont="Minion Pro" -V mainfontoptions="Numbers=OldStyle"
 
 
-all: $(html) $(pdf)
+all: $(html)
 
 %.tex: %.md $(context_style)
 	pandoc --standalone --template $(context_style) \
@@ -28,7 +28,7 @@ all: $(html) $(pdf)
  		   $<
 
 %.html: %.md $(css)
-	pandoc --standalone --self-contained --smart --css=$(css) \
+	pandoc --standalone --smart --css=$(css) \
         --from markdown --to html \
         -o $@ $<
 
