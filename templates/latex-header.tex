@@ -1,13 +1,37 @@
-% modify description lists
-\usepackage{enumitem}
-\setlist[description]{font=\normalfont, leftmargin=5em, style=nextline}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% My additions goes here - rest of template left untouched
+%%
 
-% use subtitle
-\providecommand{\subtitle}[1]{%
-  \usepackage{titling}
+% change URL font
+\def\UrlFont{\scshape}
+
+% document and section title color
+\usepackage{xcolor}
+\definecolor{titlecolor}{HTML}{DA1705}
+
+% customize document title
+\usepackage{titling}
+\pretitle{\begin{center}\Huge\bfseries\color{titlecolor}}
+\preauthor{\begin{center}\large\lineskip 0.5em\color{titlecolor}}
+\postauthor{\par\end{center}}
+\newcommand{\subtitle}[1]{%
   \posttitle{%
     \par\large#1\end{center}}
 }
 
-% change URL font
-\def\UrlFont{\scshape}
+% customize section titles
+\usepackage{sectsty}
+\usepackage{needspace}
+\sectionfont{\needspace{3\baselineskip}\color{titlecolor}}
+\subsectionfont{\color{titlecolor}\mdseries\itshape}
+
+% modify description lists
+\usepackage{enumitem}
+\setlist[description]{font=\normalfont, leftmargin=5em, style=nextline}
+
+% just swallow any captions
+\renewcommand{\caption}[1]{\relax}
+
+%%
+%% End of my additions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

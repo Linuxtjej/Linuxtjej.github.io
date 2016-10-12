@@ -192,10 +192,6 @@ $endif$
 %% My additions goes here - rest of template left untouched
 %%
 
-% modify description lists
-\usepackage{enumitem}
-\setlist[description]{font=\normalfont, leftmargin=5em, style=nextline}
-
 % use subtitle
 \providecommand{\subtitle}[1]{%
   \usepackage{titling}
@@ -205,6 +201,17 @@ $endif$
 
 % change URL font
 \def\UrlFont{\scshape}
+
+% use colors for titles
+\usepackage{xcolor,sectsty}
+\sectionfont{\color[HTML]{DA1705}}
+
+% modify description lists
+\usepackage{enumitem}
+\setlist[description]{font=\normalfont, leftmargin=5em, style=nextline}
+
+% just swallow any captions
+\renewcommand{\caption}[1]{\relax}
 
 %%
 %% End of my additions

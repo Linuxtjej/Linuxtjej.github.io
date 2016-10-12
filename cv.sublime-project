@@ -8,11 +8,13 @@
    "build_systems": [
         {
             "name": "Make all CV:s",
-            "shell_cmd": "make -j"
+            "shell_cmd": "make -j",
+            "working_dir": "${project_path}"
         },
         {
             "name": "Build all CV:s",
-            "shell_cmd": "make -j -B"
+            "shell_cmd": "make -j -B",
+            "working_dir": "${project_path}"
         },
         {
             "name": "CV to PDF (pandoc)",
@@ -20,7 +22,9 @@
                 "pandoc",
                 "-f", "markdown",
                 "-o", "$file_base_name.pdf",
-                "-H", "header.tex",
+                "--template=templates/latex-template.tex",
+                "-V", "mainfont=Minion Pro",
+                "-V", "fontsize=12pt",
                 "--latex-engine=xelatex",
                 "$file"
             ]

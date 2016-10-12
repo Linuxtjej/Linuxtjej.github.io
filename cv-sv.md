@@ -1,6 +1,7 @@
 ---
 title: Curriculum Vitæ
 author: Stefan Björk
+lang: sv-SE
 ...
 
 ![](images/photo.jpg){ width=25% }
