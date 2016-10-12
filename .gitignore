@@ -1,7 +1,9 @@
 *.tuc
 *.log
-*.pdf
 *.swo
 *.swp
+*.tex
 *.sublime-workspace
 README.html
+README.pdf
+index.pdf
