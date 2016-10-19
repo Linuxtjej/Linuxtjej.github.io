@@ -6,12 +6,6 @@ lang: sv-SE
 
 ![](images/photo.jpg){ .center width=25% }
 
-# Profil
-
-* skryt
-* mera skryt
-* ännu mera skryt
-
 # Utbildning
 
 2016
