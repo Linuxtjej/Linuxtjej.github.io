@@ -20,13 +20,14 @@
             "name": "CV to PDF (pandoc)",
             "cmd": [
                 "pandoc",
-                "-f", "markdown",
-                "-o", "$file_base_name.pdf",
-                "--template=templates/latex-template.tex",
-                "-V", "mainfont=Minion Pro",
-                "-V", "fontsize=12pt",
+                "--from=markdown",
+                "--to=latex",
+                "--output=${file_base_name}.pdf",
                 "--latex-engine=xelatex",
-                "$file"
+                "--include-in-header=${project_path}/templates/latex-header.tex",
+                "--smart",
+                "${file}",
+                "${project_path}/templates/pandoc.yaml",
             ]
         },
         {

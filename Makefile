@@ -5,6 +5,7 @@ css=templates/pandoc-cv.css
 context_style=templates/context.tex
 latex_template=templates/latex-template.tex
 latex_header=templates/latex-header.tex
+pandoc_yaml=templates/pandoc.yaml
 
 all: $(html) $(pdf)
 
@@ -12,19 +13,13 @@ all: $(html) $(pdf)
 	pandoc --from=markdown --to=latex --output=$@ \
 		--latex-engine=xelatex \
 		--include-in-header=$(latex_header) --smart \
-		-V papersize=A4 -V fontsize=12pt \
-		-V geometry=hmargin=25mm -V geometry=top=25mm \
-		-V mainfont="Minion Pro" -V mainfontoptions="Numbers=OldStyle" \
-		$<
+		$< $(pandoc_yaml)
 
 %.tex: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \
 		--latex-engine=xelatex \
 		--include-in-header=$(latex_header) --smart \
-		-V papersize=A4 -V fontsize=12pt \
-		-V geometry=hmargin=25mm -V geometry=top=25mm \
-		-V mainfont="Minion Pro" -V mainfontoptions="Numbers=OldStyle" \
-		$<
+		$< $(pandoc_yaml)
 
 %.html: %.md $(css)
 	pandoc --standalone --smart --css=$(css) \

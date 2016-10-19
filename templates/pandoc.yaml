@@ -1,0 +1,10 @@
+
+---
+fontsize: 12pt
+geometry:
+- top=25mm
+- hmargin=25mm
+mainfont: Minion Pro
+mainfontoptions: Numbers=OldStyle
+papersize: A4
+---
