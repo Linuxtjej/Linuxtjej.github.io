@@ -11,6 +11,8 @@
 
 % customize document title
 \usepackage{titling}
+\setlength{\droptitle}{-60pt}                 % reduce space before title
+\renewcommand{\maketitlehookd}{\vspace{-2em}} % reduce space after title
 \pretitle{\begin{center}\Huge\bfseries\color{titlecolor}}
 \preauthor{\begin{center}\large\lineskip 0.5em\color{titlecolor}}
 \postauthor{\par\end{center}}
