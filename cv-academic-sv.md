@@ -6,21 +6,6 @@ lang: sv-SE
 
 ![](images/photo.jpg){ .center width=25% }
 
-# Personuppgifter
-
-Telefon
-:   0706-22 24 37, 090-13 50 00
-
-E-post
-:   <stefan.bjork@gmail.com>
-
-Adress
-:   Rödmyrvägen 3B  
-    904 40 Röbäck
-
-Född
-:   27 september 1972
-
 # Profil
 
 * skryt

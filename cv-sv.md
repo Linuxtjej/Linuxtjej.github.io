@@ -6,16 +6,6 @@ lang: sv-SE
 
 ![](images/photo.jpg){ width=25% }
 
-<!--
-# Profil
-
-* **Verbal**: god förmåga att i tal och framför allt skrift förmedla komplexa tankegångar på ett klart och gripbart sätt.
-* **Empatisk**: har lätt att leva mig in i andra människors livssituation och se tillvaron ur deras perspektiv.
-* **Analytisk**: kan göra djupgående och noggranna undersökningar av problem och deras beståndsdelar, klarlägga samband och dra relevanta slutsatser.
-* **"Perspektivisk"**: kan betrakta företeelser ur flera perspektiv samtidigt, både när det gäller människor i deras livssammanhang (individuellt, relationellt, samhälleligt, etc) och när det gäller teorier och teoretiska ramverk (interpersonellt, psykodynamiskt, kognitivt, existentiellt, etc).
-* **Engagerad**: brinner för en humanvetenskapligt förankrad klinisk psykologi som finner sin utgångspunkt i människors vardagsliv.
--->
-
 # Utbildning
 
 2016
@@ -67,28 +57,3 @@ Engelska
 
 Tyska
 :   Grundläggande.
-
-# Övrigt
-
-* Gift med Jenny. Pappa till William (11) och Oskar (8).
-* Pianist med förkärlek för jazz.
-* Bågskytt, tränar med Umeå bågskytteklubb sedan 2015.
-* Gillar foto, programmering och friluftsliv.
-
-# Referenser
-
-*   **[Eva Magnusson](http://www.umu.se/sok/personalkatalog?uid=evma0001)**, professor emerita\
-    Umeå universitet, Institutionen för psykologi\
-    070-2534992\
-    <eva.magnusson@umu.se>
-
-*   **[Anita Pettersson-Strömbäck](http://www.umu.se/sok/personalkatalog?uid=anpe0002)**, lektor\
-    Umeå universitet, Institutionen för psykologi\
-    090-786 88 34\
-    <anita.pettersson-stromback@umu.se>
-
-*   **[Gregory Neely](http://www.umu.se/sok/personalkatalog?uid=grne0001)**, professor\
-    Umeå universitet, International office\
-    090-786 97 52, 070-616 97 52\
-    <greg.neely@umu.se>
-
