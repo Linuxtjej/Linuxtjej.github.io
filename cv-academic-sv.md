@@ -6,6 +6,27 @@ lang: sv-SE
 
 ![](images/photo.jpg){ .center width=25% }
 
+# Personuppgifter
+
+Telefon
+:   0706-22 24 37, 090-13 50 00
+
+E-post
+:   <stefan.bjork@gmail.com>
+
+Adress
+:   Rödmyrvägen 3B  
+    904 40 Röbäck
+
+Född
+:   27 september 1972
+
+# Profil
+
+* skryt
+* mera skryt
+* ännu mera skryt
+
 # Utbildning
 
 2016
@@ -14,7 +35,7 @@ lang: sv-SE
 2009
 :   **Psykologexamen**, Umeå universitet, Institutionen för psykologi.
 
-# Anställningar inom akademin
+# Anställningar
 
 2011--2016
 :   **Doktorand**, Umeå universitet, Institutionen för psykologi.
@@ -26,8 +47,6 @@ lang: sv-SE
 
 2008
 :   **Forskningsamanuens**, Umeå universitet, Institutionen för psykologi.
-
-
 
 # Publikationer och presentationer
 
@@ -56,9 +75,17 @@ Björk, S. (2013). *[Living the "New Father": Men's Parenting and Masculinities 
 ## Handledning
 
 2014
-:   Handledning av examensuppsats på psykologprogrammet.
+:   Handledning av en examensuppsats på psykologprogrammet (två studenter).
 
-# Teknisk kompetens
+## Universitetspedagogiska kurser
+
+2011
+:   Genus, kön och intersektionalitet i psykologiundervisningen (3 veckor). Umeå universitet, Institutionen för psykologi.
+
+2010
+:   Introduktionskurs i högskolepedagogik (1 vecka). Umeå universitet, Universitetspedagogiskt centrum.
+
+# Tekniskt kunnande
 
 * Multivariat analys, SEM och programmering i statistikprogrammet R.
 * SPSS syntax.
@@ -76,46 +103,16 @@ Engelska
 Tyska
 :   Grundläggande.
 
-# Yrkeserfarenhet
+# Övrig yrkeserfarehet
 
-2008
-:   **Behandlingsassistent missbruksvård**, Umeå kommun.
+2004--2008
+:   Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus.
 
-    Sommarvikariat under psykologutbildningen.
-
-2004, 2005
-:   **Vårdbiträde**, Psykiatriska kliniken vid Norrlands universitetssjukhus, Umeå.
-
-    Sommarvikariat under psykologutbildningen.
-
-2002, 2003
-:   **Unix-tekniker**, CSC Sverige AB, Stockholm.
-
-    Sommarjobb.
-
-2001--2002
-:   **Security Engineer**, Itegra Secureguard AB, Umeå/Stockholm.
-
-1998--2001
-:   **Teknisk konsult**, CSC Sverige AB, Stockholm.
-
-1997--1998
-:   **Systemansvarig**, Delphi IT AB, Uppsala.
-
-1997
-:   **Nätverkstekniker**, Institutet för byggdokumentation (BYGGDOK), Stockholm.
-
-1996--1997
-:   **Ungdomsledare och vik. kantor**, Falu kyrkliga samfällighet, Falun.
-
-1994
-:   **Ungdomsledare och körledare**, Dala-Järna och Vansbro kyrkliga allianskommitté.
-
-1992--1994
-:   **Programmerare och systemtekniker**, JAK Medlemsbank, Skövde.
+1992--2002
+:   Olika anställningar som IT: Unix-administration, nätverksadministration, IT-säkerhet och programmering.
 
 # Övrig utbildning
 
 2003
-:   **Musiklinjen**, *Folkuniversitetet*, Umeå.
+:   **Musiklinjen**, Folkuniversitetet, Umeå.
 
