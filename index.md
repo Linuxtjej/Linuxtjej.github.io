@@ -7,4 +7,9 @@ title: The Github Home of Stefan Björk
 * [Akademiskt CV](cv-academic-sv.html) (in Swedish)
 * [Academic CV](cv-academic-en.html) (in English)
 
+And my functional CV:
+
+* [Curriculum Vitæ](cv-sv.html) (in Swedish)
+* [Curriculum Vitæ 1992--2002](cv-it-sv.html) (in Swedish)
+
 For everything else, see my blog [Dr. Björks anteckningar](https://fenomenologen.se) (in Swedish).
