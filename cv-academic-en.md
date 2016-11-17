@@ -4,7 +4,7 @@ author: Stefan Björk
 lang: en-GB
 ...
 
-![](images/photo.jpg){ width=25% }
+![](images/photo.jpg){ .center width=25% }
 
 # Education
 
@@ -56,6 +56,14 @@ Björk, S. (2013). *[Living the "New Father": Men's Parenting and Masculinities 
 2014
 :   Supervision of master's thesis on the Programme for Master of Science in (Clinical) Psychology.
 
+## Educational Development Courses
+
+2011
+:   Gender, sex and intersectionality in psychology teaching (3 weeks). Umeå University, Department of Psychology.
+
+2010
+:   Teaching in higher education (1 week). Umeå University, Centre for Educational Development.
+
 # Technical skills
 
 * Multivariate analysis, SEM and programming in the R Statistics Package.
@@ -76,29 +84,11 @@ German
 
 # Prior Work Experience
 
-2008
-:   **Addiction Treatment Assistant**, Municipality of Umeå.
+2004--2008
+:   Summer jobs during psychology training, including addiction treatment assistant at the Municipality of Umeå and mental health assistant at the Psychiatric Ward, University Hospital of Umeå.
 
-2004, 2005
-:   **Nursing Assistant**, Psychiatric Ward, University Hospital of Umeå.
-
-2002, 2003
-:   **Unix System Administrator**, CSC Sverige AB, Stockholm.
-
-2001--2002
-:   **Security Engineer**, Itegra Secureguard AB, Umeå/Stockholm.
-
-1998--2001
-:   **Unix System Administrator**, CSC Sverige AB, Stockholm.
-
-1997--1998
-:   **System Administrator**, Delphi IT AB, Uppsala.
-
-1997
-:   **Network Administrator**, Institutet för byggdokumentation (BYGGDOK), Stockholm.
-
-1992--1994
-:   **Programmer and System Administrator**, JAK Medlemsbank, Skövde.
+1992--2002
+:   Various IT positions: Unix-administration, network administration, IT security and programming.
 
 # Other Education
 
