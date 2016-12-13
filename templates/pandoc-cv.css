@@ -11,7 +11,6 @@ body {
     font-family: "Gentium Book Basic", serif;
     max-width: 50em;
     margin: auto;
-    counter-reset: section;
 }
 
 /* Links */
@@ -42,19 +41,6 @@ h1 {
 
 h2 {
     font-size: 100%;
-}
-
-/* Section numbering */
-
-h1:not([class]):before {
-    counter-increment: section;
-    counter-reset: subsection;
-    content: counter(section) ". ";
-}
-
-h2:not([class]):before {
-    counter-increment: subsection;
-    content: counter(section) "." counter(subsection) ". ";
 }
 
 /* Main titles */
