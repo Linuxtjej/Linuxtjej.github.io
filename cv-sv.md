@@ -24,6 +24,12 @@ lang: sv-SE
 
 # Yrkeserfarenhet
 
+2011--2016
+
+:   **Doktorand**, Umeå universitet, Institutionen för psykologi och Centrum för genusstudier (UCGS).
+
+    - Forskning, forskarutbildning, undervisning.
+
 2009--2010
 
 :   **Universitetsadjunkt**, Umeå universitet, Institutionen för psykologi.
