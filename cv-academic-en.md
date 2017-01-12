@@ -17,13 +17,13 @@ lang: en-GB
 # Academic Positions
 
 2011--2016
-:   **Doctoral student**, Umeå University, Department of Psychology.
+:   **Doctoral Student**, Umeå University, Department of Psychology.
 
 2009--2010
-:   **Lecturer**, Umeå University, Department of Psychology.
+:   **Assistant Lecturer**, Umeå University, Department of Psychology.
 
 2008
-:   **Research amanuensis**, Umeå University, Department of Psychology.
+:   **Research Assistant**, Umeå University, Department of Psychology.
 
 
 
