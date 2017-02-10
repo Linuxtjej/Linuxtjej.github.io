@@ -117,7 +117,24 @@ Bilaga 4 är dokumentet ["Pedagogisk portfölj -- dokumentation och bedömning a
 > också beskriva hur det sammanhang du arbetar i påverkar din undervisning samt
 > hur du förhåller dig till detta. Hänvisa till litteratur, länkar, bilagor
 > eller CV där så är lämpligt. Använd valfri standard för
-> litteraturhänvisningar. (*Regel Pedagogisk portfölj*, FS 1.1.2-1366-14)
+> litteraturhänvisningar.
+>
+> I inledningen av egenreflektionen redogör läraren för sina pedagogiska
+> utgångspunkter och ställningstaganden. Läraren beskriver sin pedagogiska
+> grundsyn samt de mål och ramar som påverkar det egna arbetet. Att läraren har
+> relevant högskolepedagogisk kompetens och en vilja att utveckla sig själv
+> utgör en viktig förutsättning för att bedriva en professionell pedagogisk
+> verksamhet. Hänvisa där det är lämpligt till litteratur, bilagor eller CV.
+> ([Portfölj för anställning](http://www.upl.umu.se/portfolj/portfolj-for-
+> anstallning/))
+
+* Vad är kunskap?
+* Hur ser du på din roll som lärare? 
+* Vilken studentsyn har du? Tänker du på vilka studenter du kommer att möta när du förbereder din undervisning? Vilka anpassningar gör du? 
+* Hur undervisar du? Hur skapar du ett lärande?
+* Vilka faktorer som har påverkat dig i din lärar- och/eller handledarroll?
+* Hur har du utvecklats som lärare?
+* Vilka egenskaper du skulle vilja utveckla vidare?
 
 # Den pedagogiska praktiken
 
