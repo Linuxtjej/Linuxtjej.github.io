@@ -2,8 +2,11 @@
 title: Pedagogisk portfölj
 author: Stefan Björk
 lang: sv-SE
+bibliography: ../../Litteratur/books.bib
+csl: chicago-fullnote-bibliography.csl
 ...
 
+<!--
 Detta skall alltså vara en "redogörelse för pedagogisk verksamhet".
 
 * Står lite om det [här](https://ocw.dsv.su.se/mod/page/view.php?id=330).
@@ -110,7 +113,48 @@ Bilaga 4 är dokumentet ["Pedagogisk portfölj -- dokumentation och bedömning a
 > portföljen bör inte överstiga 8 sidor utskriven text, exklusive bilagor och
 > CV.
 
+-->
+
 # Pedagogiska utgångspunkter och ställningstaganden
+
+I undervisningssammanhang finner jag det ofta mer fruktbart att tala om *kunnande* än om kunskap. Detta av tre skäl: (1) "Kunskap" syftar som regel på propositionell kunskap medan den praktiska kunskapen hamnar i skymundan. "Kunnande", å andra sidan, innefattar båda.^[I fortsättningen benämner jag detta "kunskap" respektive "färdigheter".]\ (2) "Kunskap" svårt att definiera, särskilt om man samtidigt skall ta hänsyn till att matematikerns kunskap skiljer sig från kemistens, historikerns, snickarens och den kliniska psykologens kunskap. Däremot kan man utan större problem tala om matematikerns, kemistens, historikerns, snickarens och psykologens "kunnande", bland annat därför att kunnandet redan är knutet till ett visst *område* och någon allomfattande, generell definition av kunnande därför inte behövs.^[Detta är inte detsamma som att påstå att frågan om hur kunskap skall definieras och vad som utmärker det särskilda slag av kunskap som kallas vetenskap är oviktig, men väl att det är en fråga som sällan är fruktbar i undervisningssammanhang.]\ (3) "Kunskap" är ett substantiv vilket lätt förleder tanken så att man uppfattar kunskap som ett objekt, som om "kunskap" vore någonting i sig själv, en "nyttighet" eller "resurs" som skall överföras till studenten. "Kunnande", å andra sidan, förankrar kunskaper och färdigheter i ett subjekt, i den som *kan*, och återspeglar kanske bättre kunskapens märkliga karaktär av en hos individen inneboende *möjlighet* (potentialitet) som i en viss situation *realiseras* i handling (aktualitet).
+
+Kunnande är ingenting som man passivt snappar upp utan något som man aktivt *tillägnar sig*. Det betyder att både student och lärare är aktiva i lärandesituationen: studenten genom reflekterande, övande, prövande, sökande, frågande; läraren genom berättande, förklarande, vägledande, visande. Detta delade ansvar för lärandet realiseras framför allt i *dialog:* dialog mellan lärare och student och dialog studenter emellan. <!-- läraren kan också lära -->
+
+Utbildningens mål är ett bestämt och begränsat kunnande inom ett visst område. Den som examineras i exempelvis matematik, kemi, historia, trähantverk eller psykologi skall alltså ha tillägnat sig erforderligt kunnande inom sitt område. Men undervisning handlar också om *bildning*, en omvandling och förädling av hela människan som inte enkelt kan bedömas mot yttre måttstockar [se t. ex. @Gadamer1997]. 
+
+Även om utbildningens mål kan formuleras instrumentellt som att den som examineras i matematik, kemi, historia, byggnadshantverk, psykologi och så vidare skall ha det kunnande som erfordras inom respektive område, ansluter jag också 
+
+
+All undervisning måste med andra ord bygga på *dialog*.
+
+<!-- det följande skall eventuellt flyttas till nästa stycke? -->
+
+I min egen undervisning försöker jag så långt det är möjligt att få till stånd just dialog. Föreläsningar förbereder jag till exempel med så få projektorbilder som möjligt -- om jag alls använder projektor -- så att det finns utrymme att justera föreläsningens framställning utifrån på studenternas frågor och övriga respons. Föreläsningssalens utformning har stor betydelse och jag försöker boka salar som inte är större än nödvändigt; dialog, helst också studenter emellan, förutsätter att de fysiska avstånden inte är för stora. Gigantiska aulor med upphöjt podium och åhörare utspridda som små öar i ett hav av tomma stolar är för mig sämsta tänkbara scenario.
+
+* Undervisningen måste anpassas till *vem* som skall tillägna sig kunnande och *vad* för slags kunnande som skall tillägnas.
+* Använder bilder, berättelser, händelser. Som bollar.
+* Exempel med färdigheter och kunskap: statistik.
+
+* inte bara korvstoppning utan övning, görande
+* eget ansvar
+* lärarens roll/uppgift
+* examination som aktualitet
+* universitets övergripande roll
+
+
+Eftersom kunnande inte bara inbegriper kunskaper utan också färdigheter innebär detta tillägnande alltid också övning.
+
+Det får också konsekvenser för ansvarsfördelningen mellan student och lärare. Studenten har ett eget ansvar för sitt lärande
+
+kan inte bara memorera teorem utan måste också kunna göra någonting med dem. Kemisten kan inte bara
+
+. : till syvende och sist hänger lärandet på att studenten på ett eller annat sätt *tillägnar sig* det erforderliga kunnandet. 
+
+. Även om lärarens roll i undervisningssituationen är oumbärlig, hänger lärandet till syvende och sist på att studenten på ett eller annat sätt *tillägnar sig* det erforderliga kunnandet.
+
+
+***
 
 > I en pedagogisk portfölj ska det finnas en redogörelse för din pedagogiska
 > grundsyn; dina pedagogiska utgångspunkter och ställningstaganden. Du ska
@@ -136,6 +180,9 @@ Bilaga 4 är dokumentet ["Pedagogisk portfölj -- dokumentation och bedömning a
 * Hur har du utvecklats som lärare?
 * Vilka egenskaper du skulle vilja utveckla vidare?
 
+***
+
+
 # Den pedagogiska praktiken
 
 > Huvuddelen av portföljen består av exempel på konkreta
@@ -151,8 +198,12 @@ Bilaga 4 är dokumentet ["Pedagogisk portfölj -- dokumentation och bedömning a
 
 Den övervägande delen av min undervisningserfarenhet härrör från 2009--2010 då jag arbetade heltid som universitetsadjunkt vid Umeå universitet, Institutionen för psykologi. De huvudsakliga områdena var psykologisk forskningsmetod, statistik, vetenskapsteori och psykologins historia.
 
+* Bollar i undervisningen.
+* Flervalsfrågor.
+
 # Värderingar och omdömen
 
 > I den pedagogiska portföljen ska det finnas intyg eller värderingsunderlag från exempelvis prefekt, studierektor, kollegor, externa bedömare och studenter (via till exempel kurs- och programvärderingar). Referenspersoner kan anges. (*Regel Pedagogisk portfölj*)
 
 
+# Referenser
