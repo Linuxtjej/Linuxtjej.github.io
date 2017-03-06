@@ -13,6 +13,7 @@ all: $(html) $(pdf)
 	pandoc --from=markdown --to=latex --output=$@ \
 		--latex-engine=xelatex \
 		--include-in-header=$(latex_header) --smart \
+		--filter=pandoc-citeproc \
 		$< $(pandoc_yaml)
 
 %.tex: %.md $(latex_header)
