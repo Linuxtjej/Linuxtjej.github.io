@@ -25,18 +25,15 @@ lang: en-GB
 2008
 :   **Research Assistant**, Umeå University, Department of Psychology.
 
-
-
 # Publications and Presentations
 
-## Artiklar
+## Articles
 
 Björk, S. (2017). [Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av "vi"](https://www.academia.edu/31734203/M%C3%A4n_m%C3%B6ter_m%C3%B6drav%C3%A5rd_bes%C3%B6ket_p%C3%A5_barnmorskemottagningen_och_betydelsen_av_vi_). *Jordemodern*, *130*(3), 8--13.
 
 ## Ph.D. Thesis
 
 Björk, S. (2016). *[Män möter mödravård: om betydelsen av ”vi” i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)* [Men Meet Maternal Health Care: The Significance of 'We' in the Encounter With Prenatal, Delivery and Postnatal Care]\ (Ph.D. thesis). Umeå University, Department of Psychology & Umeå Centre for Gender studies (UCGS).
-
 
 ## Conference Presentations
 
