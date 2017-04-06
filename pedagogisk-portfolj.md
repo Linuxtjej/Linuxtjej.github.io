@@ -117,14 +117,36 @@ Bilaga 4 är dokumentet ["Pedagogisk portfölj -- dokumentation och bedömning a
 
 # Pedagogiska utgångspunkter och ställningstaganden
 
-I undervisningssammanhang finner jag det ofta mer fruktbart att tala om *kunnande* än om kunskap. Detta av tre skäl: (1) "Kunskap" syftar som regel på propositionell kunskap medan den praktiska kunskapen hamnar i skymundan. "Kunnande", å andra sidan, innefattar båda.^[I fortsättningen benämner jag detta "kunskap" respektive "färdigheter".]\ (2) "Kunskap" svårt att definiera, särskilt om man samtidigt skall ta hänsyn till att matematikerns kunskap skiljer sig från kemistens, historikerns, snickarens och den kliniska psykologens kunskap. Däremot kan man utan större problem tala om matematikerns, kemistens, historikerns, snickarens och psykologens "kunnande", bland annat därför att kunnandet redan är knutet till ett visst *område* och någon allomfattande, generell definition av kunnande därför inte behövs.^[Detta är inte detsamma som att påstå att frågan om hur kunskap skall definieras och vad som utmärker det särskilda slag av kunskap som kallas vetenskap är oviktig, men väl att det är en fråga som sällan är fruktbar i undervisningssammanhang.]\ (3) "Kunskap" är ett substantiv vilket lätt förleder tanken så att man uppfattar kunskap som ett objekt, som om "kunskap" vore någonting i sig själv, en "nyttighet" eller "resurs" som skall överföras till studenten. "Kunnande", å andra sidan, förankrar kunskaper och färdigheter i ett subjekt, i den som *kan*, och återspeglar kanske bättre kunskapens märkliga karaktär av en hos individen inneboende *möjlighet* (potentialitet) som i en viss situation *realiseras* i handling (aktualitet).
+> I en pedagogisk portfölj ska det finnas en redogörelse för din pedagogiska
+> grundsyn; dina pedagogiska utgångspunkter och ställningstaganden. Du ska
+> också beskriva hur det sammanhang du arbetar i påverkar din undervisning samt
+> hur du förhåller dig till detta. Hänvisa till litteratur, länkar, bilagor
+> eller CV där så är lämpligt. Använd valfri standard för
+> litteraturhänvisningar.
+>
+> I inledningen av egenreflektionen redogör läraren för sina pedagogiska
+> utgångspunkter och ställningstaganden. Läraren beskriver sin pedagogiska
+> grundsyn samt de mål och ramar som påverkar det egna arbetet. Att läraren har
+> relevant högskolepedagogisk kompetens och en vilja att utveckla sig själv
+> utgör en viktig förutsättning för att bedriva en professionell pedagogisk
+> verksamhet. Hänvisa där det är lämpligt till litteratur, bilagor eller CV.
+> ([Portfölj för anställning](http://www.upl.umu.se/portfolj/portfolj-for-
+> anstallning/))
 
-Kunnande är ingenting som man passivt snappar upp utan något som man aktivt *tillägnar sig*. Det betyder att både student och lärare är aktiva i lärandesituationen: studenten genom reflekterande, övande, prövande, sökande, frågande; läraren genom berättande, förklarande, vägledande, visande. Detta delade ansvar för lärandet realiseras framför allt i *dialog:* dialog mellan lärare och student och dialog studenter emellan. <!-- läraren kan också lära -->
+I undervisningssammanhang finner jag det ofta mer fruktbart att tala om *kunnande* än om kunskap. Detta av tre skäl: (1) "Kunskap" syftar som regel på propositionell kunskap medan den praktiska kunskapen hamnar i skymundan. "Kunnande", å andra sidan, innefattar båda.^[I fortsättningen benämner jag detta "kunskap" respektive "färdigheter".]\ (2) "Kunskap" är svårt att definiera, särskilt om man samtidigt skall ta hänsyn till att matematikerns kunskap skiljer sig från kemistens, historikerns, snickarens och den kliniska psykologens kunskap. Däremot kan man utan större problem tala om matematikerns, kemistens, historikerns, snickarens och psykologens "kunnande", bland annat därför att kunnandet redan är knutet till ett visst *område* och någon allomfattande, generell definition av kunnande därför inte behövs.^[Detta är inte detsamma som att påstå att frågan om hur kunskap skall definieras och vad som utmärker det särskilda slag av kunskap som kallas vetenskap är oviktig, men väl att det är en fråga som sällan är fruktbar i undervisningssammanhang.]\ (3) "Kunskap" är ett substantiv vilket lätt förleder tanken så att man uppfattar kunskap som ett objekt, som om "kunskap" vore någonting i sig själv, en "nyttighet" eller "resurs" som skall överföras till studenten. "Kunnande", å andra sidan, förankrar kunskaper och färdigheter i ett subjekt, i den som *kan*, och återspeglar kanske bättre kunskapens märkliga karaktär av en hos individen inneboende *möjlighet* som i en viss situation *realiseras* i handling.
 
-Utbildningens mål är ett bestämt och begränsat kunnande inom ett visst område. Den som examineras i exempelvis matematik, kemi, historia, trähantverk eller psykologi skall alltså ha tillägnat sig erforderligt kunnande inom sitt område. Men undervisning handlar också om *bildning*, en omvandling och förädling av hela människan som inte enkelt kan bedömas mot yttre måttstockar [se t. ex. @Gadamer1997]. 
+Om man således talar om *kunnande* kan den högre utbildningens mål sägas vara ett bestämt och begränsat kunnande inom ett visst område. Den som examineras i exempelvis matematik, kemi, historia, trähantverk eller psykologi skall alltså ha tillägnat sig erforderligt *kunnande* inom sitt område. Examinationens huvudsakliga syfte är därmed instrumentellt, nämligen att säkerställa att studenten besitter detta kunnande. Men undervisning handlar också om *bildning*, en omvandling och förädling av hela människan som inte enkelt kan bedömas mot yttre måttstockar [se t. ex. @Gadamer1997]. För mig är den instrumentella sidan av undervisningen -- den som handlar om att säkerställa kunnande -- en anhalt på vägen mot detta bildningsmål.
 
-Även om utbildningens mål kan formuleras instrumentellt som att den som examineras i matematik, kemi, historia, byggnadshantverk, psykologi och så vidare skall ha det kunnande som erfordras inom respektive område, ansluter jag också 
+Kunnande är något som man aktivt *tillägnar sig*. Det betyder att både student och lärare är aktiva i lärandesituationen: studenten genom reflekterande, övande, prövande, sökande, frågande; läraren genom berättande, förklarande, vägledande, visande. Detta delade ansvar för lärandet realiseras framför allt i *dialogen:* dialog mellan lärare och student och dialog studenter emellan. Lärarens huvudsakliga uppgift är att *främja tillägnandet av kunnande*.
 
+Varje undervisningssituation har sina egna förutsättningar och begränsningar och måste anpassas till undervisningens *vem*, *vad* och *var*. Tillägnandet av kunnande i exempelvis statistisk hypotesprövning eller psykologins historia främjas på olika sätt: det förra rimligen genom övning, det senare genom berättelser som ger den historiska förloppet mening och sammanhang. Olika grupper av studenter kan tarva olika inriktning på undervisningen: blivande psykologer har inte nödvändigtvis samma förutsättningar eller kunskapsintresse^[Skall jag verkligen använda det ordet när jag nu bestämt mig för att tala om "kunnande"?] som blivande kognitionsvetare. Och de fysiska förutsättningarna har också betydelse: en stor föreläsningssal med upphöjt podium ger till exempel inte samma möjligheter till dialog som ett litet ommöblerbart grupprum.
+
+De områden inom vilka jag huvudsakligen undervisat -- den akademiska psykologins kunskapsteoretiska förutsättningar, dess historia och dess forskningsmetoder inklusive statistik -- är säregna på så sätt att de handlar om *kunskapssökandets kunnande*, alltså de kunskaper och färdigheter som behövs både för att formulera och kritiskt granska den akademiska forskningsverksamhetens kunskapsanspråk. Detta är ett kunnande som tarvar såväl övning som reflektion och förståelse; detta ger jag exempel på i nästa avsnitt.
+
+* jag kan lära mig
+
+
+***
 
 All undervisning måste med andra ord bygga på *dialog*.
 
@@ -155,22 +177,6 @@ kan inte bara memorera teorem utan måste också kunna göra någonting med dem.
 
 
 ***
-
-> I en pedagogisk portfölj ska det finnas en redogörelse för din pedagogiska
-> grundsyn; dina pedagogiska utgångspunkter och ställningstaganden. Du ska
-> också beskriva hur det sammanhang du arbetar i påverkar din undervisning samt
-> hur du förhåller dig till detta. Hänvisa till litteratur, länkar, bilagor
-> eller CV där så är lämpligt. Använd valfri standard för
-> litteraturhänvisningar.
->
-> I inledningen av egenreflektionen redogör läraren för sina pedagogiska
-> utgångspunkter och ställningstaganden. Läraren beskriver sin pedagogiska
-> grundsyn samt de mål och ramar som påverkar det egna arbetet. Att läraren har
-> relevant högskolepedagogisk kompetens och en vilja att utveckla sig själv
-> utgör en viktig förutsättning för att bedriva en professionell pedagogisk
-> verksamhet. Hänvisa där det är lämpligt till litteratur, bilagor eller CV.
-> ([Portfölj för anställning](http://www.upl.umu.se/portfolj/portfolj-for-
-> anstallning/))
 
 * Vad är kunskap?
 * Hur ser du på din roll som lärare? 
