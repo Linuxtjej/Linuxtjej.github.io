@@ -1,0 +1,343 @@
+{
+    "positions_heading": {
+        "en": "Positions",
+        "sv": "Arbetslivserfarenhet"
+    },
+    "positions": [
+        {
+            "title": {
+                "en": "Doctoral Student",
+                "sv": "Doktorand"
+            },
+            "employer": {
+                "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
+                "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
+            },
+            "description": {
+                "en": "Research, education & stuff.",
+                "sv": "Forskning, forskarutbildning, undervisning."
+            },
+            "descriptions": {
+                "sv": [
+                    "Planering och genomförande av intervjustudie.",
+                    "Akademiskt skrivande och rapportering av forskningsresultat.",
+                    "Undervisning på psykologprogrammet och handledning av examensuppsatser."
+                ]
+            },
+            "start_date": "2011-01-01",
+            "end_date": "2016-10-25",
+            "importance": 1,
+            "type": [
+                "academic",
+                "psychologist",
+                "recent"
+            ],
+            "comment": "Doktorand, Umeå universitet, Institutionen för psykologi, 2011-01-01 till 2016-10-25 (5 år, 9 månader, 25 dagar)."
+        },
+        {
+            "title": {
+                "en": "Assistant Lecturer",
+                "sv": "Universitetsadjunkt"
+            },
+            "employer": {
+                "en": "Umeå University, Department of Psychology",
+                "sv": "Umeå universitet, Institutionen för psykologi"
+            },
+            "description": {
+                "sv": "Undervisning huvudsakligen i statistik, forskningsmetodik och vetenskapsteori. Kursansvar för psykologprogrammets metod- och statistikkurs på termin 1."
+            },
+            "start_date": "2009-01-01",
+            "end_date": "2010-12-31",
+            "importance": 1,
+            "type": [
+                "academic",
+                "recent",
+                "psychologist"
+            ],
+            "comment": "Universitetsadjunkt, Umeå universitet, Institutionen för psykologi, 2009-01-01 till 2010-12-31 (2 år)."
+        },
+        {
+            "title": {
+                "en": "Research Assistant",
+                "sv": "Forskningsassistent"
+            },
+            "employer": {
+                "en": "Umeå University, Department of Psychology",
+                "sv": "Umeå universitet, Institutionen för psykologi"
+            },
+            "description": {
+                "sv": "Databearbetning och statistisk analys."
+            },
+            "start_date": "2008-09-01",
+            "end_date": "2008-12-31",
+            "importance": 1,
+            "type": [
+                "academic",
+                "recent",
+                "psychologist"
+            ],
+            "comment": "Forskningsamanuens, Umeå universitet, Institutionen för psykologi, 2008-09-01 till 2008-12-31 (4 månader)."
+        },
+        {
+            "title": {
+                "sv": "Behandlingsasisstent"
+            },
+            "employer": {
+                "sv": "Umeå kommun"
+            },
+            "description": {
+                "sv": "Missbruksbehadlingshemmet Bryggan."
+            },
+            "start_date": "2008-06-01",
+            "end_date": "2008-08-31",
+            "importance": 2,
+            "type": [
+                "psychologist"
+            ],
+            "comment": "Behandlingsassistent, Umeå kommun, sommaren 2008. Saknar intyg. Behöver söka efter anställningskontrakt."
+        },
+        {
+            "title": {
+                "sv": "Psykologpraktik"
+            },
+            "employer": {
+                "sv": "Västerbottens läns landsting, Vuxenhabiliteringen, Råd och stöd"
+            },
+            "location": "Umeå",
+            "start_date": "2007-02-20",
+            "end_date": "2007-06-02",
+            "importance": 3,
+            "comment": "Psykologpraktik, Råd och stöd, 2007-02-20 till 2007-06-02 (3 månader, 14 dagar)."
+        },
+        {
+            "title": {
+                "sv": "Mentalskötare",
+                "en": "Psychiatric Aide"
+            },
+            "employer": {
+                "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
+                "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
+            },
+            "location": "Umeå",
+            "description": {
+                "sv": "Sommarvikariat under psykologutbildningen."
+            },
+            "start_date": "2005-05-20",
+            "end_date": "2005-08-14",
+            "importance": 3,
+            "comment": "Vårdbiträde/mentalskötare, Psykiatriska kliniken, Norrlands universitetssjukhus, 2004-07-12 till 2004-09-26 (2 månader, 15 dagar), 2005-05-20 till 2005-08-14 (2 månader, 26 dagar), 2005-08-25 till 2006-01-31 (5 månader, 7 dagar), totalt 468,2 timmar."
+        },
+        {
+            "title": {
+                "sv": "Vårdbiträde",
+                "en": "Nurses's Assistant"
+            },
+            "employer": {
+                "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
+                "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
+            },
+            "location": "Umeå",
+            "description": {
+                "sv": "Sommarvikariat under psykologutbildningen."
+            },
+            "start_date": "2004-07-12",
+            "end_date": "2004-09-26",
+            "importance": 3
+        },
+        {
+            "title": {
+                "sv": "Unix-tekniker",
+                "en": "Unix sysadmin"
+            },
+            "employer": {
+                "sv": "CSC Sverige AB",
+                "en": "CSV Sweden AB"
+            },
+            "location": "Stockholm",
+            "description": {
+                "sv": "Sommarvikariat under psykologutbildningen."
+            },
+            "start_date": "2003-06-24",
+            "end_date": "2003-08-31",
+            "importance": 3,
+            "comment": "1. Unix-tekniker, CSC Sverige AB, 2002-07-01 till 2002-08-31 (2 månader), 2003-06-24 till 2003-08-31 (2 månader, 8 dagar)."
+        },
+        {
+            "title": {
+                "sv": "Unix-tekniker",
+                "en": "Unix sysadmin"
+            },
+            "employer": {
+                "sv": "CSC Sverige AB",
+                "en": "CSV Sweden AB"
+            },
+            "location": "Stockholm",
+            "description": {
+                "sv": "Sommarvikariat under psykologutbildningen."
+            },
+            "start_date": "2002-07-01",
+            "end_date": "2002-08-31",
+            "importance": 3
+        },
+        {
+            "title": {
+                "sv": "Säkerhetskonsult",
+                "en": "Security Engineer"
+            },
+            "employer": {
+                "sv": "Itegra Secureguard AB",
+                "en": "Itegra Secureguard AB"
+            },
+            "description": {
+                "sv": "Produktsupport och konsultuppdrag inom IT-säkerhet."
+            },
+            "location": "Stockholm",
+            "start_date": "2001-04-01",
+            "end_date": "2002-05-28"
+        },
+        {
+            "title": {
+                "sv": "Teknisk konsult",
+                "en": "Technical Consultant"
+            },
+            "employer": {
+                "sv": "CSC Sverige AB",
+                "en": "CSC Sweden AB"
+            },
+            "description": {
+                "sv": "Drift och underhåll samt konsultuppdrag inom Unix-administration, nätverkskommunikation och IT-säkerhet."
+            },
+            "location": "Stockholm",
+            "start_date": "1998-11-30",
+            "end_date": "2001-03-31"
+        },
+        {
+            "title": {
+                "sv": "Systemansvarig",
+                "en": "System Administrator"
+            },
+            "employer": {
+                "sv": "Delphi IT AB",
+                "en": "Delphi IT AB"
+            },
+            "description": {
+                "sv": "Driftansvar för Delphi Economics IT-miljö i Uppsala och Stockholm. • Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS. • DNS, IGP."
+            },
+            "location": "Uppsala",
+            "start_date": "1997-07-14",
+            "end_date": "1998-11-30"
+        },
+        {
+            "title": {
+                "sv": "Nätverkstekniker",
+                "en": "Network Administrator"
+            },
+            "employer": {
+                "sv": "Institutet för byggdokumentation (BYGGDOK)",
+                "en": "The Swedish Institute of Building Documentation (BYGGDOK)"
+            },
+            "description": {
+                "sv": "Systemadministration och användarstöd."
+            },
+            "location": "Stockholm",
+            "start_date": "1997-03-17",
+            "end_date": "1997-07-11"
+        },
+        {
+            "title": {
+                "sv": "Programmerare och systemadministratör",
+                "en": "Programmer and system administrator"
+            },
+            "employer": {
+                "sv": "JAK Medlemsbank",
+                "en": "JAK Member's Bank"
+            },
+            "description": {
+                "sv": "Programutveckling, systemadministration och användarstöd."
+            },
+            "location": "Skövde",
+            "start_date": "1992-04-09",
+            "end_date": "1994-03-15"
+        },
+        {
+            "title": {
+                "sv": "Ungdomsledare och vik. kantor"
+            },
+            "employer": {
+                "sv": "Falu kyrkliga samfällighet"
+            },
+            "description": {
+                "sv": "Arbete med Kyrkans unga (KU), konfirmander, barngrupper och barnkör."
+            },
+            "location": "Falun",
+            "start_date": "1996-05-01",
+            "end_date": "1997-06-30"
+        },
+        {
+            "title": {
+                "sv": "Ungdomsledare och körledare"
+            },
+            "employer": {
+                "sv": "Dala-Järna och Vansbro kyrkliga allianskommitté"
+            },
+            "description": {
+                "sv": "Ungdomsgrupper och ungdomskör."
+            },
+            "location": "Dala-Järna",
+            "start_date": "1994-02-15",
+            "end_date": "1994-09-15"
+        },
+        {
+            "title": {
+                "sv": "Butiksbiträde"
+            },
+            "employer": {
+                "sv": "Lidköpings instrumenthandel AB"
+            },
+            "location": "Lidköping",
+            "start_date": "1991-10-18",
+            "end_date": "1992-02-28"
+        },
+        {
+            "title": {
+                "sv": "ALU-projekt"
+            },
+            "employer": {
+                "sv": "Arbetsförmedlingen/Örebromissionen"
+            },
+            "location": "Örebro",
+            "start_date": "1994-11-29",
+            "end_date": "1995-02-28",
+            "comment": "ALU-projekt, AF/ÖM, 1994-11-29 till 1995-02-28 (3 månader)."
+        },
+        {
+            "title": {
+                "sv": "Lärarvikarie"
+            },
+            "employer": {
+                "sv": "Vansbro kommun, Smedbergsskolan"
+            },
+            "location": "Vansbro",
+            "start_date": "1994-04-18",
+            "end_date": "1994-06-07",
+            "comment": "Lärarvikarie, Smedbergsksolan, Vansbro, 1994-04-18 till 1994-06-07 (1 månad, 21 dagar)."
+        },
+        {
+            "title": {
+                "sv": "Lärarvikarie"
+            },
+            "employer": {
+                "sv": "Vara kommun, Nästegårdsskolan"
+            },
+            "location": "Vara",
+            "start_date": "1991-08-22",
+            "end_date": "1991-12-14",
+            "comment": "Lärarvikarie, Nästegårdsskolan, Vara, 1991-08-22 till 1991-12-14 (3 månader, 23 dagar)."
+        }
+    ],
+    "other": [
+        {
+            "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
+        }
+    ]
+}
