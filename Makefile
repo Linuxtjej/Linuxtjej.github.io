@@ -1,4 +1,4 @@
-source=$(wildcard *.md)
+source=cv-sv.md cv-en.md cv-full-sv.md cv-it-sv.md
 html=$(patsubst %.md, %.html, $(source))
 pdf=$(patsubst %.md, %.pdf, $(source))
 css=templates/pandoc-cv.css
@@ -7,7 +7,20 @@ latex_template=templates/latex-template.tex
 latex_header=templates/latex-header.tex
 pandoc_yaml=templates/pandoc.yaml
 
-all: $(html) $(pdf)
+all: $(pdf) $(html)
+
+cv-sv.md: cv.json
+	perl scripts/json2cv.pl --lang=sv --type=recent --json=$< > $@
+
+cv-en.md: cv.json
+	perl scripts/json2cv.pl --lang=en --type=recent --json=$< > $@
+
+cv-full-sv.md: cv.json
+	perl scripts/json2cv.pl --lang=sv --type=full --json=$< > $@
+
+cv-it-sv.md: cv.json
+	perl scripts/json2cv.pl --lang=sv --type=it --json=$< > $@
+
 
 %.pdf: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \
