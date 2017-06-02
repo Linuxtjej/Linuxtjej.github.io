@@ -1,7 +1,13 @@
 {
     "title": {
-        "en": "Curriculum Vitæ",
-        "sv": "Curriculum Vitæ"
+        "default": {
+            "en": "Curriculum Vitæ",
+            "sv": "Curriculum Vitæ"
+        },
+        "full": {
+            "en": "Curriculum Vitæ (complete)",
+            "sv": "Curriculum Vitæ (fullständigt)"
+        }
     },
     "author": "Stefan Björk",
     "preamble": {
@@ -27,8 +33,11 @@
                 "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
                 "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
             },
-            "description": {
-                "sv": "Avhandlingstitel: *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård*. <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
+            "descriptions": {
+                "sv": [
+                    "Avhandlingstitel: \"Män möter mödravård: om betydelsen av 'vi' i mötet med mödrahälsovård, förlossningsvård och BB-vård\".",
+                    "Fulltext: <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
+                ]
             },
             "end_date": "2016-10-25",
             "importance": 1,
@@ -48,6 +57,7 @@
                 "sv": "Umeå universitet, Institutionen för psykologi"
             },
             "end_date": "2009-06-09",
+            "importance": 1,
             "type": [
                 "academic",
                 "psychologist",
@@ -66,6 +76,7 @@
             "location": "Skara",
             "end_date": "1991",
             "start_date": "1988",
+            "importance": 2,
             "type": [
                 "recent",
                 "psychologist"
@@ -89,6 +100,7 @@
             "location": "Umeå",
             "start_date": "2002",
             "end_date": "2003",
+            "importance": 2,
             "type": [
                 "academic",
                 "psychologist",
@@ -246,7 +258,10 @@
             },
             "start_date": "2005-05-20",
             "end_date": "2005-08-14",
-            "importance": 3,
+            "importance": 2,
+            "type": [
+                "psychologist"
+            ],
             "comment": "Vårdbiträde/mentalskötare, Psykiatriska kliniken, Norrlands universitetssjukhus, 2004-07-12 till 2004-09-26 (2 månader, 15 dagar), 2005-05-20 till 2005-08-14 (2 månader, 26 dagar), 2005-08-25 till 2006-01-31 (5 månader, 7 dagar), totalt 468,2 timmar."
         },
         {
@@ -264,7 +279,10 @@
             },
             "start_date": "2004-07-12",
             "end_date": "2004-09-26",
-            "importance": 3
+            "importance": 2,
+            "type": [
+                "psychologist"
+            ]
         },
         {
             "title": {
@@ -281,7 +299,7 @@
             },
             "start_date": "2003-06-24",
             "end_date": "2003-08-31",
-            "importance": 3,
+            "importance": 2,
             "type": [
                 "it"
             ],
@@ -305,7 +323,7 @@
             "type": [
                 "it"
             ],
-            "importance": 3
+            "importance": 2
         },
         {
             "title": {
@@ -323,6 +341,7 @@
             "type": [
                 "it"
             ],
+            "importance": 1,
             "start_date": "2001-04-01",
             "end_date": "2002-05-28"
         },
@@ -343,7 +362,8 @@
             "end_date": "2001-03-31",
             "type": [
                 "it"
-            ]
+            ],
+            "importance": 1
         },
         {
             "title": {
@@ -362,7 +382,8 @@
             "end_date": "1998-11-30",
             "type": [
                 "it"
-            ]
+            ],
+            "importance": 1
         },
         {
             "title": {
@@ -381,7 +402,8 @@
             "end_date": "1997-07-11",
             "type": [
                 "it"
-            ]
+            ],
+            "importance": 2
         },
         {
             "title": {
@@ -400,7 +422,8 @@
             "end_date": "1994-03-15",
             "type": [
                 "it"
-            ]
+            ],
+            "importance": 1
         },
         {
             "title": {
@@ -414,7 +437,8 @@
             },
             "location": "Falun",
             "start_date": "1996-05-01",
-            "end_date": "1997-06-30"
+            "end_date": "1997-06-30",
+            "importance": 2
         },
         {
             "title": {
@@ -428,7 +452,8 @@
             },
             "location": "Dala-Järna",
             "start_date": "1994-02-15",
-            "end_date": "1994-09-15"
+            "end_date": "1994-09-15",
+            "importance": 2
         },
         {
             "title": {
@@ -439,7 +464,8 @@
             },
             "location": "Lidköping",
             "start_date": "1991-10-18",
-            "end_date": "1992-02-28"
+            "end_date": "1992-02-28",
+            "importance": 3
         },
         {
             "title": {
@@ -451,6 +477,7 @@
             "location": "Örebro",
             "start_date": "1994-11-29",
             "end_date": "1995-02-28",
+            "importance": 3,
             "comment": "ALU-projekt, AF/ÖM, 1994-11-29 till 1995-02-28 (3 månader)."
         },
         {
@@ -463,6 +490,7 @@
             "location": "Vansbro",
             "start_date": "1994-04-18",
             "end_date": "1994-06-07",
+            "importance": 3,
             "comment": "Lärarvikarie, Smedbergsksolan, Vansbro, 1994-04-18 till 1994-06-07 (1 månad, 21 dagar)."
         },
         {
@@ -475,15 +503,27 @@
             "location": "Vara",
             "start_date": "1991-08-22",
             "end_date": "1991-12-14",
+            "importance": 3,
             "comment": "Lärarvikarie, Nästegårdsskolan, Vara, 1991-08-22 till 1991-12-14 (3 månader, 23 dagar)."
         }
     ],
+    "other_heading": {
+        "sv": "Övrigt",
+        "en": "Other"
+    },
     "other": [
         {
             "title": {
                 "sv": "Föräldraledig",
                 "en": "Parental Leave"
             },
+            "subtitle": {
+                "sv": "6 månader (augusti--januari)",
+                "en": "6 months (August--January)"
+            },
+            "start_date": "2006-08-01",
+            "end_date": "2007-01-31",
+            "importance": 2,
             "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
         }
     ],
