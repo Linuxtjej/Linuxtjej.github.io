@@ -202,7 +202,7 @@ else {
     print $fh "title: $cv->{title}->{default}->{$lang}\n";
 }
 print $fh "author: $cv->{author}\n";
-print $fh "date: ", strftime( "%Y-%m-%d", localtime ), "\n";
+# print $fh "date: ", strftime( "%Y-%m-%d", localtime ), "\n";
 print $fh "lang: $lang_bcp47\n";
 print $fh "...\n\n";
 
@@ -230,3 +230,6 @@ items( "other", $cv, $fh, second => 'subtitle' );
 
 # Language skills
 language_skills( $cv, $fh );
+
+# Date
+#print $fh "*Uppdaterad ", strftime( "%Y-%m-%d", localtime ), "*.\n";

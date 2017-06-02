@@ -3,10 +3,6 @@
         "default": {
             "en": "Curriculum Vitæ",
             "sv": "Curriculum Vitæ"
-        },
-        "full": {
-            "en": "Curriculum Vitæ (complete)",
-            "sv": "Curriculum Vitæ (fullständigt)"
         }
     },
     "author": "Stefan Björk",
@@ -33,11 +29,9 @@
                 "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
                 "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
             },
-            "descriptions": {
-                "sv": [
-                    "Avhandlingstitel: \"Män möter mödravård: om betydelsen av 'vi' i mötet med mödrahälsovård, förlossningsvård och BB-vård\".",
-                    "Fulltext: <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
-                ]
+            "description": {
+                "sv": "Avhandlingstitel: *[Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)*.",
+                "en": "Thesis title: *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of \"We\" in the Encounter With Prenatal, Delivery and Postnatal Care]."
             },
             "end_date": "2016-10-25",
             "importance": 1,
@@ -56,6 +50,10 @@
                 "en": "Umeå University, Department of Psychology",
                 "sv": "Umeå universitet, Institutionen för psykologi"
             },
+            "description": {
+                "sv": "Examensuppsats: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)*.",
+                "en": "Master's thesis: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)* [Adaption of the Addiction Severity Index (ASI) Clinical Index to a Swedish context]."
+            },
             "end_date": "2009-06-09",
             "importance": 1,
             "type": [
@@ -66,11 +64,11 @@
         },
         {
             "title": {
-                "en": "Naturvetenskalig linje",
+                "en": "Natural Sciences Program",
                 "sv": "Naturvetenskaplig linje"
             },
             "school": {
-                "en": "Katedralskolan",
+                "en": "Katedralskolan (upper secondary school)",
                 "sv": "Katedralskolan"
             },
             "location": "Skara",
@@ -97,6 +95,18 @@
                 "en": "Folkuniversitetet",
                 "sv": "Folkuniversitetet"
             },
+            "descriptions": {
+                "sv": [
+                    "Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.",
+                    "Arrangering och komposition.",
+                    "Ensemblespel samt individuell instrument- och sångträning."
+                ],
+                "en": [
+                    "Music theory and history, ear training.",
+                    "Arrangement and composition.",
+                    "Ensemble playing and individual instrument and vocal training."
+                ]
+            },
             "location": "Umeå",
             "start_date": "2002",
             "end_date": "2003",
@@ -109,7 +119,7 @@
         }
     ],
     "positions_heading": {
-        "en": "Positions",
+        "en": "Work Experience",
         "sv": "Arbetslivserfarenhet"
     },
     "positions": [
@@ -122,15 +132,22 @@
                 "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
                 "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
             },
-            "description": {
-                "en": "Research, education & stuff.",
-                "sv": "Forskning, forskarutbildning, undervisning."
-            },
             "descriptions": {
                 "sv": [
-                    "Planering och genomförande av intervjustudie.",
+                    "Planering och genomförande av forskningsprojekt.",
+                    "Problemanalys och formulering av forskningsfråga.",
+                    "Informationssökning, inläsning på samt kritisk granskning av tidigare forskning.",
+                    "Rekrytering av forskningsdeltagare och genomförande av intervjuer.",
                     "Akademiskt skrivande och rapportering av forskningsresultat.",
                     "Undervisning på psykologprogrammet och handledning av examensuppsatser."
+                ],
+                "en": [
+                    "Planning and implementation of research project.",
+                    "Problem analysis and formulation of research question.",
+                    "Search and critical review of previous research.",
+                    "Recruitment of research participants and conducting interviews.",
+                    "Academic writing and reporting of research results.",
+                    "Teaching of psychology and supervision of master's theses."
                 ]
             },
             "start_date": "2011-01-01",
@@ -155,7 +172,11 @@
             "descriptions": {
                 "sv": [
                     "Undervisning huvudsakligen i statistik, forskningsmetod och vetenskapsteori.",
-                    "Kursansvar för psykologprogrammets metod- och statistikkurs på termin 1."
+                    "Kursansvarig för psykologprogrammets metod- och statistikkurs på termin 1: planering, arbetsfördelning, schemaläggning, examination."
+                ],
+                "en": [
+                    "Teaching, mainly statistics, research methods and theory of science.",
+                    "Course coordinator for the research methods and statistics course for first year psychology students."
                 ]
             },
             "start_date": "2009-01-01",
@@ -177,8 +198,15 @@
                 "en": "Umeå University, Department of Psychology",
                 "sv": "Umeå universitet, Institutionen för psykologi"
             },
-            "description": {
-                "sv": "Databearbetning och statistisk analys."
+            "descriptions": {
+                "sv": [
+                    "Statistisk analys av ASI-intervjuns (Addiction Severity Index) prediktiva styrka.",
+                    "Psykometrisk utvärdering av ASI-intervjuns kliniska index."
+                ],
+                "en": [
+                    "Statistical analysis of the predictive power of the Addiction Severity Index (ASI).",
+                    "Psychometric evaluation of the Clinical Index of the ASI."
+                ]
             },
             "start_date": "2008-09-01",
             "end_date": "2008-12-31",
@@ -214,13 +242,22 @@
         },
         {
             "title": {
-                "sv": "Behandlingsasisstent"
+                "sv": "Behandlingsassisstent",
+                "en": "Treatment Assistant"
             },
             "employer": {
-                "sv": "Umeå kommun"
+                "sv": "Umeå kommun",
+                "en": "Umeå Municipality"
             },
-            "description": {
-                "sv": "Missbruksbehadlingshemmet Bryggan."
+            "descriptions": {
+                "sv": [
+                    "Sommarvikariat under psykologutbildningen.",
+                    "Stödboendet Bryggan för vuxna med missbruks- och beroendeproblematik."
+                ],
+                "en": [
+                    "Summer vacation replacement during my psychology studies.",
+                    "Voluntary institutional care for adults with drug abuse or addiction."
+                ]
             },
             "start_date": "2008-06-01",
             "end_date": "2008-08-31",
@@ -253,8 +290,13 @@
                 "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
             },
             "location": "Umeå",
-            "description": {
-                "sv": "Sommarvikariat under psykologutbildningen."
+            "descriptions": {
+                "sv": [
+                    "Sommarvikariat under psykologutbildningen."
+                ],
+                "en": [
+                    "Summer vacation replacement during my psychology studies."
+                ]
             },
             "start_date": "2005-05-20",
             "end_date": "2005-08-14",
@@ -274,8 +316,13 @@
                 "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
             },
             "location": "Umeå",
-            "description": {
-                "sv": "Sommarvikariat under psykologutbildningen."
+            "descriptions": {
+                "sv": [
+                    "Sommarvikariat under psykologutbildningen."
+                ],
+                "en": [
+                    "Summer vacation replacement during my psychology studies."
+                ]
             },
             "start_date": "2004-07-12",
             "end_date": "2004-09-26",
@@ -287,15 +334,22 @@
         {
             "title": {
                 "sv": "Unix-tekniker",
-                "en": "Unix sysadmin"
+                "en": "Unix System Administrator"
             },
             "employer": {
                 "sv": "CSC Sverige AB",
-                "en": "CSV Sweden AB"
+                "en": "CSC Sweden AB"
             },
             "location": "Stockholm",
-            "description": {
-                "sv": "Sommarvikariat under psykologutbildningen."
+            "descriptions": {
+                "sv": [
+                    "Sommarvikariat hos kund i försvarsindustri.",
+                    "Drift av Sun Solaris, HP-UX och SGI IRIX."
+                ],
+                "en": [
+                    "Summer vacation replacement at avionics systems engineering customer.",
+                    "Sun Solaris, HP-UX and SGI IRIX."
+                ]
             },
             "start_date": "2003-06-24",
             "end_date": "2003-08-31",
@@ -308,15 +362,22 @@
         {
             "title": {
                 "sv": "Unix-tekniker",
-                "en": "Unix sysadmin"
+                "en": "Unix System Administrator"
             },
             "employer": {
                 "sv": "CSC Sverige AB",
-                "en": "CSV Sweden AB"
+                "en": "CSC Sweden AB"
             },
             "location": "Stockholm",
-            "description": {
-                "sv": "Sommarvikariat under psykologutbildningen."
+            "descriptions": {
+                "sv": [
+                    "Sommarvikariat hos kund i försvarsindustri.",
+                    "Drift av Sun Solaris, HP-UX och SGI IRIX."
+                ],
+                "en": [
+                    "Summer vacation replacement at avionics systems engineering customer.",
+                    "Sun Solaris, HP-UX and SGI IRIX."
+                ]
             },
             "start_date": "2002-07-01",
             "end_date": "2002-08-31",
@@ -334,8 +395,15 @@
                 "sv": "Itegra Secureguard AB",
                 "en": "Itegra Secureguard AB"
             },
-            "description": {
-                "sv": "Produktsupport och konsultuppdrag inom IT-säkerhet."
+            "descriptions": {
+                "sv": [
+                    "Konsultuppdrag inom IT-säkerhet.",
+                    "Installation av och support på Check Point FireWall-1, Nokia IP, RSA SecurID, m.fl."
+                ],
+                "en": [
+                    "Consulting in network security.",
+                    "Check Point FireWall-1 (certified), Nokia IP (certified), RSA SecurID, and others."
+                ]
             },
             "location": "Stockholm",
             "type": [
@@ -351,11 +419,22 @@
                 "en": "Technical Consultant"
             },
             "employer": {
-                "sv": "CSC Sverige AB",
-                "en": "CSC Sweden AB"
+                "sv": "Combitech Network AB/CSC Sverige AB",
+                "en": "Combitech Network AB/CSC Sweden AB"
             },
-            "description": {
-                "sv": "Drift och underhåll samt konsultuppdrag inom Unix-administration, nätverkskommunikation och IT-säkerhet."
+            "descriptions": {
+                "sv": [
+                    "Drift av Sun Solaris, HP-UX och SGI IRIX hos kund i försvarsindustri.",
+                    "Konsultuppdrag inom Unix-administration och nätverksäkerhet.",
+                    "Projektledare för upprättande av systemdokumentation hos kund.",
+                    "Combitech Network såldes av Saab Aerospace till CSC Sverige i juni 2000."
+                ],
+                "en": [
+                    "System administration of Sun Solaris, HP-UX and SGI IRIX at avionics systems engineering customer.",
+                    "Consulting in Unix system administration and network security.",
+                    "Project manager of system documentation project.",
+                    "Saab Aerospace sold Combitech Network to CSC Sweden in June 2000."
+                ]
             },
             "location": "Stockholm",
             "start_date": "1998-11-30",
@@ -374,8 +453,15 @@
                 "sv": "Delphi IT AB",
                 "en": "Delphi IT AB"
             },
-            "description": {
-                "sv": "Driftansvar för Delphi Economics IT-miljö i Uppsala och Stockholm. • Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS. • DNS, IGP."
+            "descriptions": {
+                "sv": [
+                    "Driftansvar för Delphi Economics IT-miljö i Uppsala och Stockholm.",
+                    "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl."
+                ],
+                "en": [
+                    "System administration of Delphi Economics digital infrastructure in Uppsala and Stockholm.",
+                    "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl scripting."
+                ]
             },
             "location": "Uppsala",
             "start_date": "1997-07-14",
@@ -394,8 +480,15 @@
                 "sv": "Institutet för byggdokumentation (BYGGDOK)",
                 "en": "The Swedish Institute of Building Documentation (BYGGDOK)"
             },
-            "description": {
-                "sv": "Systemadministration och användarstöd."
+            "descriptions": {
+                "sv": [
+                    "Systemadministration och användarstöd.",
+                    "Novell NetWare, Sun Solaris, Windows."
+                ],
+                "en": [
+                    "System administration and end user support.",
+                    "Novell NetWare, Sun Solaris, Windows."
+                ]
             },
             "location": "Stockholm",
             "start_date": "1997-03-17",
@@ -414,8 +507,15 @@
                 "sv": "JAK Medlemsbank",
                 "en": "JAK Member's Bank"
             },
-            "description": {
-                "sv": "Programutveckling, systemadministration och användarstöd."
+            "descriptions": {
+                "sv": [
+                    "Programutveckling, systemadministration och användarstöd.",
+                    "DOS, Windows, Novell Netware, Pascal/Delphi."
+                ],
+                "en": [
+                    "Proram development, system administration and end user support",
+                    "DOS, Windows, Novell Netware, Pascal/Delphi."
+                ]
             },
             "location": "Skövde",
             "start_date": "1992-04-09",
@@ -427,13 +527,22 @@
         },
         {
             "title": {
-                "sv": "Ungdomsledare och vik. kantor"
+                "sv": "Ungdomsledare och vik. kantor",
+                "en": "Youth Leader and Substitute Cantor"
             },
             "employer": {
-                "sv": "Falu kyrkliga samfällighet"
+                "sv": "Svenska kyrkan",
+                "en": "Church of Sweden"
             },
-            "description": {
-                "sv": "Arbete med Kyrkans unga (KU), konfirmander, barngrupper och barnkör."
+            "descriptions": {
+                "sv": [
+                    "Arbete med Kyrkans unga (KU), konfirmander och barngrupper.",
+                    "Barnkörledning och gudstjänstmusiker."
+                ],
+                "en": [
+                    "Church of Sweden Youth, confirmands and child groups.",
+                    "Children's choir and service musician."
+                ]
             },
             "location": "Falun",
             "start_date": "1996-05-01",
@@ -442,13 +551,22 @@
         },
         {
             "title": {
-                "sv": "Ungdomsledare och körledare"
+                "sv": "Ungdomsledare och körledare",
+                "en": "Youth Leader and Choir Leader"
             },
             "employer": {
-                "sv": "Dala-Järna och Vansbro kyrkliga allianskommitté"
+                "sv": "Dala-Järna och Vansbro kyrkliga allianskommitté",
+                "en": "Dala-Järna and Vansbro Church Alliance Committee"
             },
-            "description": {
-                "sv": "Ungdomsgrupper och ungdomskör."
+            "descriptions": {
+                "sv": [
+                    "Ungdomsgrupper.",
+                    "Ungdomskör."
+                ],
+                "en": [
+                    "Youth groups.",
+                    "Youth choir."
+                ]
             },
             "location": "Dala-Järna",
             "start_date": "1994-02-15",
