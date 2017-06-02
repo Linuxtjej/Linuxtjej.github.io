@@ -6,24 +6,25 @@ context_style=templates/context.tex
 latex_template=templates/latex-template.tex
 latex_header=templates/latex-header.tex
 pandoc_yaml=templates/pandoc.yaml
+data=data/cv.json
 
 #tmp_default: $(source)
 
 all: $(pdf) $(html)
 
-cv-sv.md: cv.json
+cv-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=recent --json=$< > $@
 
-cv-en.md: cv.json
+cv-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=recent --json=$< > $@
 
-cv-full-sv.md: cv.json
+cv-full-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=full --json=$< > $@
 
-cv-full-en.md: cv.json
+cv-full-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=full --json=$< > $@
 
-cv-it-sv.md: cv.json
+cv-it-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=it --json=$< > $@
 
 

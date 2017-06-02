@@ -43,7 +43,7 @@ else {
 
 sub read_json {
     local $/;
-    open( my $fh, '<', $_[0] );
+    open( my $fh, '<', $_[0] ) || die "Could not open $_[0]";
     return decode_json(<$fh>);
 }
 
@@ -187,7 +187,7 @@ sub language_skills {
 ### MAIN LOOP ###
 
 # Read CV as JSON
-my $cv = read_json("cv.json");
+my $cv = read_json($json);
 
 # Open output and ensure UTF-8
 my $fh = *STDOUT;
@@ -202,6 +202,7 @@ else {
     print $fh "title: $cv->{title}->{default}->{$lang}\n";
 }
 print $fh "author: $cv->{author}\n";
+
 # print $fh "date: ", strftime( "%Y-%m-%d", localtime ), "\n";
 print $fh "lang: $lang_bcp47\n";
 print $fh "...\n\n";
