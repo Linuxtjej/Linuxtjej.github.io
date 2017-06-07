@@ -1,4 +1,4 @@
-source=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md
+source=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md index.md
 html=$(patsubst %.md, %.html, $(source))
 pdf=$(patsubst %.md, %.pdf, $(source))
 css=templates/pandoc-cv.css
