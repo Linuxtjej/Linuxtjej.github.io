@@ -10,7 +10,7 @@ data=data/cv.json
 
 #tmp_default: $(source)
 
-all: $(pdf) $(html)
+all: $(source) $(pdf) $(html)
 
 cv-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=recent --json=$< > $@
