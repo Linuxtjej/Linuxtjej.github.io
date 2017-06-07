@@ -6,13 +6,16 @@ use JSON;
 use Getopt::Long;
 use IO::File;
 use POSIX qw(strftime);
+use File::Slurp;
 use Data::Dumper;
 
-my $lang            = 'sv';
-my $type            = 'full';
-my $json            = 'cv.json';
-my $importance      = 2;
-my $education_first = 0;
+my $lang                   = 'sv';
+my $type                   = 'full';
+my $json                   = 'cv.json';
+my $importance             = 2;
+my $education_first        = 0;
+my $job_descriptions       = 1;
+my $education_descriptions = 1;
 
 unless (
     GetOptions(
@@ -26,6 +29,13 @@ unless (
 {
     print STDERR "Invalid command line option.\n";
     exit 2;
+}
+
+# academic cv is special in several respects
+if ( $type eq 'academic' ) {
+    $education_first        = 1;
+    $education_descriptions = 0;
+    $job_descriptions       = 0;
 }
 
 # set full BCP 47 language codes for pandoc
@@ -102,22 +112,25 @@ sub items {
     $opt{sort_key} = "start_date" unless ( $opt{sort_key} );
     $opt{second}   = "employer"   unless ( $opt{second} );
 
+    my $mytype       = $opt{type}    ? $opt{type}    : $type;
+    my $heading_type = $opt{heading} ? $opt{heading} : $items_type;
+
     my $heading_done;
 
     # Items
     foreach my $item ( sort { $b->{ $opt{sort_key} } cmp $a->{ $opt{sort_key} } } @{ $cv->{$items_type} } ) {
 
-        # This entry should be printed if (1) $type equals any JSON type or
-        # (2) $type="full" and there is no JSON type OR there is no "meta" in
+        # This entry should be printed if (1) $mytype equals any JSON type or
+        # (2) $mytype="full" and there is no JSON type OR there is no "meta" in
         # JSON. And, for both 1 and 2, (3) importance is not set or lower than
         # threshold.
         next
-            unless ( ( $item->{type} && grep( /^$type$/, @{ $item->{type} } ) || ( $type eq "full" && !$item->{meta} ) ) )
+            unless ( ( $item->{type} && grep( /^$mytype$/, @{ $item->{type} } ) || ( $mytype eq "full" && !$item->{meta} ) ) )
             && ( !$item->{importance} || $item->{importance} <= $importance );
 
         # Heading
         unless ($heading_done) {
-            print $fh "# ", $cv->{ $items_type . "_heading" }->{$lang}, "\n\n";
+            print $fh "# ", $cv->{ $heading_type . "_heading" }->{$lang}, "\n\n";
             $heading_done = 1;
         }
 
@@ -166,7 +179,7 @@ sub items {
         $s .= ".\n\n" if ($s);
 
         # description (if there is one)
-        $s .= description($item);
+        $s .= description($item) if ( $opt{descriptions} );
 
         # print indented
         print $fh indent($s), "\n";
@@ -211,26 +224,75 @@ print $fh "...\n\n";
 print $fh $cv->{preamble}->{all}->{$lang}   if ( $cv->{preamble}->{all}->{$lang} );
 print $fh $cv->{preamble}->{$type}->{$lang} if ( $cv->{preamble}->{$type}->{$lang} );
 
-# Education and previous positions
-if ($education_first) {
-    items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1 );
-    items( "positions", $cv, $fh, second => 'employer' );
+# # Education and previous positions
+# if ($education_first) {
+#     items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1, descriptions => $education_descriptions );
+#     items( "positions", $cv, $fh, second => 'employer', descriptions => $education_descriptions );
+# }
+
+# # Previous positions and education
+# else {
+#     items( "positions", $cv, $fh, second => 'employer' );
+#     items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1 );
+# }
+
+# Publications and teaching and skills
+if ( $type eq 'academic' ) {
+
+    # Education
+    items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1, descriptions => 0 );
+
+    # Positions
+    items( "positions", $cv, $fh, second => 'employer', heading => 'academic_positions', descriptions => 0 );
+
+    # Publications
+    print $fh read_file( "publications-$lang.md", binmode => ':utf8' );
+    print $fh "\n";
+
+    # Teaching
+    print $fh read_file( "teaching-$lang.md", binmode => ':utf8' );
+    print $fh "\n";
+
+    # Skills
+    print $fh "# $cv->{skills_heading}->{$lang}\n\n";
+    foreach my $skill ( @{ $cv->{skills} } ) {
+        print $fh "* $skill->{$lang}\n";
+    }
+    print "\n";
+
+    # Language skills
+    language_skills( $cv, $fh );
+
+    # Other work experience
+    print $fh "\n";
+    items( "positions", $cv, $fh, second => 'employer', type => 'academic_other', heading => 'academic_other', descriptions => 1 );
+
+    # Other Education
+    items( "other_education", $cv, $fh, second => 'school', sort_key => 'end_date' );
+
+    # Other stuff
+    items( "other", $cv, $fh, second => 'subtitle' );
 }
 
-# Previous positions and education
+# Functional CV
 else {
-    items( "positions", $cv, $fh, second => 'employer' );
-    items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1 );
+
+    # Positions
+    items( "positions", $cv, $fh, second => 'employer', descriptions => 1 );
+
+    # Education
+    items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1, descriptions => 1 );
+
+    # Other Education
+    items( "other_education", $cv, $fh, second => 'school', sort_key => 'end_date' );
+
+    # Other stuff
+    items( "other", $cv, $fh, second => 'subtitle' );
+
+    # Language skills
+    language_skills( $cv, $fh );
+
 }
-
-# Other Education
-items( "other_education", $cv, $fh, second => 'school', sort_key => 'end_date' );
-
-# Other stuff
-items( "other", $cv, $fh, second => 'subtitle' );
-
-# Language skills
-language_skills( $cv, $fh );
 
 # Date
 #print $fh "*Uppdaterad ", strftime( "%Y-%m-%d", localtime ), "*.\n";

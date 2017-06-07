@@ -1,4 +1,4 @@
-source=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-it-sv.md
+source=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md
 html=$(patsubst %.md, %.html, $(source))
 pdf=$(patsubst %.md, %.pdf, $(source))
 css=templates/pandoc-cv.css
@@ -24,14 +24,11 @@ cv-full-sv.md: $(data)
 cv-full-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=full --json=$< > $@
 
-cv-it-sv.md: $(data)
-	perl scripts/json2cv.pl --lang=sv --type=it --json=$< > $@
+cv-academic-sv.md: $(data) publications-sv.md teaching-sv.md
+	perl scripts/json2cv.pl --lang=sv --type=academic --json=$< > $@
 
-# publications-sv.md:
-# 	perl scripts/bib2markdown.pl --lang=sv-SE --csl=apa > $@
-
-# publications-en.md:
-# 	perl scripts/bib2markdown.pl --lang=en-US --csl=apa > $@
+cv-academic-en.md: $(data) publications-en.md teaching-en.md
+	perl scripts/json2cv.pl --lang=en --type=academic --json=$< > $@
 
 %.pdf: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \

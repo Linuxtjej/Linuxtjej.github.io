@@ -122,6 +122,14 @@
         "en": "Work Experience",
         "sv": "Arbetslivserfarenhet"
     },
+    "academic_positions_heading": {
+        "en": "Academic Positions",
+        "sv": "Anställningar"
+    },
+    "academic_other_heading": {
+        "en": "Prior Work Experience",
+        "sv": "Övrig yrkeserfarenhet"
+    },
     "positions": [
         {
             "title": {
@@ -222,10 +230,12 @@
             "start_date": "2004",
             "end_date": "2008",
             "description": {
-                "sv": "Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus."
+                "sv": "Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus.",
+                "en": "Summer jobs during psychology training, including addiction treatment assistant at the Municipality of Umeå and mental health assistant at the Psychiatric Ward, University Hospital of Umeå."
             },
             "type": [
-                "recent"
+                "recent",
+                "academic_other"
             ],
             "meta": 1
         },
@@ -233,10 +243,12 @@
             "start_date": "1992",
             "end_date": "2003",
             "description": {
-                "sv": "Olika anställningar inom IT: drift av Unix-system, nätverk, IT-säkerhet och programmering."
+                "sv": "Olika anställningar inom IT: drift av Unix-system, nätverk, IT-säkerhet och programmering.",
+                "en": "Various IT positions: Unix-administration, network administration, IT security and programming."
             },
             "type": [
-                "recent"
+                "recent",
+                "academic_other"
             ],
             "meta": 1
         },
@@ -679,6 +691,28 @@
                 "sv": "Grundläggande",
                 "en": "Basic"
             }
+        }
+    ],
+    "skills_heading": {
+        "sv": "Tekniskt kunnande",
+        "en": "Technical Skills"
+    },
+    "skills": [
+        {
+            "sv": "Multivariat analys, SEM och programmering i statistikprogrammet R.",
+            "en": "Multivariate analysis, SEM and programming in the R Statistics Package."
+        },
+        {
+            "sv": "SPSS syntax.",
+            "en": " SPSS syntax."
+        },
+        {
+            "sv": "Programmering, framför allt i Perl, men också Python, Java och C.",
+            "en": "Programming, mainly in Perl, but also Python, Java and C."
+        },
+        {
+            "sv": "Databasadministration och SQL.",
+            "en": "Database administration and SQL."
         }
     ],
     "publications_heading": {
