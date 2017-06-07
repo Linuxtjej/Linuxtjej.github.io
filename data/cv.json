@@ -680,5 +680,21 @@
                 "en": "Basic"
             }
         }
-    ]
+    ],
+    "publications_heading": {
+        "sv": "Publikationer och presentationer",
+        "en": "Publications and Presentations"
+    },
+    "publications_phdthesis_heading": {
+        "sv": "Doktorsavhandling",
+        "en": "Ph.D. Thesis"
+    },
+    "publications_articles_heading": {
+        "sv": "Artiklar",
+        "en": "Articles"
+    },
+    "publications_conferences_heading": {
+        "sv": "Presentationer på vetenskapliga konferenser",
+        "en": "Conference Presentations"
+    }
 }

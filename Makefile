@@ -27,6 +27,11 @@ cv-full-en.md: $(data)
 cv-it-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=it --json=$< > $@
 
+# publications-sv.md:
+# 	perl scripts/bib2markdown.pl --lang=sv-SE --csl=apa > $@
+
+# publications-en.md:
+# 	perl scripts/bib2markdown.pl --lang=en-US --csl=apa > $@
 
 %.pdf: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \
