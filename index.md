@@ -10,6 +10,6 @@ title: The Github Home of Stefan Björk
 And my functional CV:
 
 * Curriculum Vitæ (in [English](cv-en.html) and [Swedish](cv-sv.html)).
-* Complete Curriculum Vitæ (in [English](cv-full-en.html) and [Swedish](cv-full-sv.html).
+* Complete Curriculum Vitæ (in [English](cv-full-en.html) and [Swedish](cv-full-sv.html)).
 
 For everything else, see my blog [Dr. Björks anteckningar](https://fenomenologen.se) (in Swedish).
