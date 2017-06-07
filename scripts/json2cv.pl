@@ -11,7 +11,7 @@ use Data::Dumper;
 
 my $lang                   = 'sv';
 my $type                   = 'full';
-my $json                   = 'cv.json';
+my $json                   = 'data/cv.json';
 my $importance             = 2;
 my $education_first        = 0;
 my $job_descriptions       = 1;
@@ -197,6 +197,46 @@ sub language_skills {
     }
 }
 
+# A generalized function for writing items
+sub itemize {
+    my ($cv, %opt) = @_;
+
+    my $level = $opt{level} ? $opt{level} : 1;
+    my $list_type = $cv->{list_type} ? $cv->{list_type} : $opt{list_type};
+    my @field_order = $cv->{field_order} ? @{$cv->{field_order}} : @{$opt{field_order}};
+
+    # collect into string
+    my $s = '';
+
+    # heading
+    if ($cv->{heading}->{default}->{$lang}) {
+        $s .= "#" x $level . " $cv->{heading}->{default}->{$lang}\n\n";
+    }
+
+    # items
+    foreach my $item (@{$cv->{items}}) {
+        # recurse if this is also a list
+        if ($item->{items}) {
+            $s .= itemize( $item, level => $level + 1, field_order => \@field_order, list_type => $list_type );
+        } else {
+            my @par;
+
+            # first paragraph is composed of specified fields, first element is bold
+            my @tmp = map { $item->{$_}->{$lang}} @field_order;
+            $tmp[0] = "**$tmp[0]**" if ($#tmp > 0);
+            push @par, join( ", ", @tmp );
+
+            # output according to list_type
+            if ($list_type eq 'plain') {
+                $s .= join( "\n\n", @par) . "\n\n";
+            } elsif ($list_type eq 'itemize') {
+                $s .= "* " . join( "\n\n", @par ) . "\n";
+            }      
+        }
+    }
+    return $s;
+}
+
 ### MAIN LOOP ###
 
 # Read CV as JSON
@@ -235,6 +275,10 @@ print $fh $cv->{preamble}->{$type}->{$lang} if ( $cv->{preamble}->{$type}->{$lan
 #     items( "positions", $cv, $fh, second => 'employer' );
 #     items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1 );
 # }
+
+print $fh itemize( $cv->{publications});
+print $fh itemize( $cv->{skills});
+exit;
 
 # Publications and teaching and skills
 if ( $type eq 'academic' ) {

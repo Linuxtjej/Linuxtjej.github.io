@@ -697,24 +697,44 @@
         "sv": "Tekniskt kunnande",
         "en": "Technical Skills"
     },
-    "skills": [
-        {
-            "sv": "Multivariat analys, SEM och programmering i statistikprogrammet R.",
-            "en": "Multivariate analysis, SEM and programming in the R Statistics Package."
+    "skills": {
+        "heading": {
+            "default": {
+                "sv": "Tekniskt kunnande",
+                "en": "Technical Skills"
+            }
         },
-        {
-            "sv": "SPSS syntax.",
-            "en": " SPSS syntax."
-        },
-        {
-            "sv": "Programmering, framför allt i Perl, men också Python, Java och C.",
-            "en": "Programming, mainly in Perl, but also Python, Java and C."
-        },
-        {
-            "sv": "Databasadministration och SQL.",
-            "en": "Database administration and SQL."
-        }
-    ],
+        "list_type": "itemize",
+        "field_order": [
+            "skill"
+        ],
+        "items": [
+            {
+                "skill": {
+                    "sv": "Multivariat analys, SEM och programmering i statistikprogrammet R.",
+                    "en": "Multivariate analysis, SEM and programming in the R Statistics Package."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "SPSS syntax.",
+                    "en": " SPSS syntax."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "Programmering, framför allt i Perl, men också Python, Java och C.",
+                    "en": "Programming, mainly in Perl, but also Python, Java and C."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "Databasadministration och SQL.",
+                    "en": "Database administration and SQL."
+                }
+            }
+        ]
+    },
     "publications_heading": {
         "sv": "Publikationer och presentationer",
         "en": "Publications and Presentations"
@@ -732,19 +752,18 @@
         "en": "Conference Presentations"
     },
     "publications": {
-        "class": "publications",
         "heading": {
             "default": {
                 "sv": "Publikationer och presentationer",
                 "en": "Publications and Presentations"
             }
         },
+        "list_type": "plain",
         "field_order": [
             "entry"
         ],
         "items": [
             {
-                "class": "publication_list",
                 "heading": {
                     "default": {
                         "sv": "Doktorsavhandling",
@@ -753,7 +772,6 @@
                 },
                 "items": [
                     {
-                        "class": "publication_item",
                         "entry": {
                             "sv": "Björk, S. (2016). *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS). <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>",
                             "en": "Björk, S. (2016). *Män möter mödravård: Om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of 'We' in the Encounter With Prenatal, Delivery and Postnatal Care]\\ (Ph.D. thesis). Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS). Available at <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
@@ -762,7 +780,6 @@
                 ]
             },
             {
-                "class": "publication_list",
                 "heading": {
                     "default": {
                         "sv": "Artiklar",
@@ -771,7 +788,6 @@
                 },
                 "items": [
                     {
-                        "class": "publication_item",
                         "entry": {
                             "sv": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>",
                             "en": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>"
@@ -780,7 +796,6 @@
                 ]
             },
             {
-                "class": "publication_list",
                 "heading": {
                     "default": {
                         "sv": "Presentationer på vetenskapliga konferenser",
@@ -789,14 +804,12 @@
                 },
                 "items": [
                     {
-                        "class": "publication_item",
                         "entry": {
                             "sv": "Björk, S. (2013). *Living the 'New father': Men's parenting and masculinities in the Nordic countries*. Presenterad vid 3rd Global Conference on Femininities and Masculinities, 14--21 maj, Prag, Tjeckien. <https://www.academia.edu/2938364>",
                             "en": "Björk, S. (2013). *Living the 'new father': Men’s parenting and masculinities in the Nordic countries*. Presented at the 3rd Global Conference on Femininities and Masculinities, May 14--21, Prague, Czech Republic. Available at <https://www.academia.edu/2938364>"
                         }
                     },
                     {
-                        "class": "publication_item",
                         "entry": {
                             "sv": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Presenterad vid Thinking Critically about Psychology: Power, Gender and Psychological Practice, 31 maj, Umeå. <https://www.academia.edu/3635342>",
                             "en": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Paper presented at Thinking Critically about Psychology: Power, Gender and Psychological Practice, May 31, Umeå, Sweden. Available at <https://www.academia.edu/3635342>"
