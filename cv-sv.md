@@ -45,7 +45,7 @@ lang: sv-SE
 2004--2008
 :   Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus.
 
-1992--2002
+1992--2003
 :   Olika anställningar inom IT: drift av Unix-system, nätverk, IT-säkerhet och programmering.
 
 # Övrig utbildning
