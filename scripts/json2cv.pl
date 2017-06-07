@@ -92,6 +92,17 @@ sub indent {
     return join( "\n", @lines ) . "\n";
 }
 
+sub indent_par {
+    my ( $array_ref, $first, $indent ) = @_;
+    $first  = ':   ' unless ($first);
+    $indent = '    ' unless ($indent);
+    for my $i ( 0 .. $#$array_ref ) {
+        next unless ( $array_ref->[$i] );
+        $array_ref->[$i] = ( $i == 0 ? $first : $indent ) . $array_ref->[$i];
+    }
+    return $array_ref;
+}
+
 # Format description in a nice way (reuse code)
 sub description {
     my $item = shift;
@@ -199,39 +210,117 @@ sub language_skills {
 
 # A generalized function for writing items
 sub itemize {
-    my ($cv, %opt) = @_;
+    my ( $cv, %opt ) = @_;
 
-    my $level = $opt{level} ? $opt{level} : 1;
-    my $list_type = $cv->{list_type} ? $cv->{list_type} : $opt{list_type};
-    my @field_order = $cv->{field_order} ? @{$cv->{field_order}} : @{$opt{field_order}};
+    my $level       = $opt{level}        ? $opt{level}             : 1;
+    my $list_type   = $cv->{list_type}   ? $cv->{list_type}        : $opt{list_type};
+    my $sort_key    = $cv->{sort_key}    ? $cv->{sort_key}         : $opt{sort_key};
+    my $this_type   = $opt{type}         ? $opt{type}              : $type;
+    my @field_order = $cv->{field_order} ? @{ $cv->{field_order} } : @{ $opt{field_order} };
 
     # collect into string
     my $s = '';
 
-    # heading
-    if ($cv->{heading}->{default}->{$lang}) {
-        $s .= "#" x $level . " $cv->{heading}->{default}->{$lang}\n\n";
-    }
+    # flag for tracking printing of heading
+    my $heading_done;
 
     # items
-    foreach my $item (@{$cv->{items}}) {
+    foreach my $item ( sort { $b->{$sort_key} cmp $a->{$sort_key} } @{ $cv->{items} } ) {
+
+        # This entry should be printed if (1) $mytype equals any JSON type or
+        # (2) $mytype="full" and there is no JSON type OR there is no "meta" in
+        # JSON. And, for both 1 and 2, (3) importance is not set or lower than
+        # threshold.
+        next
+            unless ( ( $item->{type} && grep( /^$this_type$/, @{ $item->{type} } ) || ( $this_type eq "full" && !$item->{meta} ) ) )
+            && ( !$item->{importance} || $item->{importance} <= $importance );
+
+        # heading
+        unless ($heading_done) {
+            if ( $cv->{heading}->{default}->{$lang} ) {
+                $s .= "#" x $level . " $cv->{heading}->{default}->{$lang}\n\n";
+            }
+            $heading_done = 1;
+        }
+
         # recurse if this is also a list
-        if ($item->{items}) {
+        if ( $item->{items} ) {
             $s .= itemize( $item, level => $level + 1, field_order => \@field_order, list_type => $list_type );
-        } else {
+        }
+        else {
             my @par;
 
             # first paragraph is composed of specified fields, first element is bold
-            my @tmp = map { $item->{$_}->{$lang}} @field_order;
-            $tmp[0] = "**$tmp[0]**" if ($#tmp > 0);
-            push @par, join( ", ", @tmp );
+            my @tmp = grep $_, map { $item->{$_}->{$lang} } @field_order;
+            if ( scalar @tmp > 1 ) {
+                $tmp[0] = "**$tmp[0]**";
+                push @par, join( ", ", @tmp ) . ".";
+            }
+            elsif ( scalar @tmp == 1 ) {
+                push @par, @tmp;
+            }
 
-            # output according to list_type
-            if ($list_type eq 'plain') {
-                $s .= join( "\n\n", @par) . "\n\n";
-            } elsif ($list_type eq 'itemize') {
-                $s .= "* " . join( "\n\n", @par ) . "\n";
-            }      
+            # description
+            if ( $item->{descriptions}->{$lang} ) {
+                push @par, "" if (@par);
+                push @par, "  - $_" foreach ( @{ $item->{descriptions}->{$lang} } );
+            }
+            elsif ( $item->{description}->{$lang} ) {
+                push @par, "" if (@par);
+                push @par, "$item->{description}->{$lang}";
+            }
+
+            # plain list
+            if ( $list_type eq 'plain' ) {
+                $s .= join( "\n\n", @par ) . "\n\n";
+            }
+
+            # itemized list
+            elsif ( $list_type eq 'itemize' ) {
+                indent_par( \@par, "  * ", "    " );
+                $s .= join( "\n", @par ) . "\n";
+            }
+
+            # a "dated" list (this is the default)
+            else {
+
+                # date (year or range)
+                my $year_or_range;
+                my ( $start, $end ) = ( $item->{start_date}, $item->{end_date} );
+
+                # use year part only
+                if ( $start && $start =~ m/^(\d{4})/ ) {
+                    $start = $1;
+                }
+                if ( $end && $end =~ m/^(\d{4})/ ) {
+                    $end = $1;
+                }
+
+                # create range or something
+                if ( $start && $end ) {
+                    if ( $start eq $end ) {
+                        $year_or_range = "$end";
+                    }
+                    else {
+                        $year_or_range = "$start--$end";
+                    }
+                }
+                elsif ($end) {
+                    $year_or_range = $end;
+                }
+                elsif ($start) {
+                    $year_or_range = "$start--";
+                }
+                else {
+                    $year_or_range = "NO DATE";
+                }
+
+                indent_par( \@par, ":    ", "    " );
+
+                $s .= $year_or_range . "\n";
+                $s .= join( "\n", @par ) . "\n\n";
+            }
+
         }
     }
     return $s;
@@ -276,8 +365,10 @@ print $fh $cv->{preamble}->{$type}->{$lang} if ( $cv->{preamble}->{$type}->{$lan
 #     items( "education", $cv, $fh, second => 'school', sort_key => 'end_date', year => 1 );
 # }
 
-print $fh itemize( $cv->{publications});
-print $fh itemize( $cv->{skills});
+print $fh itemize( $cv->{positions} );
+print $fh itemize( $cv->{education} );
+print $fh itemize( $cv->{publications} );
+print $fh itemize( $cv->{skills} );
 exit;
 
 # Publications and teaching and skills
