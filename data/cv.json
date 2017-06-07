@@ -739,7 +739,7 @@
                 "en": "Publications and Presentations"
             }
         },
-        "format": [
+        "field_order": [
             "entry"
         ],
         "items": [
