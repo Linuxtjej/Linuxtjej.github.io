@@ -10,6 +10,8 @@ title: The Github Home of Stefan Björk
 And my functional CV:
 
 * [Curriculum Vitæ](cv-sv.html) (in Swedish)
-* [Curriculum Vitæ 1992--2003](cv-1992-2003-sv.html) (in Swedish)
+* [Curriculum Vitæ](cv-en.html) (in English)
+* [Curriculum Vitæ (fullständigt)](cv-full-sv.html) (in Swedish)
+* [Curriculum Vitæ (complete)](cv-full-sv.html) (in English)
 
 For everything else, see my blog [Dr. Björks anteckningar](https://fenomenologen.se) (in Swedish).
