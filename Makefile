@@ -26,10 +26,10 @@ cv-full-sv.md: $(data)
 cv-full-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=full --json=$< > $@
 
-cv-academic-sv.md: $(data) publications-sv.md teaching-sv.md
+cv-academic-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=academic --json=$< > $@
 
-cv-academic-en.md: $(data) publications-en.md teaching-en.md
+cv-academic-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=academic --json=$< > $@
 
 %.pdf: %.md $(latex_header)
