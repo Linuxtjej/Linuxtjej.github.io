@@ -15,720 +15,977 @@
             "sv": "Under perioden 1992--2003 arbetade jag med IT, framför allt drift av Unix-system, nätverk och IT-säkerhet.\n\n"
         }
     },
-    "education_heading": {
-        "en": "Education",
-        "sv": "Utbildning"
-    },
-    "education": [
-        {
-            "title": {
-                "en": "Ph.D. in Psychology",
-                "sv": "Fil. dr. i psykologi"
-            },
-            "school": {
-                "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
-                "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
-            },
-            "description": {
-                "sv": "Avhandlingstitel: *[Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)*.",
-                "en": "Thesis title: *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of \"We\" in the Encounter With Prenatal, Delivery and Postnatal Care]."
-            },
-            "end_date": "2016-10-25",
-            "importance": 1,
-            "type": [
-                "academic",
-                "psychologist",
-                "recent"
-            ]
-        },
-        {
-            "title": {
-                "en": "M.Sc. in Psychology",
-                "sv": "Psykologexamen"
-            },
-            "school": {
-                "en": "Umeå University, Department of Psychology",
-                "sv": "Umeå universitet, Institutionen för psykologi"
-            },
-            "description": {
-                "sv": "Examensuppsats: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)*.",
-                "en": "Master's thesis: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)* [Adaption of the Addiction Severity Index (ASI) Clinical Index to a Swedish context]."
-            },
-            "end_date": "2009-06-09",
-            "importance": 1,
-            "type": [
-                "academic",
-                "psychologist",
-                "recent"
-            ]
-        },
-        {
-            "title": {
-                "en": "Natural Sciences Program",
-                "sv": "Naturvetenskaplig linje"
-            },
-            "school": {
-                "en": "Katedralskolan (upper secondary school)",
-                "sv": "Katedralskolan"
-            },
-            "location": "Skara",
-            "end_date": "1991",
-            "start_date": "1988",
-            "importance": 2,
-            "type": [
-                "recent",
-                "psychologist"
-            ]
-        }
-    ],
-    "other_education_heading": {
-        "en": "Other Education",
-        "sv": "Övrig utbildning"
-    },
-    "other_education": [
-        {
-            "title": {
-                "en": "Music Programme",
-                "sv": "Musiklinjen"
-            },
-            "school": {
-                "en": "Folkuniversitetet",
-                "sv": "Folkuniversitetet"
-            },
-            "descriptions": {
-                "sv": [
-                    "Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.",
-                    "Arrangering och komposition.",
-                    "Ensemblespel samt individuell instrument- och sångträning."
-                ],
-                "en": [
-                    "Music theory and history, ear training.",
-                    "Arrangement and composition.",
-                    "Ensemble playing and individual instrument and vocal training."
-                ]
-            },
-            "location": "Umeå",
-            "start_date": "2002",
-            "end_date": "2003",
-            "importance": 2,
-            "type": [
-                "academic",
-                "psychologist",
-                "recent"
-            ]
-        }
-    ],
-    "positions_heading": {
-        "en": "Work Experience",
-        "sv": "Arbetslivserfarenhet"
-    },
-    "academic_positions_heading": {
-        "en": "Academic Positions",
-        "sv": "Anställningar"
-    },
-    "academic_other_heading": {
-        "en": "Prior Work Experience",
-        "sv": "Övrig yrkeserfarenhet"
-    },
-    "positions": [
-        {
-            "title": {
-                "en": "Doctoral Student",
-                "sv": "Doktorand"
-            },
-            "employer": {
-                "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
-                "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
-            },
-            "descriptions": {
-                "sv": [
-                    "Planering och genomförande av forskningsprojekt.",
-                    "Problemanalys och formulering av forskningsfråga.",
-                    "Informationssökning, inläsning på samt kritisk granskning av tidigare forskning.",
-                    "Rekrytering av forskningsdeltagare och genomförande av intervjuer.",
-                    "Akademiskt skrivande och rapportering av forskningsresultat.",
-                    "Undervisning på psykologprogrammet och handledning av examensuppsatser."
-                ],
-                "en": [
-                    "Planning and implementation of research project.",
-                    "Problem analysis and formulation of research question.",
-                    "Search and critical review of previous research.",
-                    "Recruitment of research participants and conducting interviews.",
-                    "Academic writing and reporting of research results.",
-                    "Teaching of psychology and supervision of master's theses."
-                ]
-            },
-            "start_date": "2011-01-01",
-            "end_date": "2016-10-25",
-            "importance": 1,
-            "type": [
-                "academic",
-                "psychologist",
-                "recent"
-            ],
-            "comment": "Doktorand, Umeå universitet, Institutionen för psykologi, 2011-01-01 till 2016-10-25 (5 år, 9 månader, 25 dagar)."
-        },
-        {
-            "title": {
-                "en": "Assistant Lecturer",
-                "sv": "Universitetsadjunkt"
-            },
-            "employer": {
-                "en": "Umeå University, Department of Psychology",
-                "sv": "Umeå universitet, Institutionen för psykologi"
-            },
-            "descriptions": {
-                "sv": [
-                    "Undervisning huvudsakligen i statistik, forskningsmetod och vetenskapsteori.",
-                    "Kursansvarig för psykologprogrammets metod- och statistikkurs på termin 1: planering, arbetsfördelning, schemaläggning, examination."
-                ],
-                "en": [
-                    "Teaching, mainly statistics, research methods and theory of science.",
-                    "Course coordinator for the research methods and statistics course for first year psychology students."
-                ]
-            },
-            "start_date": "2009-01-01",
-            "end_date": "2010-12-31",
-            "importance": 1,
-            "type": [
-                "academic",
-                "recent",
-                "psychologist"
-            ],
-            "comment": "Universitetsadjunkt, Umeå universitet, Institutionen för psykologi, 2009-01-01 till 2010-12-31 (2 år)."
-        },
-        {
-            "title": {
-                "en": "Research Assistant",
-                "sv": "Forskningsassistent"
-            },
-            "employer": {
-                "en": "Umeå University, Department of Psychology",
-                "sv": "Umeå universitet, Institutionen för psykologi"
-            },
-            "descriptions": {
-                "sv": [
-                    "Statistisk analys av ASI-intervjuns (Addiction Severity Index) prediktiva styrka.",
-                    "Psykometrisk utvärdering av ASI-intervjuns kliniska index."
-                ],
-                "en": [
-                    "Statistical analysis of the predictive power of the Addiction Severity Index (ASI).",
-                    "Psychometric evaluation of the Clinical Index of the ASI."
-                ]
-            },
-            "start_date": "2008-09-01",
-            "end_date": "2008-12-31",
-            "importance": 1,
-            "type": [
-                "academic",
-                "recent",
-                "psychologist"
-            ],
-            "comment": "Forskningsamanuens, Umeå universitet, Institutionen för psykologi, 2008-09-01 till 2008-12-31 (4 månader)."
-        },
-        {
-            "start_date": "2004",
-            "end_date": "2008",
-            "description": {
-                "sv": "Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus.",
-                "en": "Summer jobs during psychology training, including addiction treatment assistant at the Municipality of Umeå and mental health assistant at the Psychiatric Ward, University Hospital of Umeå."
-            },
-            "type": [
-                "recent",
-                "academic_other"
-            ],
-            "meta": 1
-        },
-        {
-            "start_date": "1992",
-            "end_date": "2003",
-            "description": {
-                "sv": "Olika anställningar inom IT: drift av Unix-system, nätverk, IT-säkerhet och programmering.",
-                "en": "Various IT positions: Unix-administration, network administration, IT security and programming."
-            },
-            "type": [
-                "recent",
-                "academic_other"
-            ],
-            "meta": 1
-        },
-        {
-            "title": {
-                "sv": "Behandlingsassisstent",
-                "en": "Treatment Assistant"
-            },
-            "employer": {
-                "sv": "Umeå kommun",
-                "en": "Umeå Municipality"
-            },
-            "descriptions": {
-                "sv": [
-                    "Sommarvikariat under psykologutbildningen.",
-                    "Stödboendet Bryggan för vuxna med missbruks- och beroendeproblematik."
-                ],
-                "en": [
-                    "Summer vacation replacement during my psychology studies.",
-                    "Voluntary institutional care for adults with drug abuse or addiction."
-                ]
-            },
-            "start_date": "2008-06-01",
-            "end_date": "2008-08-31",
-            "importance": 2,
-            "type": [
-                "psychologist"
-            ],
-            "comment": "Behandlingsassistent, Umeå kommun, sommaren 2008. Saknar intyg. Behöver söka efter anställningskontrakt."
-        },
-        {
-            "title": {
-                "sv": "Psykologpraktik"
-            },
-            "employer": {
-                "sv": "Västerbottens läns landsting, Vuxenhabiliteringen, Råd och stöd"
-            },
-            "location": "Umeå",
-            "start_date": "2007-02-20",
-            "end_date": "2007-06-02",
-            "importance": 3,
-            "comment": "Psykologpraktik, Råd och stöd, 2007-02-20 till 2007-06-02 (3 månader, 14 dagar)."
-        },
-        {
-            "title": {
-                "sv": "Mentalskötare",
-                "en": "Psychiatric Aide"
-            },
-            "employer": {
-                "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
-                "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
-            },
-            "location": "Umeå",
-            "descriptions": {
-                "sv": [
-                    "Sommarvikariat under psykologutbildningen."
-                ],
-                "en": [
-                    "Summer vacation replacement during my psychology studies."
-                ]
-            },
-            "start_date": "2005-05-20",
-            "end_date": "2005-08-14",
-            "importance": 2,
-            "type": [
-                "psychologist"
-            ],
-            "comment": "Vårdbiträde/mentalskötare, Psykiatriska kliniken, Norrlands universitetssjukhus, 2004-07-12 till 2004-09-26 (2 månader, 15 dagar), 2005-05-20 till 2005-08-14 (2 månader, 26 dagar), 2005-08-25 till 2006-01-31 (5 månader, 7 dagar), totalt 468,2 timmar."
-        },
-        {
-            "title": {
-                "sv": "Vårdbiträde",
-                "en": "Nurses's Assistant"
-            },
-            "employer": {
-                "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
-                "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
-            },
-            "location": "Umeå",
-            "descriptions": {
-                "sv": [
-                    "Sommarvikariat under psykologutbildningen."
-                ],
-                "en": [
-                    "Summer vacation replacement during my psychology studies."
-                ]
-            },
-            "start_date": "2004-07-12",
-            "end_date": "2004-09-26",
-            "importance": 2,
-            "type": [
-                "psychologist"
-            ]
-        },
-        {
-            "title": {
-                "sv": "Unix-tekniker",
-                "en": "Unix System Administrator"
-            },
-            "employer": {
-                "sv": "CSC Sverige AB",
-                "en": "CSC Sweden AB"
-            },
-            "location": "Stockholm",
-            "descriptions": {
-                "sv": [
-                    "Sommarvikariat hos kund i försvarsindustri.",
-                    "Drift av Sun Solaris, HP-UX och SGI IRIX."
-                ],
-                "en": [
-                    "Summer vacation replacement at avionics systems engineering customer.",
-                    "Sun Solaris, HP-UX and SGI IRIX."
-                ]
-            },
-            "start_date": "2003-06-24",
-            "end_date": "2003-08-31",
-            "importance": 2,
-            "type": [
-                "it"
-            ],
-            "comment": "1. Unix-tekniker, CSC Sverige AB, 2002-07-01 till 2002-08-31 (2 månader), 2003-06-24 till 2003-08-31 (2 månader, 8 dagar)."
-        },
-        {
-            "title": {
-                "sv": "Unix-tekniker",
-                "en": "Unix System Administrator"
-            },
-            "employer": {
-                "sv": "CSC Sverige AB",
-                "en": "CSC Sweden AB"
-            },
-            "location": "Stockholm",
-            "descriptions": {
-                "sv": [
-                    "Sommarvikariat hos kund i försvarsindustri.",
-                    "Drift av Sun Solaris, HP-UX och SGI IRIX."
-                ],
-                "en": [
-                    "Summer vacation replacement at avionics systems engineering customer.",
-                    "Sun Solaris, HP-UX and SGI IRIX."
-                ]
-            },
-            "start_date": "2002-07-01",
-            "end_date": "2002-08-31",
-            "type": [
-                "it"
-            ],
-            "importance": 2
-        },
-        {
-            "title": {
-                "sv": "Säkerhetskonsult",
-                "en": "Security Engineer"
-            },
-            "employer": {
-                "sv": "Itegra Secureguard AB",
-                "en": "Itegra Secureguard AB"
-            },
-            "descriptions": {
-                "sv": [
-                    "Konsultuppdrag inom IT-säkerhet.",
-                    "Installation av och support på Check Point FireWall-1, Nokia IP, RSA SecurID, m.fl."
-                ],
-                "en": [
-                    "Consulting in network security.",
-                    "Check Point FireWall-1 (certified), Nokia IP (certified), RSA SecurID, and others."
-                ]
-            },
-            "location": "Stockholm",
-            "type": [
-                "it"
-            ],
-            "importance": 1,
-            "start_date": "2001-04-01",
-            "end_date": "2002-05-28"
-        },
-        {
-            "title": {
-                "sv": "Teknisk konsult",
-                "en": "Technical Consultant"
-            },
-            "employer": {
-                "sv": "Combitech Network AB/CSC Sverige AB",
-                "en": "Combitech Network AB/CSC Sweden AB"
-            },
-            "descriptions": {
-                "sv": [
-                    "Drift av Sun Solaris, HP-UX och SGI IRIX hos kund i försvarsindustri.",
-                    "Konsultuppdrag inom Unix-administration och nätverksäkerhet.",
-                    "Projektledare för upprättande av systemdokumentation hos kund.",
-                    "Combitech Network såldes av Saab Aerospace till CSC Sverige i juni 2000."
-                ],
-                "en": [
-                    "System administration of Sun Solaris, HP-UX and SGI IRIX at avionics systems engineering customer.",
-                    "Consulting in Unix system administration and network security.",
-                    "Project manager of system documentation project.",
-                    "Saab Aerospace sold Combitech Network to CSC Sweden in June 2000."
-                ]
-            },
-            "location": "Stockholm",
-            "start_date": "1998-11-30",
-            "end_date": "2001-03-31",
-            "type": [
-                "it"
-            ],
-            "importance": 1
-        },
-        {
-            "title": {
-                "sv": "Systemansvarig",
-                "en": "System Administrator"
-            },
-            "employer": {
-                "sv": "Delphi IT AB",
-                "en": "Delphi IT AB"
-            },
-            "descriptions": {
-                "sv": [
-                    "Driftansvar för Delphi Economics IT-miljö i Uppsala och Stockholm.",
-                    "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl."
-                ],
-                "en": [
-                    "System administration of Delphi Economics digital infrastructure in Uppsala and Stockholm.",
-                    "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl scripting."
-                ]
-            },
-            "location": "Uppsala",
-            "start_date": "1997-07-14",
-            "end_date": "1998-11-30",
-            "type": [
-                "it"
-            ],
-            "importance": 1
-        },
-        {
-            "title": {
-                "sv": "Nätverkstekniker",
-                "en": "Network Administrator"
-            },
-            "employer": {
-                "sv": "Institutet för byggdokumentation (BYGGDOK)",
-                "en": "The Swedish Institute of Building Documentation (BYGGDOK)"
-            },
-            "descriptions": {
-                "sv": [
-                    "Systemadministration och användarstöd.",
-                    "Novell NetWare, Sun Solaris, Windows."
-                ],
-                "en": [
-                    "System administration and end user support.",
-                    "Novell NetWare, Sun Solaris, Windows."
-                ]
-            },
-            "location": "Stockholm",
-            "start_date": "1997-03-17",
-            "end_date": "1997-07-11",
-            "type": [
-                "it"
-            ],
-            "importance": 2
-        },
-        {
-            "title": {
-                "sv": "Programmerare och systemadministratör",
-                "en": "Programmer and system administrator"
-            },
-            "employer": {
-                "sv": "JAK Medlemsbank",
-                "en": "JAK Member's Bank"
-            },
-            "descriptions": {
-                "sv": [
-                    "Programutveckling, systemadministration och användarstöd.",
-                    "DOS, Windows, Novell Netware, Pascal/Delphi."
-                ],
-                "en": [
-                    "Proram development, system administration and end user support",
-                    "DOS, Windows, Novell Netware, Pascal/Delphi."
-                ]
-            },
-            "location": "Skövde",
-            "start_date": "1992-04-09",
-            "end_date": "1994-03-15",
-            "type": [
-                "it"
-            ],
-            "importance": 1
-        },
-        {
-            "title": {
-                "sv": "Ungdomsledare och vik. kantor",
-                "en": "Youth Leader and Substitute Cantor"
-            },
-            "employer": {
-                "sv": "Svenska kyrkan",
-                "en": "Church of Sweden"
-            },
-            "descriptions": {
-                "sv": [
-                    "Arbete med Kyrkans unga (KU), konfirmander och barngrupper.",
-                    "Barnkörledning och gudstjänstmusiker."
-                ],
-                "en": [
-                    "Church of Sweden Youth, confirmands and child groups.",
-                    "Children's choir and service musician."
-                ]
-            },
-            "location": "Falun",
-            "start_date": "1996-05-01",
-            "end_date": "1997-06-30",
-            "importance": 2
-        },
-        {
-            "title": {
-                "sv": "Ungdomsledare och körledare",
-                "en": "Youth Leader and Choir Leader"
-            },
-            "employer": {
-                "sv": "Dala-Järna och Vansbro kyrkliga allianskommitté",
-                "en": "Dala-Järna and Vansbro Church Alliance Committee"
-            },
-            "descriptions": {
-                "sv": [
-                    "Ungdomsgrupper.",
-                    "Ungdomskör."
-                ],
-                "en": [
-                    "Youth groups.",
-                    "Youth choir."
-                ]
-            },
-            "location": "Dala-Järna",
-            "start_date": "1994-02-15",
-            "end_date": "1994-09-15",
-            "importance": 2
-        },
-        {
-            "title": {
-                "sv": "Butiksbiträde"
-            },
-            "employer": {
-                "sv": "Lidköpings instrumenthandel AB"
-            },
-            "location": "Lidköping",
-            "start_date": "1991-10-18",
-            "end_date": "1992-02-28",
-            "importance": 3
-        },
-        {
-            "title": {
-                "sv": "ALU-projekt"
-            },
-            "employer": {
-                "sv": "Arbetsförmedlingen/Örebromissionen"
-            },
-            "location": "Örebro",
-            "start_date": "1994-11-29",
-            "end_date": "1995-02-28",
-            "importance": 3,
-            "comment": "ALU-projekt, AF/ÖM, 1994-11-29 till 1995-02-28 (3 månader)."
-        },
-        {
-            "title": {
-                "sv": "Lärarvikarie"
-            },
-            "employer": {
-                "sv": "Vansbro kommun, Smedbergsskolan"
-            },
-            "location": "Vansbro",
-            "start_date": "1994-04-18",
-            "end_date": "1994-06-07",
-            "importance": 3,
-            "comment": "Lärarvikarie, Smedbergsksolan, Vansbro, 1994-04-18 till 1994-06-07 (1 månad, 21 dagar)."
-        },
-        {
-            "title": {
-                "sv": "Lärarvikarie"
-            },
-            "employer": {
-                "sv": "Vara kommun, Nästegårdsskolan"
-            },
-            "location": "Vara",
-            "start_date": "1991-08-22",
-            "end_date": "1991-12-14",
-            "importance": 3,
-            "comment": "Lärarvikarie, Nästegårdsskolan, Vara, 1991-08-22 till 1991-12-14 (3 månader, 23 dagar)."
-        }
-    ],
-    "other_heading": {
-        "sv": "Övrigt",
-        "en": "Other"
-    },
-    "other": [
-        {
-            "title": {
-                "sv": "Föräldraledig",
-                "en": "Parental Leave"
-            },
-            "subtitle": {
-                "sv": "6 månader (augusti--januari)",
-                "en": "6 months (August--January)"
-            },
-            "start_date": "2006-08-01",
-            "end_date": "2007-01-31",
-            "importance": 2,
-            "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
-        }
-    ],
-    "languages_heading": {
-        "sv": "Språkkunskaper",
-        "en": "Language Skills"
-    },
-    "languages": [
-        {
-            "lang": {
-                "sv": "Svenska",
-                "en": "Swedish"
-            },
-            "level": {
-                "sv": "Modersmål",
-                "en": "Native"
+    "education": {
+        "heading": {
+            "default": {
+                "sv": "Utbildning",
+                "en": "Education"
             }
         },
-        {
-            "lang": {
-                "sv": "Engelska",
-                "en": "English"
+        "field_order": [
+            "title",
+            "school",
+            "location"
+        ],
+        "sort_key": "end_date",
+        "items": [
+            {
+                "title": {
+                    "en": "Ph.D. in Psychology",
+                    "sv": "Fil. dr. i psykologi"
+                },
+                "school": {
+                    "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
+                    "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
+                },
+                "description": {
+                    "sv": "Avhandlingstitel: *[Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)*.",
+                    "en": "Thesis title: *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of \"We\" in the Encounter With Prenatal, Delivery and Postnatal Care]."
+                },
+                "end_date": "2016-10-25",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "psychologist",
+                    "recent"
+                ]
             },
-            "level": {
-                "sv": "Mycket goda",
-                "en": "Excellent"
+            {
+                "title": {
+                    "en": "M.Sc. in Psychology",
+                    "sv": "Psykologexamen"
+                },
+                "school": {
+                    "en": "Umeå University, Department of Psychology",
+                    "sv": "Umeå universitet, Institutionen för psykologi"
+                },
+                "description": {
+                    "sv": "Examensuppsats: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)*.",
+                    "en": "Master's thesis: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)* [Adaption of the Addiction Severity Index (ASI) Clinical Index to a Swedish context]."
+                },
+                "end_date": "2009-06-09",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "psychologist",
+                    "recent"
+                ]
+            },
+            {
+                "title": {
+                    "en": "Natural Sciences Program",
+                    "sv": "Naturvetenskaplig linje"
+                },
+                "school": {
+                    "en": "Katedralskolan (upper secondary school)",
+                    "sv": "Katedralskolan"
+                },
+                "location": {
+                    "sv": "Skara",
+                    "en": "Skara, Sweden"
+                },
+                "end_date": "1991",
+                "start_date": "1988",
+                "importance": 2,
+                "type": [
+                    "recent",
+                    "psychologist"
+                ]
+            }
+        ]
+    },
+    "other_education": {
+        "heading": {
+            "default": {
+                "en": "Other Education",
+                "sv": "Övrig utbildning"
             }
         },
-        {
-            "lang": {
-                "sv": "Tyska",
-                "en": "German"
-            },
-            "level": {
-                "sv": "Grundläggande",
-                "en": "Basic"
+        "field_order": [
+            "title",
+            "school",
+            "location"
+        ],
+        "items": [
+            {
+                "title": {
+                    "en": "Music Programme",
+                    "sv": "Musiklinjen"
+                },
+                "school": {
+                    "en": "Folkuniversitetet",
+                    "sv": "Folkuniversitetet"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.",
+                        "Arrangering och komposition.",
+                        "Ensemblespel samt individuell instrument- och sångträning."
+                    ],
+                    "en": [
+                        "Music theory and history, ear training.",
+                        "Arrangement and composition.",
+                        "Ensemble playing and individual instrument and vocal training."
+                    ]
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "start_date": "2002",
+                "end_date": "2003",
+                "importance": 2,
+                "type": [
+                    "academic",
+                    "psychologist",
+                    "recent"
+                ]
             }
-        }
-    ],
-    "skills_heading": {
-        "sv": "Tekniskt kunnande",
-        "en": "Technical Skills"
+        ]
     },
-    "skills": [
-        {
-            "sv": "Multivariat analys, SEM och programmering i statistikprogrammet R.",
-            "en": "Multivariate analysis, SEM and programming in the R Statistics Package."
+    "positions": {
+        "heading": {
+            "default": {
+                "en": "Work Experience",
+                "sv": "Arbetslivserfarenhet"
+            },
+            "academic": {
+                "sv": "Anställningar",
+                "en": "Academic Positions"
+            },
+            "academic_other": {
+                "sv": "Övrig yrkeserfarenhet",
+                "en": "Prior Work Experience"
+            }
         },
-        {
-            "sv": "SPSS syntax.",
-            "en": " SPSS syntax."
+        "list_type": "default",
+        "field_order": [
+            "title",
+            "employer",
+            "location"
+        ],
+        "sort_key": "end_date",
+        "items": [
+            {
+                "title": {
+                    "en": "Doctoral Student",
+                    "sv": "Doktorand"
+                },
+                "employer": {
+                    "en": "Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS)",
+                    "sv": "Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS)"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Planering och genomförande av forskningsprojekt.",
+                        "Problemanalys och formulering av forskningsfråga.",
+                        "Informationssökning, inläsning på samt kritisk granskning av tidigare forskning.",
+                        "Rekrytering av forskningsdeltagare och genomförande av intervjuer.",
+                        "Akademiskt skrivande och rapportering av forskningsresultat.",
+                        "Undervisning på psykologprogrammet och handledning av examensuppsatser."
+                    ],
+                    "en": [
+                        "Planning and implementation of research project.",
+                        "Problem analysis and formulation of research question.",
+                        "Search and critical review of previous research.",
+                        "Recruitment of research participants and conducting interviews.",
+                        "Academic writing and reporting of research results.",
+                        "Teaching of psychology and supervision of master's theses."
+                    ]
+                },
+                "start_date": "2011-01-01",
+                "end_date": "2016-10-25",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "psychologist",
+                    "recent"
+                ],
+                "comment": "Doktorand, Umeå universitet, Institutionen för psykologi, 2011-01-01 till 2016-10-25 (5 år, 9 månader, 25 dagar)."
+            },
+            {
+                "title": {
+                    "en": "Assistant Lecturer",
+                    "sv": "Universitetsadjunkt"
+                },
+                "employer": {
+                    "en": "Umeå University, Department of Psychology",
+                    "sv": "Umeå universitet, Institutionen för psykologi"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Undervisning huvudsakligen i statistik, forskningsmetod och vetenskapsteori.",
+                        "Kursansvarig för psykologprogrammets metod- och statistikkurs på termin 1: planering, arbetsfördelning, schemaläggning, examination."
+                    ],
+                    "en": [
+                        "Teaching, mainly statistics, research methods and theory of science.",
+                        "Course coordinator for the research methods and statistics course for first year psychology students."
+                    ]
+                },
+                "start_date": "2009-01-01",
+                "end_date": "2010-12-31",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "recent",
+                    "psychologist"
+                ],
+                "comment": "Universitetsadjunkt, Umeå universitet, Institutionen för psykologi, 2009-01-01 till 2010-12-31 (2 år)."
+            },
+            {
+                "title": {
+                    "en": "Research Assistant",
+                    "sv": "Forskningsassistent"
+                },
+                "employer": {
+                    "en": "Umeå University, Department of Psychology",
+                    "sv": "Umeå universitet, Institutionen för psykologi"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Statistisk analys av ASI-intervjuns (Addiction Severity Index) prediktiva styrka.",
+                        "Psykometrisk utvärdering av ASI-intervjuns kliniska index."
+                    ],
+                    "en": [
+                        "Statistical analysis of the predictive power of the Addiction Severity Index (ASI).",
+                        "Psychometric evaluation of the Clinical Index of the ASI."
+                    ]
+                },
+                "start_date": "2008-09-01",
+                "end_date": "2008-12-31",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "recent",
+                    "psychologist"
+                ],
+                "comment": "Forskningsamanuens, Umeå universitet, Institutionen för psykologi, 2008-09-01 till 2008-12-31 (4 månader)."
+            },
+            {
+                "start_date": "2004",
+                "end_date": "2008",
+                "description": {
+                    "sv": "Sommarvikariat under psykologutbildningen, bland annat som behandlingsassistent inom Umeå kommuns missbruksvård och mentalskötare vid Psykiatriska kliniken vid Norrlands universitetssjukhus.",
+                    "en": "Summer jobs during psychology training, including addiction treatment assistant at the Municipality of Umeå and mental health assistant at the Psychiatric Ward, University Hospital of Umeå."
+                },
+                "type": [
+                    "recent",
+                    "academic_other"
+                ],
+                "meta": 1
+            },
+            {
+                "start_date": "1992",
+                "end_date": "2003",
+                "description": {
+                    "sv": "Olika anställningar inom IT: drift av Unix-system, nätverk, IT-säkerhet och programmering.",
+                    "en": "Various IT positions: Unix-administration, network administration, IT security and programming."
+                },
+                "type": [
+                    "recent",
+                    "academic_other"
+                ],
+                "meta": 1
+            },
+            {
+                "title": {
+                    "sv": "Behandlingsassisstent",
+                    "en": "Treatment Assistant"
+                },
+                "employer": {
+                    "sv": "Umeå kommun",
+                    "en": "Umeå Municipality"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Sommarvikariat under psykologutbildningen.",
+                        "Stödboendet Bryggan för vuxna med missbruks- och beroendeproblematik."
+                    ],
+                    "en": [
+                        "Summer vacation replacement during my psychology studies.",
+                        "Voluntary institutional care for adults with drug abuse or addiction."
+                    ]
+                },
+                "start_date": "2008-06-01",
+                "end_date": "2008-08-31",
+                "importance": 2,
+                "type": [
+                    "psychologist"
+                ],
+                "comment": "Behandlingsassistent, Umeå kommun, sommaren 2008. Saknar intyg. Behöver söka efter anställningskontrakt."
+            },
+            {
+                "title": {
+                    "sv": "Psykologpraktik"
+                },
+                "employer": {
+                    "sv": "Västerbottens läns landsting, Vuxenhabiliteringen, Råd och stöd"
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "start_date": "2007-02-20",
+                "end_date": "2007-06-02",
+                "importance": 3,
+                "comment": "Psykologpraktik, Råd och stöd, 2007-02-20 till 2007-06-02 (3 månader, 14 dagar)."
+            },
+            {
+                "title": {
+                    "sv": "Mentalskötare",
+                    "en": "Psychiatric Aide"
+                },
+                "employer": {
+                    "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
+                    "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Sommarvikariat under psykologutbildningen."
+                    ],
+                    "en": [
+                        "Summer vacation replacement during my psychology studies."
+                    ]
+                },
+                "start_date": "2005-05-20",
+                "end_date": "2005-08-14",
+                "importance": 2,
+                "type": [
+                    "psychologist"
+                ],
+                "comment": "Vårdbiträde/mentalskötare, Psykiatriska kliniken, Norrlands universitetssjukhus, 2004-07-12 till 2004-09-26 (2 månader, 15 dagar), 2005-05-20 till 2005-08-14 (2 månader, 26 dagar), 2005-08-25 till 2006-01-31 (5 månader, 7 dagar), totalt 468,2 timmar."
+            },
+            {
+                "title": {
+                    "sv": "Vårdbiträde",
+                    "en": "Nurses's Assistant"
+                },
+                "employer": {
+                    "sv": "Västerbottens läns landsting, Norrlands universitetssjukhus, Psykiatriska kliniken",
+                    "en": "County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward"
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Sommarvikariat under psykologutbildningen."
+                    ],
+                    "en": [
+                        "Summer vacation replacement during my psychology studies."
+                    ]
+                },
+                "start_date": "2004-07-12",
+                "end_date": "2004-09-26",
+                "importance": 2,
+                "type": [
+                    "psychologist"
+                ]
+            },
+            {
+                "title": {
+                    "sv": "Unix-tekniker",
+                    "en": "Unix System Administrator"
+                },
+                "employer": {
+                    "sv": "CSC Sverige AB",
+                    "en": "CSC Sweden AB"
+                },
+                "location": {
+                    "sv": "Stockholm",
+                    "en": "Stockholm, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Sommarvikariat hos kund i försvarsindustri.",
+                        "Drift av Sun Solaris, HP-UX och SGI IRIX."
+                    ],
+                    "en": [
+                        "Summer vacation replacement at avionics systems engineering customer.",
+                        "Sun Solaris, HP-UX and SGI IRIX."
+                    ]
+                },
+                "start_date": "2003-06-24",
+                "end_date": "2003-08-31",
+                "importance": 2,
+                "type": [
+                    "it"
+                ],
+                "comment": "1. Unix-tekniker, CSC Sverige AB, 2002-07-01 till 2002-08-31 (2 månader), 2003-06-24 till 2003-08-31 (2 månader, 8 dagar)."
+            },
+            {
+                "title": {
+                    "sv": "Unix-tekniker",
+                    "en": "Unix System Administrator"
+                },
+                "employer": {
+                    "sv": "CSC Sverige AB",
+                    "en": "CSC Sweden AB"
+                },
+                "location": {
+                    "sv": "Stockholm",
+                    "en": "Stockholm, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Sommarvikariat hos kund i försvarsindustri.",
+                        "Drift av Sun Solaris, HP-UX och SGI IRIX."
+                    ],
+                    "en": [
+                        "Summer vacation replacement at avionics systems engineering customer.",
+                        "Sun Solaris, HP-UX and SGI IRIX."
+                    ]
+                },
+                "start_date": "2002-07-01",
+                "end_date": "2002-08-31",
+                "type": [
+                    "it"
+                ],
+                "importance": 2
+            },
+            {
+                "title": {
+                    "sv": "Säkerhetskonsult",
+                    "en": "Security Engineer"
+                },
+                "employer": {
+                    "sv": "Itegra Secureguard AB",
+                    "en": "Itegra Secureguard AB"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Konsultuppdrag inom IT-säkerhet.",
+                        "Installation av och support på Check Point FireWall-1, Nokia IP, RSA SecurID, m.fl."
+                    ],
+                    "en": [
+                        "Consulting in network security.",
+                        "Check Point FireWall-1 (certified), Nokia IP (certified), RSA SecurID, and others."
+                    ]
+                },
+                "location": {
+                    "sv": "Stockholm",
+                    "en": "Stockholm, Sweden"
+                },
+                "type": [
+                    "it"
+                ],
+                "importance": 1,
+                "start_date": "2001-04-01",
+                "end_date": "2002-05-28"
+            },
+            {
+                "title": {
+                    "sv": "Teknisk konsult",
+                    "en": "Technical Consultant"
+                },
+                "employer": {
+                    "sv": "Combitech Network AB/CSC Sverige AB",
+                    "en": "Combitech Network AB/CSC Sweden AB"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Drift av Sun Solaris, HP-UX och SGI IRIX hos kund i försvarsindustri.",
+                        "Konsultuppdrag inom Unix-administration och nätverksäkerhet.",
+                        "Projektledare för upprättande av systemdokumentation hos kund.",
+                        "Combitech Network såldes av Saab Aerospace till CSC Sverige i juni 2000."
+                    ],
+                    "en": [
+                        "System administration of Sun Solaris, HP-UX and SGI IRIX at avionics systems engineering customer.",
+                        "Consulting in Unix system administration and network security.",
+                        "Project manager of system documentation project.",
+                        "Saab Aerospace sold Combitech Network to CSC Sweden in June 2000."
+                    ]
+                },
+                "location": {
+                    "sv": "Stockholm",
+                    "en": "Stockholm, Sweden"
+                },
+                "start_date": "1998-11-30",
+                "end_date": "2001-03-31",
+                "type": [
+                    "it"
+                ],
+                "importance": 1
+            },
+            {
+                "title": {
+                    "sv": "Systemansvarig",
+                    "en": "System Administrator"
+                },
+                "employer": {
+                    "sv": "Delphi IT AB",
+                    "en": "Delphi IT AB"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Driftansvar för Delphi Economics IT-miljö i Uppsala och Stockholm.",
+                        "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl."
+                    ],
+                    "en": [
+                        "System administration of Delphi Economics digital infrastructure in Uppsala and Stockholm.",
+                        "Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl scripting."
+                    ]
+                },
+                "location": {
+                    "sv": "Uppsala",
+                    "en": "Uppsala, Sweden"
+                },
+                "start_date": "1997-07-14",
+                "end_date": "1998-11-30",
+                "type": [
+                    "it"
+                ],
+                "importance": 1
+            },
+            {
+                "title": {
+                    "sv": "Nätverkstekniker",
+                    "en": "Network Administrator"
+                },
+                "employer": {
+                    "sv": "Institutet för byggdokumentation (BYGGDOK)",
+                    "en": "The Swedish Institute of Building Documentation (BYGGDOK)"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Systemadministration och användarstöd.",
+                        "Novell NetWare, Sun Solaris, Windows."
+                    ],
+                    "en": [
+                        "System administration and end user support.",
+                        "Novell NetWare, Sun Solaris, Windows."
+                    ]
+                },
+                "location": {
+                    "sv": "Stockholm",
+                    "en": "Stockholm, Sweden"
+                },
+                "start_date": "1997-03-17",
+                "end_date": "1997-07-11",
+                "type": [
+                    "it"
+                ],
+                "importance": 2
+            },
+            {
+                "title": {
+                    "sv": "Programmerare och systemadministratör",
+                    "en": "Programmer and system administrator"
+                },
+                "employer": {
+                    "sv": "JAK Medlemsbank",
+                    "en": "JAK Member's Bank"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Programutveckling, systemadministration och användarstöd.",
+                        "DOS, Windows, Novell Netware, Pascal/Delphi."
+                    ],
+                    "en": [
+                        "Proram development, system administration and end user support",
+                        "DOS, Windows, Novell Netware, Pascal/Delphi."
+                    ]
+                },
+                "location": {
+                    "sv": "Skövde",
+                    "en": "Skövde, Sweden"
+                },
+                "start_date": "1992-04-09",
+                "end_date": "1994-03-15",
+                "type": [
+                    "it"
+                ],
+                "importance": 1
+            },
+            {
+                "title": {
+                    "sv": "Ungdomsledare och vik. kantor",
+                    "en": "Youth Leader and Substitute Cantor"
+                },
+                "employer": {
+                    "sv": "Svenska kyrkan",
+                    "en": "Church of Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Arbete med Kyrkans unga (KU), konfirmander och barngrupper.",
+                        "Barnkörledning och gudstjänstmusiker."
+                    ],
+                    "en": [
+                        "Church of Sweden Youth, confirmands and child groups.",
+                        "Children's choir and service musician."
+                    ]
+                },
+                "location": {
+                    "sv": "Falun",
+                    "en": "Falun, Sweden"
+                },
+                "start_date": "1996-05-01",
+                "end_date": "1997-06-30",
+                "importance": 2
+            },
+            {
+                "title": {
+                    "sv": "Ungdomsledare och körledare",
+                    "en": "Youth Leader and Choir Leader"
+                },
+                "employer": {
+                    "sv": "Dala-Järna och Vansbro kyrkliga allianskommitté",
+                    "en": "Dala-Järna and Vansbro Church Alliance Committee"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Ungdomsgrupper.",
+                        "Ungdomskör."
+                    ],
+                    "en": [
+                        "Youth groups.",
+                        "Youth choir."
+                    ]
+                },
+                "location": {
+                    "sv": "Dala-Järna",
+                    "en": "Dala-Järna, Sweden"
+                },
+                "start_date": "1994-02-15",
+                "end_date": "1994-09-15",
+                "importance": 2
+            },
+            {
+                "title": {
+                    "sv": "Butiksbiträde"
+                },
+                "employer": {
+                    "sv": "Lidköpings instrumenthandel AB"
+                },
+                "location": {
+                    "sv": "Lidköping",
+                    "en": "Lidköping, Sweden"
+                },
+                "start_date": "1991-10-18",
+                "end_date": "1992-02-28",
+                "importance": 3
+            },
+            {
+                "title": {
+                    "sv": "ALU-projekt"
+                },
+                "employer": {
+                    "sv": "Arbetsförmedlingen/Örebromissionen"
+                },
+                "location": {
+                    "sv": "Örebro",
+                    "en": "Örebro, Sweden"
+                },
+                "start_date": "1994-11-29",
+                "end_date": "1995-02-28",
+                "importance": 3,
+                "comment": "ALU-projekt, AF/ÖM, 1994-11-29 till 1995-02-28 (3 månader)."
+            },
+            {
+                "title": {
+                    "sv": "Lärarvikarie"
+                },
+                "employer": {
+                    "sv": "Vansbro kommun, Smedbergsskolan"
+                },
+                "location": {
+                    "sv": "Vansbro",
+                    "en": "Vansbro, Sweden"
+                },
+                "start_date": "1994-04-18",
+                "end_date": "1994-06-07",
+                "importance": 3,
+                "comment": "Lärarvikarie, Smedbergsksolan, Vansbro, 1994-04-18 till 1994-06-07 (1 månad, 21 dagar)."
+            },
+            {
+                "title": {
+                    "sv": "Lärarvikarie"
+                },
+                "employer": {
+                    "sv": "Vara kommun, Nästegårdsskolan"
+                },
+                "location": {
+                    "sv": "Vara",
+                    "en": "Vara, Sweden"
+                },
+                "start_date": "1991-08-22",
+                "end_date": "1991-12-14",
+                "importance": 3,
+                "comment": "Lärarvikarie, Nästegårdsskolan, Vara, 1991-08-22 till 1991-12-14 (3 månader, 23 dagar)."
+            }
+        ]
+    },
+    "other": {
+        "heading": {
+            "default": {
+                "sv": "Övrigt",
+                "en": "Other"
+            }
         },
-        {
-            "sv": "Programmering, framför allt i Perl, men också Python, Java och C.",
-            "en": "Programming, mainly in Perl, but also Python, Java and C."
+        "field_order": [
+            "title",
+            "subtitle"
+        ],
+        "sort_key": "end_date",
+        "items": [
+            {
+                "title": {
+                    "sv": "Föräldraledig",
+                    "en": "Parental Leave"
+                },
+                "subtitle": {
+                    "sv": "6 månader (augusti--januari)",
+                    "en": "6 months (August--January)"
+                },
+                "start_date": "2006-08-01",
+                "end_date": "2007-01-31",
+                "importance": 2,
+                "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
+            }
+        ]
+    },
+    "languages": {
+        "heading": {
+            "default": {
+                "sv": "Språkkunskaper",
+                "en": "Language Skills"
+            }
         },
-        {
-            "sv": "Databasadministration och SQL.",
-            "en": "Database administration and SQL."
-        }
-    ],
-    "publications_heading": {
-        "sv": "Publikationer och presentationer",
-        "en": "Publications and Presentations"
+        "field_order": [
+            "level"
+        ],
+        "list_type": "definition",
+        "term_field": "lang",
+        "items": [
+            {
+                "lang": {
+                    "sv": "Svenska",
+                    "en": "Swedish"
+                },
+                "level": {
+                    "sv": "Modersmål.",
+                    "en": "Native."
+                }
+            },
+            {
+                "lang": {
+                    "sv": "Engelska",
+                    "en": "English"
+                },
+                "level": {
+                    "sv": "Mycket goda.",
+                    "en": "Excellent."
+                }
+            },
+            {
+                "lang": {
+                    "sv": "Tyska",
+                    "en": "German"
+                },
+                "level": {
+                    "sv": "Grundläggande.",
+                    "en": "Basic."
+                }
+            }
+        ]
     },
-    "publications_phdthesis_heading": {
-        "sv": "Doktorsavhandling",
-        "en": "Ph.D. Thesis"
+    "skills": {
+        "heading": {
+            "default": {
+                "sv": "Tekniskt kunnande",
+                "en": "Technical Skills"
+            }
+        },
+        "list_type": "itemize",
+        "field_order": [
+            "skill"
+        ],
+        "items": [
+            {
+                "skill": {
+                    "sv": "Multivariat analys, SEM och programmering i statistikprogrammet R.",
+                    "en": "Multivariate analysis, SEM and programming in the R Statistics Package."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "SPSS syntax.",
+                    "en": "SPSS syntax."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "Programmering, framför allt i Perl, men också Python, Java och C.",
+                    "en": "Programming, mainly in Perl, but also Python, Java and C."
+                }
+            },
+            {
+                "skill": {
+                    "sv": "Databasadministration och SQL.",
+                    "en": "Database administration and SQL."
+                }
+            }
+        ]
     },
-    "publications_articles_heading": {
-        "sv": "Artiklar",
-        "en": "Articles"
+    "publications": {
+        "heading": {
+            "default": {
+                "sv": "Publikationer och presentationer",
+                "en": "Publications and Presentations"
+            }
+        },
+        "list_type": "plain",
+        "field_order": [
+            "entry"
+        ],
+        "items": [
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Artiklar",
+                        "en": "Articles"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>",
+                            "en": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>"
+                        }
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Doktorsavhandling",
+                        "en": "Ph.D. Thesis"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Björk, S. (2016). *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS). <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>",
+                            "en": "Björk, S. (2016). *Män möter mödravård: Om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of 'We' in the Encounter With Prenatal, Delivery and Postnatal Care]\\ (Ph.D. thesis). Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS). Available at <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
+                        }
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Presentationer på vetenskapliga konferenser",
+                        "en": "Conference Presentations"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Björk, S. (2013). *Living the 'New father': Men's parenting and masculinities in the Nordic countries*. Presenterad vid 3rd Global Conference on Femininities and Masculinities, 14--21 maj, Prag, Tjeckien. <https://www.academia.edu/2938364>",
+                            "en": "Björk, S. (2013). *Living the 'new father': Men’s parenting and masculinities in the Nordic countries*. Presented at the 3rd Global Conference on Femininities and Masculinities, May 14--21, Prague, Czech Republic. Available at <https://www.academia.edu/2938364>"
+                        }
+                    },
+                    {
+                        "entry": {
+                            "sv": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Presenterad vid Thinking Critically about Psychology: Power, Gender and Psychological Practice, 31 maj, Umeå. <https://www.academia.edu/3635342>",
+                            "en": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Paper presented at Thinking Critically about Psychology: Power, Gender and Psychological Practice, May 31, Umeå, Sweden. Available at <https://www.academia.edu/3635342>"
+                        }
+                    }
+                ]
+            }
+        ]
     },
-    "publications_conferences_heading": {
-        "sv": "Presentationer på vetenskapliga konferenser",
-        "en": "Conference Presentations"
+    "teaching": {
+        "heading": {
+            "default": {
+                "sv": "Pedagogisk kompetens",
+                "en": "Teaching Skills"
+            }
+        },
+        "field_order": [
+            "entry"
+        ],
+        "items": [
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Undervisning",
+                        "en": "Teaching"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Undervisning som universitetsadjunkt vid Umeå universitet, Institutionen för psykologi.",
+                            "en": "Assistant lecturer at Umeå University, Department of Psychology."
+                        },
+                        "descriptions": {
+                            "sv": [
+                                "Kursansvar för psykologprogrammets metod- och statistikkurs på termin 1 (ht 2009 till och med ht 2010).",
+                                "Undervisning huvudsakligen inom forskningsmetod, statistik, vetenskapsteori, psykologins historia, personlighetspsykologi och socialpsykologi.",
+                                "Totalt 1827 undervisningstimmar."
+                            ],
+                            "en": [
+                                "Coordinator of the research method and statistics course on the Programme for Master of Science in (Clinical) Psychology, autumn 2009 to autumn 2010.",
+                                "Main areas: research methods, statistics, theory of science, history of psychology, personality psychology and social psychology.",
+                                "In total 1827 hours."
+                            ]
+                        },
+                        "start_date": "2009",
+                        "end_date": "2011"
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Handledning",
+                        "en": "Supervision"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Handledning av en examensuppsats på psykologprogrammet (två studenter).",
+                            "en": "Supervision of one master's thesis on the Programme for Master of Science in (Clinical) Psychology."
+                        },
+                        "start_date": "2014",
+                        "end_date": "2014"
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Universitetspedagogiska kurser",
+                        "en": "Educational Development Courses"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Genus, kön och intersektionalitet i psykologiundervisningen (3 veckor). Umeå universitet, Institutionen för psykologi.",
+                            "en": "Gender, sex and intersectionality in psychology teaching (3 weeks). Umeå University, Department of Psychology."
+                        },
+                        "start_date": "2011",
+                        "end_date": "2011"
+                    },
+                    {
+                        "entry": {
+                            "sv": "Introduktionskurs i högskolepedagogik (1 vecka). Umeå universitet, Universitetspedagogiskt centrum.",
+                            "en": "Teaching in higher education (1 week). Umeå University, Centre for Educational Development."
+                        },
+                        "start_date": "2010",
+                        "end_date": "2010"
+                    }
+                ]
+            }
+        ]
     }
 }

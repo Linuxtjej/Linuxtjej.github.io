@@ -37,35 +37,35 @@ lang: en-GB
     - Voluntary institutional care for adults with drug abuse or addiction.
 
 2005
-:   **Psychiatric Aide**, County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward, Umeå.
+:   **Psychiatric Aide**, County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward, Umeå, Sweden.
 
     - Summer vacation replacement during my psychology studies.
 
 2004
-:   **Nurses's Assistant**, County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward, Umeå.
+:   **Nurses's Assistant**, County Council of Västerbotten, University Hostpital of Umeå, Psychiatric Ward, Umeå, Sweden.
 
     - Summer vacation replacement during my psychology studies.
 
 2003
-:   **Unix System Administrator**, CSC Sweden AB, Stockholm.
+:   **Unix System Administrator**, CSC Sweden AB, Stockholm, Sweden.
 
     - Summer vacation replacement at avionics systems engineering customer.
     - Sun Solaris, HP-UX and SGI IRIX.
 
 2002
-:   **Unix System Administrator**, CSC Sweden AB, Stockholm.
+:   **Unix System Administrator**, CSC Sweden AB, Stockholm, Sweden.
 
     - Summer vacation replacement at avionics systems engineering customer.
     - Sun Solaris, HP-UX and SGI IRIX.
 
 2001--2002
-:   **Security Engineer**, Itegra Secureguard AB, Stockholm.
+:   **Security Engineer**, Itegra Secureguard AB, Stockholm, Sweden.
 
     - Consulting in network security.
     - Check Point FireWall-1 (certified), Nokia IP (certified), RSA SecurID, and others.
 
 1998--2001
-:   **Technical Consultant**, Combitech Network AB/CSC Sweden AB, Stockholm.
+:   **Technical Consultant**, Combitech Network AB/CSC Sweden AB, Stockholm, Sweden.
 
     - System administration of Sun Solaris, HP-UX and SGI IRIX at avionics systems engineering customer.
     - Consulting in Unix system administration and network security.
@@ -73,31 +73,31 @@ lang: en-GB
     - Saab Aerospace sold Combitech Network to CSC Sweden in June 2000.
 
 1997--1998
-:   **System Administrator**, Delphi IT AB, Uppsala.
+:   **System Administrator**, Delphi IT AB, Uppsala, Sweden.
 
     - System administration of Delphi Economics digital infrastructure in Uppsala and Stockholm.
     - Solaris, Linux, Novell NetWare, DOS, Windows, OS/2, Cisco IOS, Perl scripting.
 
 1997
-:   **Network Administrator**, The Swedish Institute of Building Documentation (BYGGDOK), Stockholm.
+:   **Network Administrator**, The Swedish Institute of Building Documentation (BYGGDOK), Stockholm, Sweden.
 
     - System administration and end user support.
     - Novell NetWare, Sun Solaris, Windows.
 
 1996--1997
-:   **Youth Leader and Substitute Cantor**, Church of Sweden, Falun.
+:   **Youth Leader and Substitute Cantor**, Church of Sweden, Falun, Sweden.
 
     - Church of Sweden Youth, confirmands and child groups.
     - Children's choir and service musician.
 
 1994
-:   **Youth Leader and Choir Leader**, Dala-Järna and Vansbro Church Alliance Committee, Dala-Järna.
+:   **Youth Leader and Choir Leader**, Dala-Järna and Vansbro Church Alliance Committee, Dala-Järna, Sweden.
 
     - Youth groups.
     - Youth choir.
 
 1992--1994
-:   **Programmer and system administrator**, JAK Member's Bank, Skövde.
+:   **Programmer and system administrator**, JAK Member's Bank, Skövde, Sweden.
 
     - Proram development, system administration and end user support
     - DOS, Windows, Novell Netware, Pascal/Delphi.
@@ -115,12 +115,16 @@ lang: en-GB
     Master's thesis: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)* [Adaption of the Addiction Severity Index (ASI) Clinical Index to a Swedish context].
 
 1988--1991
-:   **Natural Sciences Program**, Katedralskolan (upper secondary school), Skara.
+:   **Natural Sciences Program**, Katedralskolan (upper secondary school), Skara, Sweden.
 
 # Other Education
 
 2002--2003
-:   **Music Programme**, Folkuniversitetet, Umeå.
+:   **Music Programme**, Folkuniversitetet, Umeå, Sweden.
+
+    - Music theory and history, ear training.
+    - Arrangement and composition.
+    - Ensemble playing and individual instrument and vocal training.
 
 # Other
 

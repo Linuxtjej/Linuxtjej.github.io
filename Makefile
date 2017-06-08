@@ -1,6 +1,6 @@
-source=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md index.md
-html=$(patsubst %.md, %.html, $(source))
-pdf=$(patsubst %.md, %.pdf, $(source))
+markdown=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md index.md
+html=$(patsubst %.md, %.html, $(markdown))
+pdf=$(patsubst %.md, %.pdf, $(markdown))
 css=templates/pandoc-cv.css
 context_style=templates/context.tex
 latex_template=templates/latex-template.tex
@@ -8,9 +8,11 @@ latex_header=templates/latex-header.tex
 pandoc_yaml=templates/pandoc.yaml
 data=data/cv.json
 
-#tmp_default: $(source)
+#tmp_default: $(markdown)
 
-all: $(source) $(pdf) $(html)
+all: $(markdown) $(pdf) $(html)
+
+markdown: $(markdown)
 
 cv-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=recent --json=$< > $@

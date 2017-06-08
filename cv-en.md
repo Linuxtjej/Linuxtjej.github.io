@@ -49,12 +49,16 @@ lang: en-GB
     Master's thesis: *[Anpassning av ASI-intervjuns kliniska index till svenska förhållanden](https://www.academia.edu/30728293)* [Adaption of the Addiction Severity Index (ASI) Clinical Index to a Swedish context].
 
 1988--1991
-:   **Natural Sciences Program**, Katedralskolan (upper secondary school), Skara.
+:   **Natural Sciences Program**, Katedralskolan (upper secondary school), Skara, Sweden.
 
 # Other Education
 
 2002--2003
-:   **Music Programme**, Folkuniversitetet, Umeå.
+:   **Music Programme**, Folkuniversitetet, Umeå, Sweden.
+
+    - Music theory and history, ear training.
+    - Arrangement and composition.
+    - Ensemble playing and individual instrument and vocal training.
 
 # Language Skills
 
