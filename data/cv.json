@@ -15,10 +15,6 @@
             "sv": "Under perioden 1992--2003 arbetade jag med IT, framför allt drift av Unix-system, nätverk och IT-säkerhet.\n\n"
         }
     },
-    "education_heading": {
-        "en": "Education",
-        "sv": "Utbildning"
-    },
     "education": {
         "heading": {
             "default": {
@@ -98,63 +94,68 @@
             }
         ]
     },
-    "other_education_heading": {
-        "en": "Other Education",
-        "sv": "Övrig utbildning"
-    },
-    "other_education": [
-        {
-            "title": {
-                "en": "Music Programme",
-                "sv": "Musiklinjen"
-            },
-            "school": {
-                "en": "Folkuniversitetet",
-                "sv": "Folkuniversitetet"
-            },
-            "descriptions": {
-                "sv": [
-                    "Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.",
-                    "Arrangering och komposition.",
-                    "Ensemblespel samt individuell instrument- och sångträning."
-                ],
-                "en": [
-                    "Music theory and history, ear training.",
-                    "Arrangement and composition.",
-                    "Ensemble playing and individual instrument and vocal training."
+    "other_education": {
+        "heading": {
+            "default": {
+                "en": "Other Education",
+                "sv": "Övrig utbildning"
+            }
+        },
+        "field_order": [
+            "title",
+            "school",
+            "location"
+        ],
+        "items": [
+            {
+                "title": {
+                    "en": "Music Programme",
+                    "sv": "Musiklinjen"
+                },
+                "school": {
+                    "en": "Folkuniversitetet",
+                    "sv": "Folkuniversitetet"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.",
+                        "Arrangering och komposition.",
+                        "Ensemblespel samt individuell instrument- och sångträning."
+                    ],
+                    "en": [
+                        "Music theory and history, ear training.",
+                        "Arrangement and composition.",
+                        "Ensemble playing and individual instrument and vocal training."
+                    ]
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "start_date": "2002",
+                "end_date": "2003",
+                "importance": 2,
+                "type": [
+                    "academic",
+                    "psychologist",
+                    "recent"
                 ]
-            },
-            "location": {
-                "sv": "Umeå",
-                "en": "Umeå, Sweden"
-            },
-            "start_date": "2002",
-            "end_date": "2003",
-            "importance": 2,
-            "type": [
-                "academic",
-                "psychologist",
-                "recent"
-            ]
-        }
-    ],
-    "positions_heading": {
-        "en": "Work Experience",
-        "sv": "Arbetslivserfarenhet"
-    },
-    "academic_positions_heading": {
-        "en": "Academic Positions",
-        "sv": "Anställningar"
-    },
-    "academic_other_heading": {
-        "en": "Prior Work Experience",
-        "sv": "Övrig yrkeserfarenhet"
+            }
+        ]
     },
     "positions": {
         "heading": {
             "default": {
                 "en": "Work Experience",
                 "sv": "Arbetslivserfarenhet"
+            },
+            "academic": {
+                "sv": "Anställningar",
+                "en": "Academic Positions"
+            },
+            "academic_other": {
+                "sv": "Övrig yrkeserfarenhet",
+                "en": "Prior Work Experience"
             }
         },
         "list_type": "default",
@@ -720,65 +721,79 @@
             }
         ]
     },
-    "other_heading": {
-        "sv": "Övrigt",
-        "en": "Other"
-    },
-    "other": [
-        {
-            "title": {
-                "sv": "Föräldraledig",
-                "en": "Parental Leave"
-            },
-            "subtitle": {
-                "sv": "6 månader (augusti--januari)",
-                "en": "6 months (August--January)"
-            },
-            "start_date": "2006-08-01",
-            "end_date": "2007-01-31",
-            "importance": 2,
-            "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
-        }
-    ],
-    "languages_heading": {
-        "sv": "Språkkunskaper",
-        "en": "Language Skills"
-    },
-    "languages": [
-        {
-            "lang": {
-                "sv": "Svenska",
-                "en": "Swedish"
-            },
-            "level": {
-                "sv": "Modersmål",
-                "en": "Native"
+    "other": {
+        "heading": {
+            "default": {
+                "sv": "Övrigt",
+                "en": "Other"
             }
         },
-        {
-            "lang": {
-                "sv": "Engelska",
-                "en": "English"
-            },
-            "level": {
-                "sv": "Mycket goda",
-                "en": "Excellent"
+        "field_order": [
+            "title",
+            "subtitle"
+        ],
+        "sort_key": "end_date",
+        "items": [
+            {
+                "title": {
+                    "sv": "Föräldraledig",
+                    "en": "Parental Leave"
+                },
+                "subtitle": {
+                    "sv": "6 månader (augusti--januari)",
+                    "en": "6 months (August--January)"
+                },
+                "start_date": "2006-08-01",
+                "end_date": "2007-01-31",
+                "importance": 2,
+                "comment": "Pappaledig, 2006-08-01 till 2007-01-31 (6 månader)."
+            }
+        ]
+    },
+    "languages": {
+        "heading": {
+            "default": {
+                "sv": "Språkkunskaper",
+                "en": "Language Skills"
             }
         },
-        {
-            "lang": {
-                "sv": "Tyska",
-                "en": "German"
+        "field_order": [
+            "level"
+        ],
+        "list_type": "definition",
+        "term_field": "lang",
+        "items": [
+            {
+                "lang": {
+                    "sv": "Svenska",
+                    "en": "Swedish"
+                },
+                "level": {
+                    "sv": "Modersmål.",
+                    "en": "Native."
+                }
             },
-            "level": {
-                "sv": "Grundläggande",
-                "en": "Basic"
+            {
+                "lang": {
+                    "sv": "Engelska",
+                    "en": "English"
+                },
+                "level": {
+                    "sv": "Mycket goda.",
+                    "en": "Excellent."
+                }
+            },
+            {
+                "lang": {
+                    "sv": "Tyska",
+                    "en": "German"
+                },
+                "level": {
+                    "sv": "Grundläggande.",
+                    "en": "Basic."
+                }
             }
-        }
-    ],
-    "skills_heading": {
-        "sv": "Tekniskt kunnande",
-        "en": "Technical Skills"
+        ]
     },
     "skills": {
         "heading": {
@@ -801,7 +816,7 @@
             {
                 "skill": {
                     "sv": "SPSS syntax.",
-                    "en": " SPSS syntax."
+                    "en": "SPSS syntax."
                 }
             },
             {
@@ -818,22 +833,6 @@
             }
         ]
     },
-    "publications_heading": {
-        "sv": "Publikationer och presentationer",
-        "en": "Publications and Presentations"
-    },
-    "publications_phdthesis_heading": {
-        "sv": "Doktorsavhandling",
-        "en": "Ph.D. Thesis"
-    },
-    "publications_articles_heading": {
-        "sv": "Artiklar",
-        "en": "Articles"
-    },
-    "publications_conferences_heading": {
-        "sv": "Presentationer på vetenskapliga konferenser",
-        "en": "Conference Presentations"
-    },
     "publications": {
         "heading": {
             "default": {
@@ -849,22 +848,6 @@
             {
                 "heading": {
                     "default": {
-                        "sv": "Doktorsavhandling",
-                        "en": "Ph.D. Thesis"
-                    }
-                },
-                "items": [
-                    {
-                        "entry": {
-                            "sv": "Björk, S. (2016). *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS). <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>",
-                            "en": "Björk, S. (2016). *Män möter mödravård: Om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of 'We' in the Encounter With Prenatal, Delivery and Postnatal Care]\\ (Ph.D. thesis). Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS). Available at <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
-                        }
-                    }
-                ]
-            },
-            {
-                "heading": {
-                    "default": {
                         "sv": "Artiklar",
                         "en": "Articles"
                     }
@@ -874,6 +857,22 @@
                         "entry": {
                             "sv": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>",
                             "en": "Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av \"vi\". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>"
+                        }
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Doktorsavhandling",
+                        "en": "Ph.D. Thesis"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Björk, S. (2016). *Män möter mödravård: om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS). <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>",
+                            "en": "Björk, S. (2016). *Män möter mödravård: Om betydelsen av \"vi\" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of 'We' in the Encounter With Prenatal, Delivery and Postnatal Care]\\ (Ph.D. thesis). Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS). Available at <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>"
                         }
                     }
                 ]
@@ -897,6 +896,93 @@
                             "sv": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Presenterad vid Thinking Critically about Psychology: Power, Gender and Psychological Practice, 31 maj, Umeå. <https://www.academia.edu/3635342>",
                             "en": "Björk, S. (2013). *Theories of depression: Explanations or justifications?* Paper presented at Thinking Critically about Psychology: Power, Gender and Psychological Practice, May 31, Umeå, Sweden. Available at <https://www.academia.edu/3635342>"
                         }
+                    }
+                ]
+            }
+        ]
+    },
+    "teaching": {
+        "heading": {
+            "default": {
+                "sv": "Pedagogisk kompetens",
+                "en": "Teaching Skills"
+            }
+        },
+        "field_order": [
+            "entry"
+        ],
+        "items": [
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Undervisning",
+                        "en": "Teaching"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Undervisning som universitetsadjunkt vid Umeå universitet, Institutionen för psykologi.",
+                            "en": "Assistant lecturer at Umeå University, Department of Psychology."
+                        },
+                        "descriptions": {
+                            "sv": [
+                                "Kursansvar för psykologprogrammets metod- och statistikkurs på termin 1 (ht 2009 till och med ht 2010).",
+                                "Undervisning huvudsakligen inom forskningsmetod, statistik, vetenskapsteori, psykologins historia, personlighetspsykologi och socialpsykologi.",
+                                "Totalt 1827 undervisningstimmar."
+                            ],
+                            "en": [
+                                "Coordinator of the research method and statistics course on the Programme for Master of Science in (Clinical) Psychology, autumn 2009 to autumn 2010.",
+                                "Main areas: research methods, statistics, theory of science, history of psychology, personality psychology and social psychology.",
+                                "In total 1827 hours."
+                            ]
+                        },
+                        "start_date": "2009",
+                        "end_date": "2011"
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Handledning",
+                        "en": "Supervision"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Handledning av en examensuppsats på psykologprogrammet (två studenter).",
+                            "en": "Supervision of one master's thesis on the Programme for Master of Science in (Clinical) Psychology."
+                        },
+                        "start_date": "2014",
+                        "end_date": "2014"
+                    }
+                ]
+            },
+            {
+                "heading": {
+                    "default": {
+                        "sv": "Universitetspedagogiska kurser",
+                        "en": "Educational Development Courses"
+                    }
+                },
+                "items": [
+                    {
+                        "entry": {
+                            "sv": "Genus, kön och intersektionalitet i psykologiundervisningen (3 veckor). Umeå universitet, Institutionen för psykologi.",
+                            "en": "Gender, sex and intersectionality in psychology teaching (3 weeks). Umeå University, Department of Psychology."
+                        },
+                        "start_date": "2011",
+                        "end_date": "2011"
+                    },
+                    {
+                        "entry": {
+                            "sv": "Introduktionskurs i högskolepedagogik (1 vecka). Umeå universitet, Universitetspedagogiskt centrum.",
+                            "en": "Teaching in higher education (1 week). Umeå University, Centre for Educational Development."
+                        },
+                        "start_date": "2010",
+                        "end_date": "2010"
                     }
                 ]
             }

@@ -122,6 +122,10 @@ lang: sv-SE
 2002--2003
 :   **Musiklinjen**, Folkuniversitetet, Umeå.
 
+    - Allmän musiklära, musikhistoria och gehörs-, harmoni-, sats- och rytmlära.
+    - Arrangering och komposition.
+    - Ensemblespel samt individuell instrument- och sångträning.
+
 # Övrigt
 
 2006--2007
