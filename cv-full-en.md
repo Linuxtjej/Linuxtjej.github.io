@@ -107,7 +107,7 @@ lang: en-GB
 2016
 :   **Ph.D. in Psychology**, Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS).
 
-    Thesis title: *Män möter mödravård: om betydelsen av "vi" i mötet med mödrahälsovård, förlossningsvård och BB-vård* [Men Meet Maternal Health Care: The Significance of "We" in the Encounter With Prenatal, Delivery and Postnatal Care].
+    Thesis title: *[Män möter mödravård: om betydelsen av "vi" i mötet med mödrahälsovård, förlossningsvård och BB-vård](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492)* [Men Meet Maternal Health Care: The Significance of "We" in the Encounter With Prenatal, Delivery and Postnatal Care].
 
 2009
 :   **M.Sc. in Psychology**, Umeå University, Department of Psychology.
