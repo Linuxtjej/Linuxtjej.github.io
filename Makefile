@@ -1,4 +1,4 @@
-markdown=cv-sv.md cv-en.md cv-full-sv.md cv-full-en.md cv-academic-sv.md cv-academic-en.md index.md
+markdown=$(wildcard *.md)
 html=$(patsubst %.md, %.html, $(markdown))
 pdf=$(patsubst %.md, %.pdf, $(markdown))
 css=templates/pandoc-cv.css
