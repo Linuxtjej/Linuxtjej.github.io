@@ -987,5 +987,50 @@
                 ]
             }
         ]
+    },
+    "contact": {
+        "heading": {
+            "default": {
+                "sv": "Kontakt",
+                "en": "Contact"
+            }
+        },
+        "field_order": [
+            "address"
+        ],
+        "list_type": "definition",
+        "term_field": "type",
+        "items": [
+            {
+                "type": {
+                    "sv": "Telefon",
+                    "en": "Phone"
+                },
+                "address": {
+                    "sv": "070-622 24 37",
+                    "en": "+46 (70) 622 24 34"
+                }
+            },
+            {
+                "type": {
+                    "sv": "E-post",
+                    "en": "Email"
+                },
+                "address": {
+                    "sv": "stefan punkt bjork snabel-a gmail punkt com",
+                    "en": "stefan dot bjork at gmail dot com"
+                }
+            },
+            {
+                "type": {
+                    "sv": "Twitter",
+                    "en": "Twitter"
+                },
+                "address": {
+                    "sv": "[\\@fenomenologen](https://twitter.com/fenomenologen)",
+                    "en": "[\\@fenomenologen](https://twitter.com/fenomenologen)"
+                }
+            }
+        ]
     }
 }
