@@ -15,16 +15,16 @@ all: $(markdown) $(pdf) $(html)
 markdown: $(markdown)
 
 cv-sv.md: $(data)
-	perl scripts/json2cv.pl --lang=sv --type=recent --json=$< > $@
+	perl scripts/json2cv.pl --lang=sv --type=recent --contact --json=$< > $@
 
 cv-en.md: $(data)
-	perl scripts/json2cv.pl --lang=en --type=recent --json=$< > $@
+	perl scripts/json2cv.pl --lang=en --type=recent --contact --json=$< > $@
 
 cv-full-sv.md: $(data)
-	perl scripts/json2cv.pl --lang=sv --type=full --json=$< > $@
+	perl scripts/json2cv.pl --lang=sv --type=full --contact --json=$< > $@
 
 cv-full-en.md: $(data)
-	perl scripts/json2cv.pl --lang=en --type=full --json=$< > $@
+	perl scripts/json2cv.pl --lang=en --type=full --contact --json=$< > $@
 
 cv-academic-sv.md: $(data)
 	perl scripts/json2cv.pl --lang=sv --type=academic --json=$< > $@

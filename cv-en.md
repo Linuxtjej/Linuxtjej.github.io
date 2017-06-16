@@ -71,3 +71,14 @@ English
 German
 :   Basic.
 
+# Contact
+
+Phone
+:   +46 (70) 622 24 34
+
+Email
+:   stefan dot bjork at gmail dot com
+
+Twitter
+:   [\@fenomenologen](https://twitter.com/fenomenologen)
+

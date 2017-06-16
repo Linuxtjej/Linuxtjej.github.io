@@ -16,6 +16,7 @@ my $importance             = 2;
 my $education_first        = 0;
 my $job_descriptions       = 1;
 my $education_descriptions = 1;
+my $contact                = 0;
 
 unless (
     GetOptions(
@@ -23,7 +24,8 @@ unless (
         "type=s"          => \$cvtype,
         "json=s"          => \$json,
         "importance=i"    => \$importance,
-        "ecucation-first" => \$education_first
+        "ecucation-first" => \$education_first,
+        "contact"         => \$contact
     )
     )
 {
@@ -261,7 +263,6 @@ if ( $cvtype eq 'academic' ) {
     print $fh itemize( $cv->{languages},       all            => 1 );
     print $fh itemize( $cv->{positions},       type           => 'academic_other' );
     print $fh itemize( $cv->{other_education}, no_description => 1 );
-
 }
 else {
     print $fh itemize( $cv->{positions} );
@@ -271,3 +272,4 @@ else {
     print $fh itemize( $cv->{languages}, all => 1 );
 }
 
+print $fh itemize( $cv->{contact}, all => 1) if ($contact);

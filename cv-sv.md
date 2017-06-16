@@ -71,3 +71,14 @@ Engelska
 Tyska
 :   Grundläggande.
 
+# Kontakt
+
+Telefon
+:   070-622 24 37
+
+E-post
+:   stefan punkt bjork snabel-a gmail punkt com
+
+Twitter
+:   [\@fenomenologen](https://twitter.com/fenomenologen)
+
