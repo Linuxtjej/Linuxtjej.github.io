@@ -1,0 +1,10 @@
+markdown=$(wildcard *.md)
+html=$(patsubst %.md, %.html, $(markdown))
+pdf=$(patsubst %.md, %.pdf, $(markdown))
+
+css=$(BASEDIR)/templates/pandoc-cv.css
+context_style=$(BASEDIR)/templates/context.tex
+latex_template=$(BASEDIR)/templates/latex-template.tex
+latex_header=$(BASEDIR)/templates/latex-header.tex
+pandoc_yaml=$(BASEDIR)/templates/pandoc.yaml
+data=$(BASEDIR)/data/cv.json

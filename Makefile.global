@@ -1,0 +1,23 @@
+%.pdf: %.md $(latex_header)
+	pandoc --from=markdown --to=latex --output=$@ \
+		--latex-engine=xelatex \
+		--include-in-header=$(latex_header) --smart \
+		--filter=pandoc-citeproc \
+		$< $(pandoc_yaml)
+
+%.tex: %.md $(latex_header)
+	pandoc --from=markdown --to=latex --output=$@ \
+		--latex-engine=xelatex \
+		--include-in-header=$(latex_header) --smart \
+		$< $(pandoc_yaml)
+
+%.html: %.md $(css)
+	pandoc --standalone --smart --css=$(css) \
+		--from markdown --to html \
+		--include-in-header=templates/header.html \
+		-o $@ $<
+
+clean:
+	rm -f $(pdf) $(html)
+	rm -f $(patsubst %.pdf, %.log, $(pdf))
+	rm -f $(patsubst %.pdf, %.tuc, $(pdf))
