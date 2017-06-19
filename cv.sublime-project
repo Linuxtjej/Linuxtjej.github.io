@@ -1,11 +1,10 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	],
-   "build_systems": [
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "build_systems": [
         {
             "name": "Make all CV:s",
             "shell_cmd": "make -j",
@@ -15,6 +14,11 @@
             "name": "Build all CV:s",
             "shell_cmd": "make -j -B",
             "working_dir": "${project_path}"
+        },
+        {
+            "name": "Ansökan Umeå universitet",
+            "shell_cmd": "make -j",
+            "working_dir": "${project_path}/cv-academic/umu"
         },
         {
             "name": "CV to PDF (pandoc)",
@@ -27,7 +31,7 @@
                 "--include-in-header=${project_path}/templates/latex-header.tex",
                 "--smart",
                 "${file}",
-                "${project_path}/templates/pandoc.yaml",
+                "${project_path}/templates/pandoc.yaml"
             ]
         },
         {
