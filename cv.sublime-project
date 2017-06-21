@@ -16,6 +16,11 @@
             "working_dir": "${project_path}"
         },
         {
+            "name": "Personligt brev",
+            "shell_cmd": "make -j",
+            "working_dir": "${project_path}/letters"
+        },
+        {
             "name": "Ansökan Umeå universitet",
             "shell_cmd": "make -j",
             "working_dir": "${project_path}/cv-academic/umu"
