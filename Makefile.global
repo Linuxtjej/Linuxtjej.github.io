@@ -14,7 +14,7 @@
 %.html: %.md $(css)
 	pandoc --standalone --smart --css=$(css) \
 		--from markdown --to html \
-		--include-in-header=templates/header.html \
+		--include-in-header=$(BASEDIR)/templates/header.html \
 		-o $@ $<
 
 clean:
