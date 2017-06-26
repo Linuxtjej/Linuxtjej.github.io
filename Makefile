@@ -1,7 +1,9 @@
 BASEDIR=.
 include $(BASEDIR)/Makefile.defs
 
-all: $(markdown) $(pdf) $(html) letters umu
+cv_pdf=cv-sv.pdf cv-en.pdf cv-full-sv.pdf cv-full-en.pdf cv-academic-sv.pdf cv-academic-en.pdf cv-ptp-sv.pdf
+
+all: $(markdown) $(pdf) $(cv_pdf) $(html) letters umu
 
 .PHONY: letters umu markdown
 
@@ -30,6 +32,9 @@ cv-academic-sv.md: $(data)
 
 cv-academic-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=academic --json=$< > $@
+
+cv-ptp-sv.md: $(data)
+	perl scripts/json2cv.pl --lang=sv --type=ptp --importance=3 --contact --json=$< > $@
 
 cleanall:
 	make -C . clean

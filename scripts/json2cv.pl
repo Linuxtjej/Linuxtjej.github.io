@@ -265,6 +265,7 @@ if ( $cvtype eq 'academic' ) {
     print $fh itemize( $cv->{other_education}, no_description => 1 );
 }
 else {
+    print $fh itemize( $cv->{profile} );
     print $fh itemize( $cv->{positions} );
     print $fh itemize( $cv->{education} );
     print $fh itemize( $cv->{other_education} );
@@ -272,4 +273,4 @@ else {
     print $fh itemize( $cv->{languages}, all => 1 );
 }
 
-print $fh itemize( $cv->{contact}, all => 1) if ($contact);
+print $fh itemize( $cv->{contact}, all => 1 ) if ($contact);

@@ -15,6 +15,76 @@
             "sv": "Under perioden 1992--2003 arbetade jag med IT, framför allt drift av Unix-system, nätverk och IT-säkerhet.\n\n"
         }
     },
+    "profile": {
+        "heading": {
+            "default": {
+                "sv": "Profil",
+                "en": "Profile"
+            }
+        },
+        "list_type": "itemize",
+        "field_order": [
+            "item"
+        ],
+        "items": [
+            {
+                "item": {
+                    "sv": "Klinisk erfarenhet från vuxenhabilitering, psykiatri och missbruksvård."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Forskningserfarenhet; har forskat om mäns föräldrablivande, professionsmöten, depression samt kön, genus och maskuliniteter."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Erfarenhet av undervisning på högskolenivå."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Skolad i både PDT och KBT."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Mycket bra på att skriva och rapportera, på svenska såväl som engelska."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Analytisk, kvicktänkt, pedagogisk och inkännande."
+                },
+                "type": [
+                    "ptp"
+                ]
+            },
+            {
+                "item": {
+                    "sv": "Utgår alltid från kundens/elevens/studentens/klientens/patientens perspektiv."
+                },
+                "type": [
+                    "ptp"
+                ]
+            }
+        ]
+    },
     "education": {
         "heading": {
             "default": {
@@ -47,6 +117,7 @@
                 "type": [
                     "academic",
                     "psychologist",
+                    "ptp",
                     "recent"
                 ]
             },
@@ -68,6 +139,7 @@
                 "type": [
                     "academic",
                     "psychologist",
+                    "ptp",
                     "recent"
                 ]
             },
@@ -89,7 +161,8 @@
                 "importance": 2,
                 "type": [
                     "recent",
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ]
             }
         ]
@@ -138,6 +211,7 @@
                 "type": [
                     "academic",
                     "psychologist",
+                    "ptp",
                     "recent"
                 ]
             }
@@ -199,6 +273,7 @@
                 "type": [
                     "academic",
                     "psychologist",
+                    "ptp",
                     "recent"
                 ],
                 "comment": "Doktorand, Umeå universitet, Institutionen för psykologi, 2011-01-01 till 2016-10-25 (5 år, 9 månader, 25 dagar)."
@@ -228,7 +303,8 @@
                 "type": [
                     "academic",
                     "recent",
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ],
                 "comment": "Universitetsadjunkt, Umeå universitet, Institutionen för psykologi, 2009-01-01 till 2010-12-31 (2 år)."
             },
@@ -257,7 +333,8 @@
                 "type": [
                     "academic",
                     "recent",
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ],
                 "comment": "Forskningsamanuens, Umeå universitet, Institutionen för psykologi, 2008-09-01 till 2008-12-31 (4 månader)."
             },
@@ -283,7 +360,8 @@
                 },
                 "type": [
                     "recent",
-                    "academic_other"
+                    "academic_other",
+                    "ptp"
                 ],
                 "meta": 1
             },
@@ -310,7 +388,8 @@
                 "end_date": "2008-08-31",
                 "importance": 2,
                 "type": [
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ],
                 "comment": "Behandlingsassistent, Umeå kommun, sommaren 2008. Saknar intyg. Behöver söka efter anställningskontrakt."
             },
@@ -325,6 +404,14 @@
                     "sv": "Umeå",
                     "en": "Umeå, Sweden"
                 },
+                "descriptions": {
+                    "sv": [
+                        "Särskilda habiliteringsinsatser enligt HSL och råd och stöd enligt LSS."
+                    ]
+                },
+                "type": [
+                    "ptp"
+                ],
                 "start_date": "2007-02-20",
                 "end_date": "2007-06-02",
                 "importance": 3,
@@ -355,7 +442,8 @@
                 "end_date": "2005-08-14",
                 "importance": 2,
                 "type": [
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ],
                 "comment": "Vårdbiträde/mentalskötare, Psykiatriska kliniken, Norrlands universitetssjukhus, 2004-07-12 till 2004-09-26 (2 månader, 15 dagar), 2005-05-20 till 2005-08-14 (2 månader, 26 dagar), 2005-08-25 till 2006-01-31 (5 månader, 7 dagar), totalt 468,2 timmar."
             },
@@ -384,7 +472,8 @@
                 "end_date": "2004-09-26",
                 "importance": 2,
                 "type": [
-                    "psychologist"
+                    "psychologist",
+                    "ptp"
                 ]
             },
             {
@@ -625,6 +714,9 @@
                     "sv": "Falun",
                     "en": "Falun, Sweden"
                 },
+                "type": [
+                    "ptp"
+                ],
                 "start_date": "1996-05-01",
                 "end_date": "1997-06-30",
                 "importance": 2
@@ -652,6 +744,9 @@
                     "sv": "Dala-Järna",
                     "en": "Dala-Järna, Sweden"
                 },
+                "type": [
+                    "ptp"
+                ],
                 "start_date": "1994-02-15",
                 "end_date": "1994-09-15",
                 "importance": 2
