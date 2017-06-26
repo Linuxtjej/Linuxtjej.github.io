@@ -1,16 +1,15 @@
-markdown=$(wildcard *.md)
-html=$(patsubst %.md, %.html, $(markdown))
-pdf=$(patsubst %.md, %.pdf, $(markdown))
-css=templates/pandoc-cv.css
-context_style=templates/context.tex
-latex_template=templates/latex-template.tex
-latex_header=templates/latex-header.tex
-pandoc_yaml=templates/pandoc.yaml
-data=data/cv.json
+BASEDIR=.
+include $(BASEDIR)/Makefile.defs
 
-#tmp_default: $(markdown)
+all: $(markdown) $(pdf) $(html) letters umu
 
-all: $(markdown) $(pdf) $(html)
+.PHONY: letters umu markdown
+
+letters:
+	make -C letters
+
+umu:
+	make -C cv-academic/umu
 
 markdown: $(markdown)
 
@@ -32,26 +31,9 @@ cv-academic-sv.md: $(data)
 cv-academic-en.md: $(data)
 	perl scripts/json2cv.pl --lang=en --type=academic --json=$< > $@
 
-%.pdf: %.md $(latex_header)
-	pandoc --from=markdown --to=latex --output=$@ \
-		--latex-engine=xelatex \
-		--include-in-header=$(latex_header) --smart \
-		--filter=pandoc-citeproc \
-		$< $(pandoc_yaml)
+cleanall:
+	make -C . clean
+	make -C letters clean
+	make -C cv-academic/umu clean
 
-%.tex: %.md $(latex_header)
-	pandoc --from=markdown --to=latex --output=$@ \
-		--latex-engine=xelatex \
-		--include-in-header=$(latex_header) --smart \
-		$< $(pandoc_yaml)
-
-%.html: %.md $(css)
-	pandoc --standalone --smart --css=$(css) \
-		--from markdown --to html \
-		--include-in-header=templates/header.html \
-		-o $@ $<
-
-clean:
-	rm -f $(pdf) $(html)
-	rm -f $(patsubst %.pdf, %.log, $(pdf))
-	rm -f $(patsubst %.pdf, %.tuc, $(pdf))
+include $(BASEDIR)/Makefile.global
