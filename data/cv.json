@@ -33,7 +33,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -41,7 +42,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -49,7 +51,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -57,7 +60,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -65,7 +69,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -73,7 +78,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             },
             {
                 "item": {
@@ -81,7 +87,8 @@
                 },
                 "type": [
                     "ptp"
-                ]
+                ],
+                "importance": 4
             }
         ]
     },
@@ -238,8 +245,37 @@
             "employer",
             "location"
         ],
-        "sort_key": "end_date",
+        "sort_key": "start_date",
         "items": [
+            {
+                "title": {
+                    "sv": "PTP-psykolog",
+                    "en": "Psychologist (trainee)"
+                },
+                "employer": {
+                    "sv": "Arbetsförmedlingen",
+                    "en": "The Swedish Public Employment Service"
+                },
+                "location": {
+                    "sv": "Skövde",
+                    "en": "Skövde, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Arbetspsykologisk utredning och bedömning",
+                        "Riktad arbetspsykologisk utredning (urval av arbetssökande inför viss utbildning)",
+                        "Stödsamtal inför inträde eller återgång i arbete",
+                        "Karriär- och vägledningssamtal",
+                        "Konsultation och rådgivning till arbetsförmedlare och arbetsgivare",
+                        "Utbildning av arbetsförmedlare",
+                        "Psykosocialt anpassningsstöd på arbetsplatser",
+                        "Arbetsanalys och yrkeskravsanalys",
+                        "Utvärdering och metodutveckling"
+                    ]
+                },
+                "start_date": "2017-09-01",
+                "importance": 1
+            },
             {
                 "title": {
                     "en": "Doctoral Student",

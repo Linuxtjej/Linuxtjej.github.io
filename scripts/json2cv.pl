@@ -107,6 +107,10 @@ sub itemize {
         # (2) $mytype="full" and there is no JSON type OR there is no "meta" in
         # JSON. And, for both 1 and 2, (3) importance is not set or lower than
         # threshold.
+        #
+        # There is, however, still a bug here, because profile shouldn't be
+        # printed in 'full' type. Oh, well. I just solve it by reducing
+        # importance for now.
         next
             unless ( $opt{all}
             || ( ( $item->{type} && grep( /^$type$/, @{ $item->{type} } ) || ( $type eq "full" && !$item->{meta} ) ) )
