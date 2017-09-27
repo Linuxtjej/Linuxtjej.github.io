@@ -6,7 +6,11 @@ lang: en-GB
 
 ![](images/photo.jpg){ width=25% }
 
+
 # Work Experience
+
+2017--
+:   **Psychologist (trainee)**, The Swedish Public Employment Service, Skövde, Sweden.
 
 2011--2016
 :   **Doctoral Student**, Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS).

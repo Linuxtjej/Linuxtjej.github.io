@@ -6,6 +6,7 @@ lang: en-GB
 
 ![](images/photo.jpg){ width=25% }
 
+
 # Work Experience
 
 2011--2016
