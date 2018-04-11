@@ -10,7 +10,7 @@ lang: sv-SE
 # Arbetslivserfarenhet
 
 2017--
-:   **PTP-psykolog**, Arbetsförmedlingen, Skövde.
+:   **PTP-psykolog**, Arbetsförmedlingen, Skövde/Umeå.
 
     - Arbetspsykologisk utredning och bedömning
     - Riktad arbetspsykologisk utredning (urval av arbetssökande inför viss utbildning)
