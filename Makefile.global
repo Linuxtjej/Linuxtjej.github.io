@@ -1,18 +1,18 @@
 %.pdf: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \
-		--latex-engine=xelatex \
-		--include-in-header=$(latex_header) --smart \
+		--pdf-engine=xelatex \
+		--include-in-header=$(latex_header) \
 		--filter=pandoc-citeproc \
 		$< $(pandoc_yaml)
 
 %.tex: %.md $(latex_header)
 	pandoc --from=markdown --to=latex --output=$@ \
-		--latex-engine=xelatex \
-		--include-in-header=$(latex_header) --smart \
+		--pdf-engine=xelatex \
+		--include-in-header=$(latex_header) \
 		$< $(pandoc_yaml)
 
 %.html: %.md $(css)
-	pandoc --standalone --smart --css=$(css) \
+	pandoc --standalone --css=$(css) \
 		--from markdown --to html \
 		--include-in-header=$(BASEDIR)/templates/header.html \
 		-o $@ $<
