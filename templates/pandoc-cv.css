@@ -27,9 +27,17 @@ a:hover, a:active {
     text-shadow: 1px 1px 1px #333;
 }
 
+/* Images */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Body titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p.author, p.date {
     font-family: "Oswald", sans-serif;
     font-weight: normal;
     color: #da1705;
@@ -45,16 +53,16 @@ h2 {
 
 /* Main titles */
 
-h1.title, h2.author, h3.date {
-    text-align: center;
-}
-
 h1.title {
+    text-align: center;
     font-size: 250%;
     margin-bottom: 0em;
 }
 
-h2.author, h3.date {
+/* Author and date */
+
+p.author, p.date {
+    text-align: center;
     margin-top: 0em;
     font-size: 150%;
 }
