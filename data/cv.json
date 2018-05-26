@@ -8,12 +8,76 @@
     "author": "Stefan Björk",
     "preamble": {
         "all": {
-            "sv": "![](images/photo.jpg){ width=25% }\n\n",
-            "en": "![](images/photo.jpg){ width=25% }\n\n"
+            "sv": "![Foto](images/photo.jpg){ width=25% align=\"center\" }\n\n",
+            "en": "![Photo](images/photo.jpg){ width=25% }\n\n"
         },
         "it": {
             "sv": "Under perioden 1992--2003 arbetade jag med IT, framför allt drift av Unix-system, nätverk och IT-säkerhet.\n\n"
         }
+    },
+    "personal": {
+        "heading": {
+            "default": {
+                "sv": "Personuppgifter",
+                "en": "Personal Details"
+            }
+        },
+        "field_order": [
+            "text"
+        ],
+        "list_type": "definition",
+        "term_field": "item",
+        "items": [
+            {
+                "item": {
+                    "sv": "Namn",
+                    "en": "Name"
+                },
+                "text": {
+                    "sv": "Stefan Björk",
+                    "en": "Stefan Björk"
+                }
+            },
+            {
+                "item": {
+                    "sv": "Personnr.",
+                    "en": "Personal Code Number"
+                },
+                "text": {
+                    "sv": "720927-3031",
+                    "en": "720927-3031"
+                }
+            },
+            {
+                "item": {
+                    "sv": "Adress",
+                    "en": "Address"
+                },
+                "text": {
+                    "sv": "Rödmyrvägen 3B  \n    904 40 Röbäck"
+                }
+            },
+            {
+                "item": {
+                    "sv": "Telefon",
+                    "en": "Phone"
+                },
+                "text": {
+                    "sv": "0706-22 24 37",
+                    "en": "+46-706-22 24 37"
+                }
+            },
+            {
+                "item": {
+                    "sv": "E-post",
+                    "en": "Email"
+                },
+                "text": {
+                    "sv": "<stefan.bjork@gmail.com>",
+                    "en": "<stefan.bjork@gmail.com>"
+                }
+            }
+        ]
     },
     "profile": {
         "heading": {
@@ -274,7 +338,11 @@
                     ]
                 },
                 "start_date": "2017-09-01",
-                "importance": 1
+                "end_date": "2018-08-31",
+                "importance": 1,
+                "type": [
+                    "academic"
+                ]
             },
             {
                 "title": {

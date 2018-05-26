@@ -17,6 +17,7 @@ my $education_first        = 0;
 my $job_descriptions       = 1;
 my $education_descriptions = 1;
 my $contact                = 0;
+my $personal               = 0;
 
 unless (
     GetOptions(
@@ -257,8 +258,9 @@ print $fh "...\n\n";
 print $fh $cv->{preamble}->{all}->{$lang} if ( $cv->{preamble}->{all}->{$lang} );
 print $fh $cv->{preamble}->{$cvtype}->{$lang} if ( $cv->{preamble}->{$cvtype}->{$lang} );
 
-if ( $cvtype eq 'academic' ) {
+print $fh itemize( $cv->{personal}, all => 1 ) if ($personal);
 
+if ( $cvtype eq 'academic' ) {
     print $fh itemize( $cv->{education},       no_description => 1 );
     print $fh itemize( $cv->{positions},       no_description => 1 );
     print $fh itemize( $cv->{publications},    all            => 1 );
