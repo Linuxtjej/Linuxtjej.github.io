@@ -26,7 +26,8 @@ unless (
         "json=s"          => \$json,
         "importance=i"    => \$importance,
         "ecucation-first" => \$education_first,
-        "contact"         => \$contact
+        "contact"         => \$contact,
+        "personal"        => \$personal
     )
     )
 {
