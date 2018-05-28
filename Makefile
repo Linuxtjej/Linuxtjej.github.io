@@ -39,6 +39,10 @@ cv-academic-en.md: $(data)
 cleanall:
 	make -C . clean
 	make -C letters clean
+	make -C cv-academic clean
 	make -C cv-academic/umu clean
+
+applications:
+	JSON2CVOPTS=--personal make
 
 include $(BASEDIR)/Makefile.global
