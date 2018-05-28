@@ -2,8 +2,8 @@
 title: Forskning och forskningsintressen
 author: Stefan Björk
 bibliography:
-  - '../../Litteratur/papers.bib'
-  - '../../Litteratur/books.bib'
+  - '../../bibliography/papers.bib'
+  - '../../bibliography/books.bib'
 csl: 'chicago-fullnote-bibliography.csl'
 lang: sv-SE
 ...

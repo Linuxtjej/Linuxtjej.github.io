@@ -3,15 +3,18 @@ include $(BASEDIR)/Makefile.defs
 
 cv_pdf=cv-sv.pdf cv-en.pdf cv-full-sv.pdf cv-full-en.pdf cv-academic-sv.pdf cv-academic-en.pdf cv-ptp-sv.pdf
 
-all: $(markdown) $(pdf) $(cv_pdf) $(html) letters umu
+all: $(markdown) $(pdf) $(cv_pdf) $(html) letters umu cv-academic
 
-.PHONY: letters umu markdown
+.PHONY: letters umu markdown cv-academic
 
 letters:
 	make -C letters
 
 umu:
 	make -C cv-academic/umu
+
+cv-academic:
+	make -C cv-academic
 
 markdown: $(markdown)
 
