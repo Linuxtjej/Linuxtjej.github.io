@@ -111,6 +111,10 @@ ul, ol {
     margin-bottom: 1em;
 }
 
-.figure {
+figure {
     text-align: center;
+}
+
+figcaption {
+    display: none;
 }

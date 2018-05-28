@@ -8,8 +8,8 @@
     "author": "Stefan Björk",
     "preamble": {
         "all": {
-            "sv": "![Foto](images/photo.jpg){ width=25% align=\"center\" }\n\n",
-            "en": "![Photo](images/photo.jpg){ width=25% }\n\n"
+            "sv": "![Stefan Björk](images/photo.jpg){ width=25% align=\"center\" }\n\n",
+            "en": "![Stefan Björk](images/photo.jpg){ width=25% }\n\n"
         },
         "it": {
             "sv": "Under perioden 1992--2003 arbetade jag med IT, framför allt drift av Unix-system, nätverk och IT-säkerhet.\n\n"
