@@ -4,12 +4,12 @@ author: Stefan Björk
 lang: en-GB
 ...
 
-![](images/photo.jpg){ width=25% }
+![Stefan Björk](images/photo.jpg){ width=25% }
 
 
 # Work Experience
 
-2017--
+2017--2018
 :   **Psychologist (trainee)**, The Swedish Public Employment Service, Skövde/Umeå, Sweden.
 
 2011--2016

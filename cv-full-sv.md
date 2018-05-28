@@ -4,12 +4,12 @@ author: Stefan Björk
 lang: sv-SE
 ...
 
-![](images/photo.jpg){ width=25% }
+![Stefan Björk](images/photo.jpg){ width=25% align="center" }
 
 
 # Arbetslivserfarenhet
 
-2017--
+2017--2018
 :   **PTP-psykolog**, Arbetsförmedlingen, Skövde/Umeå.
 
     - Arbetspsykologisk utredning och bedömning

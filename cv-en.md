@@ -4,7 +4,7 @@ author: Stefan Björk
 lang: en-GB
 ...
 
-![](images/photo.jpg){ width=25% }
+![Stefan Björk](images/photo.jpg){ width=25% }
 
 
 # Work Experience

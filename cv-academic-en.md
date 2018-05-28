@@ -4,7 +4,7 @@ author: Stefan Björk
 lang: en-GB
 ...
 
-![](images/photo.jpg){ width=25% }
+![Stefan Björk](images/photo.jpg){ width=25% }
 
 # Education
 
@@ -15,6 +15,9 @@ lang: en-GB
 :   **M.Sc. in Psychology**, Umeå University, Department of Psychology.
 
 # Academic Positions
+
+2017--2018
+:   **Psychologist (trainee)**, The Swedish Public Employment Service, Skövde/Umeå, Sweden.
 
 2011--2016
 :   **Doctoral Student**, Umeå University, Department of Psychology & Umeå Centre for Gender Studies (UCGS).
