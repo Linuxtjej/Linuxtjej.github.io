@@ -76,6 +76,9 @@ sub indent_par {
 sub itemize {
     my ( $cv, %opt ) = @_;
 
+    # return empty string if there is no data
+    return '' unless ($cv);
+
     my $level       = $opt{level}        ? $opt{level}             : 1;
     my $sort_key    = $cv->{sort_key}    ? $cv->{sort_key}         : $opt{sort_key};
     my $term_field  = $cv->{term_field}  ? $cv->{term_field}       : $opt{term_field};
