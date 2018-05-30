@@ -108,3 +108,14 @@ Tyska
 2002--2003
 :   **Musiklinjen**, Folkuniversitetet, Umeå.
 
+# Kontakt
+
+Telefon
+:   070-622 24 37
+
+E-post
+:   stefan punkt bjork snabel-a gmail punkt com
+
+Twitter
+:   [\@fenomenologen](https://twitter.com/fenomenologen)
+
