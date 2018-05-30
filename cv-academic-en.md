@@ -99,14 +99,3 @@ German
 2002--2003
 :   **Music Programme**, Folkuniversitetet, Umeå, Sweden.
 
-# Contact
-
-Phone
-:   +46 (70) 622 24 34
-
-Email
-:   stefan dot bjork at gmail dot com
-
-Twitter
-:   [\@fenomenologen](https://twitter.com/fenomenologen)
-
