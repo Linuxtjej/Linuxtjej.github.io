@@ -37,13 +37,6 @@ unless (
     exit 2;
 }
 
-# academic cv is special in several respects
-if ( $cvtype eq 'academic' ) {
-    $education_first        = 1;
-    $education_descriptions = 0;
-    $job_descriptions       = 0;
-}
-
 # parse type and language if --type-lang is used
 if ($cvtype_lang) {
     if ( $cvtype_lang =~ m/^(\w+)-(\w+)$/ ) {
@@ -53,6 +46,14 @@ if ($cvtype_lang) {
     else {
         $lang = $cvtype_lang;
     }
+}
+
+# academic cv is special in several respects
+if ( $cvtype eq 'academic' ) {
+    $education_first        = 1;
+    $education_descriptions = 0;
+    $job_descriptions       = 0;
+    $contact                = 0;    # no contact information
 }
 
 # set full BCP 47 language codes for pandoc
