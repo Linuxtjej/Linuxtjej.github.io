@@ -10,7 +10,7 @@ use File::Slurp;
 use Data::Dumper;
 
 my $lang                   = 'sv';
-my $cvtype                 = 'full';
+my $cvtype                 = 'recent';
 my $json                   = 'data/cv.json';
 my $importance             = 2;
 my $education_first        = 0;
@@ -18,6 +18,7 @@ my $job_descriptions       = 1;
 my $education_descriptions = 1;
 my $contact                = 0;
 my $personal               = 0;
+my $cvtype_lang;
 
 unless (
     GetOptions(
@@ -27,7 +28,8 @@ unless (
         "importance=i"    => \$importance,
         "ecucation-first" => \$education_first,
         "contact"         => \$contact,
-        "personal"        => \$personal
+        "personal"        => \$personal,
+        "type-lang=s"     => \$cvtype_lang
     )
     )
 {
@@ -40,6 +42,17 @@ if ( $cvtype eq 'academic' ) {
     $education_first        = 1;
     $education_descriptions = 0;
     $job_descriptions       = 0;
+}
+
+# parse type and language if --type-lang is used
+if ($cvtype_lang) {
+    if ( $cvtype_lang =~ m/^(\w+)-(\w+)$/ ) {
+        $cvtype = $1;
+        $lang   = $2;
+    }
+    else {
+        $lang = $cvtype_lang;
+    }
 }
 
 # set full BCP 47 language codes for pandoc

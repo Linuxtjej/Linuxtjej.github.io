@@ -1,6 +1,11 @@
-markdown=$(wildcard *.md)
-html=$(patsubst %.md, %.html, $(markdown))
-pdf=$(patsubst %.md, %.pdf, $(markdown))
+# Variables for GNU make, files and targets
+
+PDF_PATH=$(BASEDIR)/pdf
+pdf_files=$(patsubst %, $(PDF_PATH)/%, $(pdf))
+html_files=$(html)
+markdown_files=$(patsubst %.html, %.md, $(html_files))
+
+# Configuration
 
 css=$(BASEDIR)/templates/pandoc-cv.css
 context_style=$(BASEDIR)/templates/context.tex
