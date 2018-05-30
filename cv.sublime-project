@@ -6,57 +6,19 @@
     ],
     "build_systems": [
         {
-            "name": "Make all CV:s",
+            "name": "CV: Make All",
             "shell_cmd": "make -j",
             "working_dir": "${project_path}"
         },
         {
-            "name": "Build all CV:s",
+            "name": "CV: Build All",
             "shell_cmd": "make -j -B",
             "working_dir": "${project_path}"
         },
         {
-            "name": "Clean all",
+            "name": "CV: Clean All",
             "shell_cmd": "make -j cleanall",
             "working_dir": "${project_path}"
-        },
-        {
-            "name": "Personligt brev",
-            "shell_cmd": "make -j",
-            "working_dir": "${project_path}/letters"
-        },
-        {
-            "name": "Ansökan Umeå universitet",
-            "shell_cmd": "make -j",
-            "working_dir": "${project_path}/cv-academic/umu"
-        },
-        {
-            "name": "CV to PDF (pandoc)",
-            "cmd": [
-                "pandoc",
-                "--from=markdown",
-                "--to=latex",
-                "--output=${file_base_name}.pdf",
-                "--latex-engine=xelatex",
-                "--include-in-header=${project_path}/templates/latex-header.tex",
-                "--smart",
-                "${file}",
-                "${project_path}/templates/pandoc.yaml"
-            ]
-        },
-        {
-            "name": "CV to HTML (pandoc)",
-            "cmd": [
-                "pandoc",
-                "--from=markdown",
-                "--to=html",
-                "--output=$file_base_name.html",
-                "--standalone",
-                "--smart",
-                "--css=templates/pandoc-cv.css",
-                "--include-in-header=templates/header.html",
-                "$file"
-            ]
         }
     ]
 }
