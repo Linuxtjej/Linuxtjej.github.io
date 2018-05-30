@@ -12,13 +12,15 @@ BASEDIR=.
 include $(BASEDIR)/Makefile.defs
 
 # Default rule
-all: $(pdf_files) $(html_files)
+default: $(pdf_files) $(html_files)
 
 # Implicit rule for creating markdown CV:s of different types/languages.
 cv-%.md: $(data)
 	perl scripts/json2cv.pl --type-lang=$* $(JSON2CVOPTS) --json=$< > $@
 
-.PHONY: letters umu markdown cv-academic cleanall
+.PHONY: all letters umu markdown cv-academic cleanall
+
+all: default letters umu cv-academic
 
 letters:
 	make -C letters
