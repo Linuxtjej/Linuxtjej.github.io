@@ -3,7 +3,7 @@ pdf=cv-sv.pdf cv-en.pdf cv-full-sv.pdf cv-full-en.pdf cv-academic-sv.pdf cv-acad
 html=$(patsubst %.pdf,%.html,$(pdf)) index.html
 
 # Global options to json2cv.pl, usually --contacts or --personal.
-JSON2CVOPTS=--contact
+JSON2CVOPTS=--personal
 
 # Base directory
 BASEDIR=.
@@ -12,7 +12,7 @@ BASEDIR=.
 include $(BASEDIR)/Makefile.defs
 
 # Default rule
-default: $(pdf_files) $(html_files)
+default: $(pdf_files) $(html_files) letters
 
 # Implicit rule for creating markdown CV:s of different types/languages.
 cv-%.md: $(data)
