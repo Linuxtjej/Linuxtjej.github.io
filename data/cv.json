@@ -341,7 +341,9 @@
                 "end_date": "2018-08-31",
                 "importance": 1,
                 "type": [
-                    "academic"
+                    "academic",
+                    "recent",
+                    "psychologist"
                 ]
             },
             {
@@ -451,7 +453,8 @@
                 },
                 "type": [
                     "recent",
-                    "academic_other"
+                    "academic_other",
+                    "psychologist"
                 ],
                 "meta": 1
             },
@@ -465,7 +468,8 @@
                 "type": [
                     "recent",
                     "academic_other",
-                    "ptp"
+                    "ptp",
+                    "psychologist"
                 ],
                 "meta": 1
             },
