@@ -1,5 +1,5 @@
 # Target PDF and HTML files to build.
-pdf=cv-sv.pdf cv-en.pdf cv-full-sv.pdf cv-full-en.pdf cv-academic-sv.pdf cv-academic-en.pdf
+pdf=cv-full-sv.pdf
 html=$(patsubst %.pdf,%.html,$(pdf)) index.html
 
 # Global options to json2cv.pl, usually --contacts or --personal.

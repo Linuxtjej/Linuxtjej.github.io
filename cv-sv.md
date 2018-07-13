@@ -9,6 +9,19 @@ lang: sv-SE
 
 # Arbetslivserfarenhet
 
+2017--2018
+:   **PTP-psykolog**, Arbetsförmedlingen, Skövde/Umeå.
+
+    - Arbetspsykologisk utredning och bedömning.
+    - Riktad arbetspsykologisk utredning (urval av arbetssökande inför viss utbildning).
+    - Stödsamtal inför inträde eller återgång i arbete.
+    - Karriär- och vägledningssamtal.
+    - Konsultation och rådgivning till arbetsförmedlare och arbetsgivare.
+    - Utbildning av arbetsförmedlare.
+    - Psykosocialt anpassningsstöd på arbetsplatser.
+    - Arbetsanalys och yrkeskravsanalys.
+    - Utvärdering och metodutveckling.
+
 2011--2016
 :   **Doktorand**, Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS).
 
