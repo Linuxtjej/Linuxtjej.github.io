@@ -46,3 +46,6 @@ lang: sv-SE
 1995--1998
 :   **Estetiska programmet (musik)**, Njudungsgymnasiet, Vetlanda.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ1Njk3MTI3NV19
+-->
