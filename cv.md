@@ -48,7 +48,6 @@ lang: sv-SE
 
 ... fyll på ...
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-AnJ1xudGl0bGU6IEN1cnJpY3VsdW0gVml0w6ZcbiIsImhpc3Rv
-cnkiOlsxMTEyMzAyMywxMjY4NTEyMjQyLDM3MTgwNDczM119
+eyJoaXN0b3J5IjpbMTI2ODUxMjI0MiwxMjY4NTEyMjQyLDM3MT
+gwNDczM119
 -->
