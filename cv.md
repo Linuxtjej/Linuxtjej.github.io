@@ -48,8 +48,3 @@ lang: sv-SE
 
 ... fyll på ...
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4OTUzMTY2LDEyNjg1MTIyNDIsMzcxOD
-A0NzMzXX0=
--->
