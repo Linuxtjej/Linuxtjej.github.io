@@ -1,18 +1,18 @@
 ---
-title: Curriculum Vitæ
 author: Rebecca Lagerstedt
-lang: sv-SE
-...
+lang: 'sv-SE'
+title: Curriculum Vitæ
+---
 
-![Rebecca Lagerstedt](images/photo.jpg){ width=25% align="center" }
+![Rebecca Lagerstedt](images/photo.jpg){width="25%" align="center"}
 
 # Profil
 
-  * *Mål:* Att hitta nya vägar för att kunna utvecklas och inspirera andra, bli en medarbetare som andra ser upp till och som är rättvis, jämställd, och utvecklar sina arbetskamrater.
-  * Är ivrig, intensiv, engagerad och envis. Vill helst bolla mellan olika arbetsuppgifter, då trivs jag bäst.
-  * Tycker om att klura på lösningar och är väldigt idérik.
-  * Jobbar helst ensam men fungerar bra i grupp.
-  * Är väldigt öppen för nya influenser och situationer.
+  - *Mål:* Att hitta nya vägar för att kunna utvecklas och inspirera andra, bli en medarbetare som andra ser upp till och som är rättvis, jämställd, och utvecklar sina arbetskamrater.
+  - Är ivrig, intensiv, engagerad och envis. Vill helst bolla mellan olika arbetsuppgifter, då trivs jag bäst.
+  - Tycker om att klura på lösningar och är väldigt idérik.
+  - Jobbar helst ensam men fungerar bra i grupp.
+  - Är väldigt öppen för nya influenser och situationer.
 
 # Arbetslivserfarenhet
 
@@ -46,5 +46,6 @@ lang: sv-SE
 1995--1998
 :   **Estetiska programmet (musik)**, Njudungsgymnasiet, Vetlanda.
 
-... fyll på ...
+# Övriga meriter
 
+Politiskt engagemang, etc...
