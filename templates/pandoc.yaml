@@ -4,7 +4,7 @@ fontsize: 12pt
 geometry:
 - top=25mm
 - hmargin=25mm
-mainfont: Minion Pro
+mainfont: Palatino
 mainfontoptions: Numbers=OldStyle
 papersize: a4
 ---
