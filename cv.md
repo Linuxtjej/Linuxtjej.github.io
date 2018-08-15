@@ -76,20 +76,17 @@ title: Curriculum Vitæ
 2010--2014
 : **Colour of Love, samordnare/informatör**, RFSL/RFSU/RFSL Ungdom
 
-   - Informatör på ungdomsfestivaler om säkrare sex/ samtycke. 
-   - Arbetsleda informatörer
-   - Arbetsleda / planera / praktiska göromål kring informationstillfället
-   - Göra schema för informatörer
-   - Planera upp informationstillfället - boka hotell/resor till informatörer, kontakta berörd festivalledning
-   - Göra upp en budget för informationstillfället
+    - Informatör på ungdomsfestivaler om säkrare sex/ samtycke. 
+    - Arbetsleda informatörer
+    - Arbetsleda / planera / praktiska göromål kring informationstillfället
+    - Göra schema för informatörer
+    - Planera upp informationstillfället - boka hotell/resor till informatörer, kontakta berörd festivalledning
+    - Göra upp en budget för informationstillfället
 
 2002- 2003
 : **Vårdbiträde**, Tranås Kommun
 
-  
-
-
-
+    - ... 
 
 
 # Utbildning
