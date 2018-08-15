@@ -71,7 +71,7 @@ title: Curriculum Vitæ
 2011--2013
 : **Marknadsundersökare**, Mistat, Norstat
 
-    - Intervjua privatpersoner om undersökningar från företag/myndigheter via telefon. 
+    - Intervjua privatpersoner i undersökningar från företag/myndigheter via telefon. 
 
 2010--2014
 : **Colour of Love, samordnare/informatör**, RFSL/RFSU/RFSL Ungdom
