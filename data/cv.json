@@ -313,6 +313,39 @@
         "items": [
             {
                 "title": {
+                    "sv": "Leg. psykolog",
+                    "en": "Psychologist"
+                },
+                "employer": {
+                    "sv": "Arbetsförmedlingen",
+                    "en": "The Swedish Public Employment Service"
+                },
+                "location": {
+                    "sv": "Umeå",
+                    "en": "Umeå, Sweden"
+                },
+                "descriptions": {
+                    "sv": [
+                        "Arbetspsykologisk utredning och bedömning.",
+                        "Riktad arbetspsykologisk utredning (urval av arbetssökande inför viss utbildning).",
+                        "Stödsamtal inför inträde eller återgång i arbete.",
+                        "Karriär- och vägledningssamtal.",
+                        "Konsultation och rådgivning till arbetsförmedlare och arbetsgivare.",
+                        "Utbildning av arbetsförmedlare.",
+                        "Psykosocialt anpassningsstöd på arbetsplatser.",
+                        "Arbetsanalys och yrkeskravsanalys.",
+                        "Utvärdering och metodutveckling."
+                    ]
+                },
+                "start_date": "2018-09-01",
+                "importance": 1,
+                "type": [
+                    "academic",
+                    "recent"
+                ]
+            },
+            {
+                "title": {
                     "sv": "PTP-psykolog",
                     "en": "Psychologist (trainee)"
                 },
