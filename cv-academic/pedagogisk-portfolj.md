@@ -62,6 +62,7 @@ Med undantag för den starka betoningen på förståelsen nollhypotesen är mitt
 
 På några av de kurser jag undervisat har jag prövat att examinera med salskrivningar med flervalsfrågor. Min erfarenhet är att detta fungerar utmärkt när det gäller *färdigheter* som att genomföra och tolka resultatet av en procedur för statistisk nollhypotesprövning, men mindre bra när det rör sig om *förståelse* av begrepp och teorier; i det senare fallet tvivlar jag på att den klassiska essäfrågan (i form av salskrivning eller hemtenta) går att ersätta. Hur som helst: min erfarenhet av flervalsfrågor är att de inte sparar någon tid. Den tid man vinner på att rätta flervalsfrågor där endast ett alternativ är rätt äts upp av den tid som går åt till att konstruera bra flervalsfrågor.
 
+<!--
 
 # Värderingar och omdömen
 
@@ -83,6 +84,7 @@ I undervisningen har jag samarbetat med bland andra följande personer som kan t
   Umeå universitet, Institutionen för psykologi,  
   090-786 60 06, <steven.nordin@umu.se>
 
+-->
 
 # Referenser
 
