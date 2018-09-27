@@ -1,15 +1,17 @@
 ---
-title: The Github Home of Stefan Björk
+title: Curricula Vitæ for Stefan Björk
 ...
 
-![](images/photo.jpg){ .floatleft width=25% } Psychologist, researcher, philosopher-wannabe, phenomenologist, musician and occasional programmer. For now, my GitHub pages hosts my academic CV:
+![](images/photo.jpg){ width=25% }
 
-* [Akademiskt CV](cv-academic-sv.html) (in Swedish)
-* [Academic CV](cv-academic-en.html) (in English)
+Stefan Björk, PhD, licenced psychologist, musician.
 
-And my functional CV:
+In English:
 
-* Curriculum Vitæ (in [English](cv-en.html) and [Swedish](cv-sv.html)).
-* Complete Curriculum Vitæ (in [English](cv-full-en.html) and [Swedish](cv-full-sv.html)).
+* [Academic CV](cv-academic-en.html) ([pdf](pdf/cv-academic-en.pdf)).
+* [Functional CV](cv-en.html) ([pdf](pdf/cv-en.pdf)).
 
-For everything else, see my blog [Dr. Björks anteckningar](https://fenomenologen.se) (in Swedish).
+På svenska:
+
+* [Akademiskt CV](cv-academic-sv.html) ([pdf](pdf/cv-academic-sv.pdf))
+* [Funktionellt CV](cv-sv.html) ([pdf](pdf/cv-sv.pdf)).
