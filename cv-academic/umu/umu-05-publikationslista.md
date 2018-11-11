@@ -12,7 +12,6 @@ Björk, S. (2016). *Män möter mödravård: om betydelsen av "vi" i mötet med 
 
 Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av "vi". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>
 
-
 # Konferensbidrag
 
 Björk, S. (2013). *Living the 'New father': Men's parenting and masculinities in the Nordic countries*. Presenterad vid 3rd Global Conference on Femininities and Masculinities, 14--21 maj, Prag, Tjeckien. <https://www.academia.edu/2938364>

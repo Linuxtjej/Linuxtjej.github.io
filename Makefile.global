@@ -5,6 +5,7 @@ $(PDF_PATH)/%.pdf: %.md $(latex_header)
 		--pdf-engine=xelatex \
 		--include-in-header=$(latex_header) \
 		--filter=pandoc-citeproc \
+		-M date="`date +%Y-%m-%d`" \
 		$< $(pandoc_yaml)
 
 %.tex: %.md $(latex_header)
