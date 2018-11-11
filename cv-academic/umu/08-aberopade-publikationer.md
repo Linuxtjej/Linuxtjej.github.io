@@ -4,8 +4,6 @@ author: Stefan Björk
 lang: sv-SE
 ...
 
-> Lista över de 10 publikationer som den sökande åberopar i första hand.
-
 # Monografier
 
 Björk, S. (2016). *Män möter mödravård: om betydelsen av "vi" i mötet med mödrahälsovård, förlossningsvård och BB-vård* (doktorsavhandling). Umeå universitet, Institutionen för psykologi & Umeå centrum för genusstudier (UCGS). <http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-124492>
@@ -13,7 +11,6 @@ Björk, S. (2016). *Män möter mödravård: om betydelsen av "vi" i mötet med 
 # Artiklar på svenska
 
 Björk, S. (2017). Män möter mödravård: besöket på barnmorskemottagningen och betydelsen av "vi". *Jordemodern*, *130*(3), 8–13. <https://www.academia.edu/31734203>
-
 
 # Konferensbidrag
 

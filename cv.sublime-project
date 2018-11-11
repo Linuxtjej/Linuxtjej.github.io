@@ -11,6 +11,11 @@
             "working_dir": "${project_path}"
         },
         {
+            "name": "CV: Make UmU",
+            "shell_cmd": "make -j",
+            "working_dir": "${project_path}/cv-academic/umu"
+        },
+        {
             "name": "CV: Build All",
             "shell_cmd": "make -j -B",
             "working_dir": "${project_path}"
