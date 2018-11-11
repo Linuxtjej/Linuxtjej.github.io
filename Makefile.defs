@@ -3,7 +3,7 @@
 PDF_PATH=$(BASEDIR)/pdf
 pdf_files=$(patsubst %, $(PDF_PATH)/%, $(pdf))
 html_files=$(html)
-markdown_files=$(patsubst %.html, %.md, $(html_files))
+markdown_files=$(patsubst %.pdf, %.md, $(pdf))
 
 # Configuration
 

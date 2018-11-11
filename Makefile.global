@@ -29,6 +29,6 @@ pdf: $(pdf_files)
 html: $(html_files)
 
 clean:
-	rm -f $(pdf_files) $(html_files)
+	rm -f $(pdf_files) $(html_files) $(markdown_files)
 	rm -f $(patsubst %.pdf, %.log, $(pdf_files))
 	rm -f $(patsubst %.pdf, %.tuc, $(pdf_files))
