@@ -19,6 +19,11 @@
             "name": "CV: Clean All",
             "shell_cmd": "make -j cleanall",
             "working_dir": "${project_path}"
+        },
+        {
+            "name": "CV: Publish",
+            "shell_cmd": "make -j publish",
+            "working_dir": "${project_path}"
         }
     ]
 }
