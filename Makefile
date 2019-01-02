@@ -29,15 +29,4 @@ cleanall:
 	make -C . clean
 	make -C letters clean
 
-publish: $(pdf_files) $(html_files)
-	mkdir -p cv
-	cp -auv $(html_files) cv
-	mkdir -p cv/pdf
-	cp -auv $(pdf_files) cv/pdf
-	mkdir -p cv/templates
-	cp -auv templates/pandoc-cv.css cv/templates
-	mkdir -p cv/images
-	cp -auv images cv
-	rsync --archive --update --delete --verbose cv skalman@hirohito.acc.umu.se:public_html 
-
 include $(BASEDIR)/Makefile.global
