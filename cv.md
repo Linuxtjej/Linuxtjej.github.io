@@ -178,6 +178,8 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTA4MDc0NCwtNjY0ODYyMDczLC0xND
-EyNjQ2NzcyXX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEN1cnJpY3VsdW0gVml0YW
+VcbmF1dGhvcjogUmViZWNjYSBMYWdlcnN0ZWR0XG4iLCJoaXN0
+b3J5IjpbLTIxMDQ5NTM0MTMsLTQwMTA4MDc0NCwtNjY0ODYyMD
+czLC0xNDEyNjQ2NzcyXX0=
 -->
