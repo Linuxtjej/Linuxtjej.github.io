@@ -129,7 +129,7 @@ title: Curriculum Vitæ
 
 # Övriga meriter
 
-2017--
+2017--2018
 : **Huvudskyddsombud**, Tranås Skinnberedning AB
 
     - Kunna arbetsmiljölagen och tillämpa på arbetsplatsen. 
@@ -176,5 +176,6 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDg2MjA3MywtMTQxMjY0Njc3Ml19
+eyJoaXN0b3J5IjpbNzM5NjkxMzk0LC02NjQ4NjIwNzMsLTE0MT
+I2NDY3NzJdfQ==
 -->
