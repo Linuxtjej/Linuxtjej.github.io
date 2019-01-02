@@ -17,7 +17,7 @@ title: Curriculum Vitæ
 
 # Arbetslivserfarenhet
 
-2015--
+2015--2018
 :   **Skinnarbetare**, Tranås Skinnberedning AB.
 
     - Förbereda fårskinn från råprodukt till färdigt material: 
@@ -176,5 +176,5 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI2NDY3NzJdfQ==
+eyJoaXN0b3J5IjpbLTY2NDg2MjA3MywtMTQxMjY0Njc3Ml19
 -->
