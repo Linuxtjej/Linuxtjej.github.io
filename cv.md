@@ -5,7 +5,7 @@ lang: 'sv-SE'
 title: Curriculum Vitæ
 ---
 
-![Rebecca Lagerstedt](images/photo.jpg){width="25%" align="center"}
+![Rebecca Lagerstedt](https://raw.githubusercontent.com/Linuxtjej/linuxtjej.github.io/master/images/photo.jpg){width="25%" align="center"}
 
 # Profil
 
@@ -176,5 +176,5 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMDA4NjM4XX0=
+eyJoaXN0b3J5IjpbLTE0MTI2NDY3NzJdfQ==
 -->
