@@ -117,7 +117,7 @@ title: Curriculum Vitæ
 :   **Juridisk grundkurs**, 15 hp, Linköpings universitet.
 
 2005--2008
-:   **Religionsvetenskapliga programmet**, Linköpings universitet.
+:   **Religionsvetenskapliga programmet**, 180 hp, Linköpings universitet.
 
     Fil. kand. i religionshistoria.
 
@@ -178,6 +178,6 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzU4OTUxMSwtNjY0ODYyMDczLC0xND
-EyNjQ2NzcyXX0=
+eyJoaXN0b3J5IjpbLTE0NTM2MzIzMTQsLTY2NDg2MjA3MywtMT
+QxMjY0Njc3Ml19
 -->
