@@ -114,7 +114,7 @@ title: Curriculum Vitæ
 # Utbildning
 
 2008
-:   **Juridisk grundkurs**, Linköpings universitet.
+:   **Juridisk grundkurs**, 15 hp, Linköpings universitet.
 
 2005--2008
 :   **Religionsvetenskapliga programmet**, Linköpings universitet.
@@ -122,7 +122,7 @@ title: Curriculum Vitæ
     Fil. kand. i religionshistoria.
 
 2007
-:   **Familjerätt** (7,5 hp), Linköpings universitet.
+:   **Familjerätt**, 7,5 hp, Linköpings universitet.
 
 1995--1998
 :   **Estetiska programmet**, Njudungsgymnasiet, Vetlanda.
@@ -178,6 +178,6 @@ Franska
 - NPF-diagnoser, diagnoskriterier, DSM-V
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjQ2MTEyLC02NjQ4NjIwNzMsLTE0MT
-I2NDY3NzJdfQ==
+eyJoaXN0b3J5IjpbLTQ2MzU4OTUxMSwtNjY0ODYyMDczLC0xND
+EyNjQ2NzcyXX0=
 -->
