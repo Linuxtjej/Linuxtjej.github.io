@@ -8,11 +8,10 @@ title: Curriculum Vitæ
 
 # Profil
 
-* *Mål:* Att hitta nya vägar för att kunna utvecklas och inspirera andra, bli en medarbetare som andra har förtroende för, som är rättvis, jämställd, och utvecklar sina arbetskamrater.
-* Är ivrig, intensiv, engagerad och envis. Vill helst bolla mellan olika arbetsuppgifter, då trivs jag bäst.
-* Tycker om att klura på lösningar och är väldigt idérik.
-* Jobbar helst ensam men fungerar bra i grupp.
-* Är väldigt öppen för nya influenser och situationer.
+* *Mål:* Att hitta nya vägar för att kunna utvecklas och inspirera andra, att bli en medarbetare som andra har förtroende för, som är rättvis och jämställd.
+* Är ivrig, intensiv, engagerad och envis.
+* Tycker om att klura på lösningar och är idérik.
+* Är öppen för nya influenser och situationer.
 
 # Arbetslivserfarenhet
 
@@ -23,8 +22,8 @@ title: Curriculum Vitæ
     - Administrativa uppgifter: uppdatera företagets hemsida, fotografera och dokumentera arbetet i fabriken
     - Skyddsombud (se övriga meriter nedan).
 
-2014-2015
-:   **Fritidsledare**, Tranås Kommun, Kultur och fritidsförvaltningen
+2014--2015
+:   **Fritidsledare**, Tranås Kommun, Kultur- och fritidsförvaltningen
 
     - Fritidsledare på fritidsgården EPIC.
 
@@ -44,16 +43,6 @@ title: Curriculum Vitæ
     - Juridisk rådgivning kring bouppteckning, arv, etc.
     - Allmän administration kring den avlidne
 
-2010--2014
-:   **Föreningsutvecklare**, RFSL Linköping.
-
-    - Utbilda företag/skolor/ föreningar/politiker i hbtqi-kompetens
-    - Projektleda Öppenhetsdoktrinens konsekvenser -RFSL:s relation till och kommunikation kring hederskontexuella normer (2012)
-    - Administrera/Projektleda RFSL Östergötland Rådgivningens verksamhet.
-    - Skriva projektansökningar till Allmänna Arvsfonden, Folkhälsoinstitutet (fd. SMI), Region Östergötland, Länsstyrelsen.
-    - Delta i projektet "Kärleken är fri (Det handlar om kärlek)".
-    - Utveckla RFSL Linköpings verksamhet
-
 2011
 :   **Personlig Assistent**, Tranås Kommun.
 
@@ -65,12 +54,20 @@ title: Curriculum Vitæ
     - Intervjua privatpersoner i undersökningar från företag/myndigheter via telefon.
 
 2010--2014
+:   **Föreningsutvecklare/utbildare**, RFSL Linköping.
+
+    - Utbilda företag, skolor, föreningar, politiker i hbtqi-kompetens.
+    - Utveckla RFSL Linköpings verksamhet, genom marknadsföring, hitta samarbetspartners, skapa evenemang, träffar, utbildningar etc. 
+       
+2011--2013
 :   **Samordnare/informatör**, projeket *Colour of Love*, RFSL/RFSU/RFSL Ungdom.
 
-    - Göra upp en budget för informationskampanj
-    - Utbilda informatörer
-    - Arbetsleda informatörer
-    - Delta i informationskampanjer
+    - Utbildning, arbetsledning, budgetansvar.
+
+2010
+:   **Informatör**, projektet *Colour of Love*, RFSL/RFSU/RFSL Ungdom.
+
+    - Deltagande in informationskampanjer.
 
 2002--2003
 :   **Vårdbiträde**, Tranås Kommun
@@ -79,16 +76,34 @@ title: Curriculum Vitæ
 
 # Ideellt engagemang
 
-2006--2018
-:   **Fullmäktige- & kommunstyrelseledamot**, Tranås kommun.
+2018--
+:   **Volontär**, RFSL Umeå.
+    - Marsha: mötesplats för hbtq-personer 13--21 år.
 
-    - Sammanträden
-    - Beredning av kommunala ärenden
-    - Beslutsfattande av kommunala ärenden
-    - Budgetansvar
-    - Besluta skattesats
-    - Uppställa mål för den kommunala verksamheten
-    - Kunna kommunallagen, SoL, Lagen om offentlig upphandling
+2012--2014 
+:   **Ordförande**, RFSL Linköping.
+
+    - Projektleda Öppenhetsdoktrinens konsekvenser -RFSL:s relation till och kommunikation kring hederskontexuella normer (2012)
+    - Administrera/Projektleda RFSL Östergötland Rådgivningens verksamhet.
+    - Skriva projektansökningar till Allmänna Arvsfonden, Folkhälsoinstitutet (fd. SMI), Region Östergötland, Länsstyrelsen.
+    - Delta i projektet "Kärleken är fri (Det handlar om kärlek)".
+    - Utvecklade Linköpings Kärleksparad till Linköpings Regnbågsvecka. 
+
+2006--2018
+:   **Fullmäktigeledamot**, Tranås kommun.
+
+    - Representerade Vänsterpartiet under tre mandatperioder.
+    - Kommunalt beslutsfattande, formulera mål för den kommunala verksamheten, budgetansvar, etc.
+
+2006--2018
+:   **Kommunstyrelseledamot**, Tranås Kommun.
+
+    - Representerade Vänsterpartiet under tre mandatperioder. 
+    - Ledning och samordning av kommunförvaltning, förvaltning av kommunens ekonomi, verkställande av kommunfullmäktiges beslut.
+    - Ägardialog med kommunala bolag.
+    - Ordförande för styrgruppen *Fair Trade City Tranås* 2016--2018.
+    
+
 
 # Utbildning
 
@@ -118,10 +133,9 @@ title: Curriculum Vitæ
 
 # Datorkunskaper
 
-* Mycket goda.
-    - Kan redigera hemsidor i Wordpress.
-    - Klarar avancerad användning i Word, Excel & Powerpoint.
-    - Kan felsöka datorproblem och lösa det utan support, plocka isär datorn om så behövs.
+    - Har erfarenhet av Wordpress. 
+    - Mycket goda kunskaper i Officepaketet.
+    - Kan felsöka och har erfarenhet av att meka med datorer.
 
 # Språk
 
@@ -134,40 +148,3 @@ Engelska
 Franska
 :   Grundläggande.
 
-# Övriga kunskaper
-
-## Juridik
-
-* Begravningslagen
-* Familjejuridik
-* Kommunallagen
-* Lagen om offentlig upphandling
-* Arbetsmiljölagen
-* SoL
-
-## Mänskliga rättigheter
-
-* Jourverksamhet
-* Våld i nära relationer
-* hbtqi-kompetens
-
-## Sexologi
-
-* Motiverande samtal
-* Samtalsmetoder i säkrare sex/samtycke
-
-## Neuropsykiatriska funktionsnedsättningar
-
-* Lågaffektivt bemötande
-* NPF-diagnoser
-* DSM-V, diagnoskriterier
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg3MDE2MjQsLTY3MjkwODUwMiwyMD
-E4NzIwMjE4LDE3MTM5NjI3MjQsLTE0Nzk1MzIyNzYsLTQzNjQy
-OTk0NSwxOTU0MDUwODEsNTY5MTA3NjIxLC0yMDU0ODczMjk5LD
-MwMzIzNjY3LC0xNjI5ODI5MzMzLC0xNDgwNDQ5NTMwLC0yNTE5
-OTk2NjgsLTE4MDA5ODQ4NDQsMTIxMzI0MTUzMyw3ODgwNTY0Nz
-QsODEyODI0NjA0LC0yMTAwNTQzMTYsLTk5NzQ0MDYxNCwxMDc5
-MzYxMDY1XX0=
--->
