@@ -44,7 +44,7 @@ title: Curriculum Vitæ
     - Allmän administration kring den avlidne
 
 2011
-:   **Personlig Assistent**, Tranås Kommun.
+:   **Personlig assistent**, Tranås Kommun.
 
     - Assistera brukare i vardagen, med påklädning, hygien, städ, mat etc.
 
@@ -102,7 +102,6 @@ title: Curriculum Vitæ
     - Ledning och samordning av kommunförvaltning, förvaltning av kommunens ekonomi, verkställande av kommunfullmäktiges beslut.
     - Ägardialog med kommunala bolag.
     - Ordförande för styrgruppen *Fair Trade City Tranås* 2016--2018.
-    
 
 
 # Utbildning
@@ -113,7 +112,7 @@ title: Curriculum Vitæ
 2005--2008
 :   **Religionsvetenskapliga programmet**, 180 hp, Linköpings universitet.
 
-    Fil. kand. i religionshistoria.
+    - Fil. kand. i religionshistoria.
 
 2007
 :   **Familjerätt**, 7,5 hp, Linköpings universitet.
@@ -121,7 +120,7 @@ title: Curriculum Vitæ
 1995--1998
 :   **Estetiska programmet**, Njudungsgymnasiet, Vetlanda.
 
-    Musikinriktning.
+    - Musikinriktning.
 
 # Övriga meriter
 
