@@ -15,7 +15,17 @@ title: Curriculum Vitæ
 
 # Arbetslivserfarenhet
 
-2015--2018
+2019 - 
+: **Fritidsledare**, Umeå Kommun
+
+    - Fritidsledare på Mariehems fritidsgård; med inriktning mot AST/SÄR/Intellektuellt funktionsnedsatta. 
+
+2019 -
+:   **Personlig Assistent**, Blomstra AB
+
+    - Assistera brukare i vardagen, med påklädning, hygien, städ, mat etc.
+
+2015--2020
 :   **Skinnarbetare**, Tranås Skinnberedning AB.
 
     - Förbereda fårskinn från råprodukt till färdigt material:
@@ -67,7 +77,7 @@ title: Curriculum Vitæ
 2010
 :   **Informatör**, projektet *Colour of Love*, RFSL/RFSU/RFSL Ungdom.
 
-    - Deltagande in informationskampanjer.
+    - Informera om säkrare sex på festivaler
 
 2002--2003
 :   **Vårdbiträde**, Tranås Kommun
@@ -75,9 +85,17 @@ title: Curriculum Vitæ
     - Vårdbiträde på Beckhemmets särskilda boende, och Bergets serviceboende.
 
 # Ideellt engagemang
+2020 -
+: **Ledamot**, Stiftelsen för Arboretum Norr
+     
+     - representant för Vänsterpartiet Umeå
+2019 - 
+:   **Styrelseledamot**, RFSL Umeå
+     - ledamot i RFSL Umeå styrelse med ansvar för ekonomi/utbildningsfrågor
 
 2018--
 :   **Volontär**, RFSL Umeå.
+    
     - Marsha: mötesplats för hbtq-personer 13--21 år.
 
 2012--2014 
@@ -123,6 +141,12 @@ title: Curriculum Vitæ
     - Musikinriktning.
 
 # Övriga meriter
+
+2019
+: **RFSL** - utbildning i HBTQI+-certifiering
+
+- Utbildar privata företag och offentlig sektor i HBTQI+-certifiering.
+
 
 2017--2018
 :   **Huvudskyddsombud**, Tranås Skinnberedning AB
